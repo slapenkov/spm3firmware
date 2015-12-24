@@ -1,4 +1,29 @@
->>> Warning 216 "spm3.c" Line 490(0,1): Interrupts disabled during call to prevent re-entrancy:  (@DIV3232)
->>> Warning 202 "spm3.c" Line 310(5,12): Variable never used:   changed
-      Memory usage:   ROM=51%      RAM=93% - 95%
-      0 Errors,  2 Warnings.
+>>> Warning 216 "spm3.c" Line 550(0,1): Interrupts disabled during call to prevent re-entrancy:  (@DIV3232)
+>>> Warning 202 "spm3.c" Line 79(7,10): Variable never used:   kgv
+>>> Warning 202 "spm3.c" Line 80(7,9): Variable never used:   Va
+>>> Warning 202 "spm3.c" Line 81(7,18): Variable never used:   delta_gamma
+>>> Warning 202 "spm3.c" Line 81(20,32): Variable never used:   delta_gamma2
+>>> Warning 202 "spm3.c" Line 82(7,10): Variable never used:   T_0
+>>> Warning 202 "spm3.c" Line 82(12,15): Variable never used:   T_G
+>>> Warning 202 "spm3.c" Line 82(17,22): Variable never used:   T_G_k
+>>> Warning 202 "spm3.c" Line 83(7,11): Variable never used:   Gam0
+>>> Warning 202 "spm3.c" Line 83(13,19): Variable never used:   Gam0_k
+>>> Warning 202 "spm3.c" Line 84(7,9): Variable never used:   k1
+>>> Warning 202 "spm3.c" Line 84(11,14): Variable never used:   tsn
+>>> Warning 202 "spm3.c" Line 85(7,8): Variable never used:   W
+>>> Warning 202 "spm3.c" Line 86(7,11): Variable never used:   Haw0
+>>> Warning 202 "spm3.c" Line 86(13,19): Variable never used:   Haw0_k
+>>> Warning 202 "spm3.c" Line 87(7,9): Variable never used:   AA
+>>> Warning 202 "spm3.c" Line 87(11,13): Variable never used:   BB
+>>> Warning 202 "spm3.c" Line 87(15,17): Variable never used:   a0
+>>> Warning 202 "spm3.c" Line 87(19,21): Variable never used:   a1
+>>> Warning 202 "spm3.c" Line 87(23,25): Variable never used:   a2
+>>> Warning 202 "spm3.c" Line 87(27,29): Variable never used:   a3
+>>> Warning 202 "spm3.c" Line 87(31,33): Variable never used:   a4
+>>> Warning 202 "spm3.c" Line 87(35,37): Variable never used:   a5
+>>> Warning 202 "spm3.c" Line 88(7,10): Variable never used:   Am0
+>>> Warning 202 "spm3.c" Line 88(12,17): Variable never used:   Am0_k
+>>> Warning 202 "spm3.c" Line 89(7,11): Variable never used:   T_S0
+>>> Warning 202 "spm3.c" Line 89(13,19): Variable never used:   T_S0_k
+      Memory usage:   ROM=51%      RAM=92% - 95%
+      0 Errors,  27 Warnings.

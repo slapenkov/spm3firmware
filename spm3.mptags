@@ -20,8 +20,8 @@ A0_VR_A1_VR::0x3ff06	C:\Program Files (x86)\PICC\Devices\18F4520.h	289;"	d	line:
 A0_VR_A1_VR::0x3ff06	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	265;"	d	line:265
 A3_VR_A2_VR::0xcff0e	C:\Program Files (x86)\PICC\Devices\18F4520.h	290;"	d	line:290
 A3_VR_A2_VR::0xcff0e	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	266;"	d	line:266
-AA	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
-ADC0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	299;"	l	line:299
+AA	C:\Projects\MWT-3\SPM3Firmware\spm3.c	87;"	v	line:87
+ADC0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	343;"	l	line:343
 ADC_CLOCK_DIV_16::0x05	C:\Program Files (x86)\PICC\Devices\18F4520.h	367;"	d	line:367
 ADC_CLOCK_DIV_16::0x05	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	343;"	d	line:343
 ADC_CLOCK_DIV_2::0x100	C:\Program Files (x86)\PICC\Devices\18F4520.h	364;"	d	line:364
@@ -111,24 +111,24 @@ AN0_TO_AN9::0x05	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	362;"	d	line:362
 AN0_TO_AN9_ANALOG::0x05	C:\Program Files (x86)\PICC\Devices\18F4520.h	398;"	d	line:398
 AN0_TO_AN9_ANALOG::0x05	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	374;"	d	line:374
 AddRegData	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	126;"	f	line:126	signature:(int8 regist)
-Addr	C:\Projects\MWT-3\SPM3Firmware\spm3.c	67;"	v	line:67	file:
-AlpSum	C:\Projects\MWT-3\SPM3Firmware\spm3.c	70;"	v	line:70	file:
-Am0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	97;"	v	line:97
-Am0_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	97;"	v	line:97
+Addr	C:\Projects\MWT-3\SPM3Firmware\spm3.c	56;"	v	line:56	file:
+AlpSum	C:\Projects\MWT-3\SPM3Firmware\spm3.c	60;"	v	line:60	file:
+Am0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	88;"	v	line:88
+Am0_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	88;"	v	line:88
 AmpCoef0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	27;"	v	line:27	file:
-AmpCoef1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	46;"	v	line:46	file:
+AmpCoef1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	32;"	v	line:32	file:
 Amplitude0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	24;"	v	line:24	file:
-BB	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
+BB	C:\Projects\MWT-3\SPM3Firmware\spm3.c	87;"	v	line:87
 BOOLEAN::int1	C:\Program Files (x86)\PICC\Devices\18F4520.h	71;"	d	line:71
 BOOLEAN::shortint	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	71;"	d	line:71
 BROWNOUT_RESTART::14	C:\Program Files (x86)\PICC\Devices\18F4520.h	89;"	d	line:89
 BROWNOUT_RESTART::14	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	89;"	d	line:89
-BURead	C:\Projects\MWT-3\SPM3Firmware\spm3.c	172;"	f	line:172	signature:(void)
-BUWrite	C:\Projects\MWT-3\SPM3Firmware\spm3.c	198;"	f	line:198	signature:(void)
+BURead	C:\Projects\MWT-3\SPM3Firmware\spm3.c	176;"	f	line:176	signature:(void)
+BUWrite	C:\Projects\MWT-3\SPM3Firmware\spm3.c	208;"	f	line:208	signature:(void)
 BYTE::int	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	70;"	d	line:70
 BYTE::int8	C:\Program Files (x86)\PICC\Devices\18F4520.h	70;"	d	line:70
-BetSum	C:\Projects\MWT-3\SPM3Firmware\spm3.c	71;"	v	line:71	file:
-BetTrsh	C:\Projects\MWT-3\SPM3Firmware\spm3.c	304;"	l	line:304
+BetSum	C:\Projects\MWT-3\SPM3Firmware\spm3.c	61;"	v	line:61	file:
+BetTrsh	C:\Projects\MWT-3\SPM3Firmware\spm3.c	348;"	l	line:348
 CCP_1	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	184;"	v	line:184
 CCP_2	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	216;"	v	line:216
 CCP_CAPTURE_DIV_16::7	C:\Program Files (x86)\PICC\Devices\18F4520.h	199;"	d	line:199
@@ -211,16 +211,15 @@ CRC_High	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	110;"	l	line:110
 CRC_Low	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	110;"	l	line:110
 CRCc	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	121;"	v	line:121
 CRCr	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	121;"	v	line:121
-Calc	C:\Projects\MWT-3\SPM3Firmware\spm3.c	101;"	f	line:101
 DAC0::PIN_D0	C:\Projects\MWT-3\SPM3Firmware\spm3.h	46;"	d	line:46
 DAC1::PIN_D1	C:\Projects\MWT-3\SPM3Firmware\spm3.h	47;"	d	line:47
 DIR::PIN_A6	C:\Projects\MWT-3\SPM3Firmware\spm3.h	36;"	d	line:36
-DaqEnd	C:\Projects\MWT-3\SPM3Firmware\spm3.c	83;"	e	line:83	enum:daq_states	file:
-DaqIdle	C:\Projects\MWT-3\SPM3Firmware\spm3.c	79;"	e	line:79	enum:daq_states	file:
-DaqMeasure	C:\Projects\MWT-3\SPM3Firmware\spm3.c	81;"	e	line:81	enum:daq_states	file:
-DaqScale	C:\Projects\MWT-3\SPM3Firmware\spm3.c	82;"	e	line:82	enum:daq_states	file:
-DaqStart	C:\Projects\MWT-3\SPM3Firmware\spm3.c	80;"	e	line:80	enum:daq_states	file:
-DaqState	C:\Projects\MWT-3\SPM3Firmware\spm3.c	85;"	v	line:85
+DaqEnd	C:\Projects\MWT-3\SPM3Firmware\spm3.c	74;"	e	line:74	enum:daq_states	file:
+DaqIdle	C:\Projects\MWT-3\SPM3Firmware\spm3.c	70;"	e	line:70	enum:daq_states	file:
+DaqMeasure	C:\Projects\MWT-3\SPM3Firmware\spm3.c	72;"	e	line:72	enum:daq_states	file:
+DaqScale	C:\Projects\MWT-3\SPM3Firmware\spm3.c	73;"	e	line:73	enum:daq_states	file:
+DaqStart	C:\Projects\MWT-3\SPM3Firmware\spm3.c	71;"	e	line:71	enum:daq_states	file:
+DaqState	C:\Projects\MWT-3\SPM3Firmware\spm3.c	76;"	v	line:76
 EE_FWDT::0x0C	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	11;"	d	line:11
 EE_Host::0x10	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	13;"	d	line:13
 EE_KGT::0x18	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	17;"	d	line:17
@@ -241,19 +240,19 @@ EnAddr	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	509;"	l	line:509
 ExcReq	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	16;"	v	line:16
 FALSE::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	67;"	d	line:67
 FALSE::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	67;"	d	line:67
-FWDT	C:\Projects\MWT-3\SPM3Firmware\spm3.c	52;"	v	line:52	file:
+FWDT	C:\Projects\MWT-3\SPM3Firmware\spm3.c	39;"	v	line:39	file:
 GLOBAL::0xF2C0	C:\Program Files (x86)\PICC\Devices\18F4520.h	434;"	d	line:434
 GLOBAL::0xF2C0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	407;"	d	line:407
-Gam0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	92;"	v	line:92
-Gam0_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	92;"	v	line:92
-GamSum	C:\Projects\MWT-3\SPM3Firmware\spm3.c	72;"	v	line:72	file:
+Gam0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	83;"	v	line:83
+Gam0_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	83;"	v	line:83
+GamSum	C:\Projects\MWT-3\SPM3Firmware\spm3.c	62;"	v	line:62	file:
 Gamma0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	26;"	v	line:26	file:
-Gamma1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	45;"	v	line:45	file:
+Gamma1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	31;"	v	line:31	file:
 H_TO_L::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	432;"	d	line:432
 H_TO_L::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	405;"	d	line:405
-Haw0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	95;"	v	line:95
-Haw0_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	95;"	v	line:95
-Hst	C:\Projects\MWT-3\SPM3Firmware\spm3.c	74;"	v	line:74	file:
+Haw0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	86;"	v	line:86
+Haw0_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	86;"	v	line:86
+Hst	C:\Projects\MWT-3\SPM3Firmware\spm3.c	65;"	v	line:65	file:
 INT_AD::0x009D40	C:\Program Files (x86)\PICC\Devices\18F4520.h	452;"	d	line:452
 INT_AD::0x9D40	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	418;"	d	line:418
 INT_BUSCOL::0x00A008	C:\Program Files (x86)\PICC\Devices\18F4520.h	458;"	d	line:458
@@ -305,10 +304,10 @@ INT_TIMER3::0x00A002	C:\Program Files (x86)\PICC\Devices\18F4520.h	440;"	d	line:
 INT_TIMER3::0xA002	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	412;"	d	line:412
 Incoming	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	97;"	f	line:97	signature:(void)
 InitMcu	C:\Projects\MWT-3\SPM3Firmware\spm3.c	118;"	f	line:118	signature:(void)
-KGT	C:\Projects\MWT-3\SPM3Firmware\spm3.c	62;"	v	line:62	file:
-KGU	C:\Projects\MWT-3\SPM3Firmware\spm3.c	63;"	v	line:63	file:
+KGT	C:\Projects\MWT-3\SPM3Firmware\spm3.c	50;"	v	line:50	file:
+KGU	C:\Projects\MWT-3\SPM3Firmware\spm3.c	51;"	v	line:51	file:
 KST0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	28;"	v	line:28	file:
-KST1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	47;"	v	line:47	file:
+KST1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	33;"	v	line:33	file:
 KU0::PIN_D5	C:\Projects\MWT-3\SPM3Firmware\spm3.h	49;"	d	line:49
 KU1::PIN_D4	C:\Projects\MWT-3\SPM3Firmware\spm3.h	48;"	d	line:48
 LDAC::PIN_A7	C:\Projects\MWT-3\SPM3Firmware\spm3.h	37;"	d	line:37
@@ -403,9 +402,9 @@ OSC_STATE_STABLE::4	C:\Program Files (x86)\PICC\Devices\18F4520.h	355;"	d	line:3
 OSC_STATE_STABLE::4	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	331;"	d	line:331
 OSC_TIMER1::1	C:\Program Files (x86)\PICC\Devices\18F4520.h	344;"	d	line:344
 OSC_TIMER1::1	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	320;"	d	line:320
-OneCycle	C:\Projects\MWT-3\SPM3Firmware\spm3.c	54;"	v	line:54	file:
-OutBufAddr	C:\Projects\MWT-3\SPM3Firmware\spm3.c	302;"	l	line:302
-PCOUNT	C:\Projects\MWT-3\SPM3Firmware\spm3.c	53;"	v	line:53	file:
+OneCycle	C:\Projects\MWT-3\SPM3Firmware\spm3.c	41;"	v	line:41	file:
+OutBufAddr	C:\Projects\MWT-3\SPM3Firmware\spm3.c	346;"	l	line:346
+PCOUNT	C:\Projects\MWT-3\SPM3Firmware\spm3.c	40;"	v	line:40	file:
 PERIPH::0xF240	C:\Program Files (x86)\PICC\Devices\18F4520.h	435;"	d	line:435
 PIN_A0::31744	C:\Program Files (x86)\PICC\Devices\18F4520.h	25;"	d	line:25
 PIN_A0::31744	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	25;"	d	line:25
@@ -519,8 +518,8 @@ Reaction	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	508;"	f	line:508	signature:
 RsInit	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	67;"	f	line:67	signature:(void)
 S0::PIN_A0	C:\Projects\MWT-3\SPM3Firmware\spm3.h	30;"	d	line:30
 S1::PIN_A1	C:\Projects\MWT-3\SPM3Firmware\spm3.h	31;"	d	line:31
-SAW_A0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	58;"	v	line:58	file:
-SAW_A1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	60;"	v	line:60	file:
+SAW_A0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	46;"	v	line:46	file:
+SAW_A1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	48;"	v	line:48	file:
 SCK::PIN_C3	C:\Projects\MWT-3\SPM3Firmware\spm3.h	41;"	d	line:41
 SDI::PIN_C4	C:\Projects\MWT-3\SPM3Firmware\spm3.h	42;"	d	line:42
 SDO::PIN_C5	C:\Projects\MWT-3\SPM3Firmware\spm3.h	43;"	d	line:43
@@ -550,14 +549,14 @@ SPI_XMIT_L_TO_H::0x4000	C:\Program Files (x86)\PICC\Devices\18F4520.h	268;"	d	li
 SPI_XMIT_L_TO_H::0x4000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	244;"	d	line:244
 STAT::PIN_C0	C:\Projects\MWT-3\SPM3Firmware\spm3.h	38;"	d	line:38
 SYNC_POS::PIN_E0	C:\Projects\MWT-3\SPM3Firmware\spm3.h	50;"	d	line:50
-SetKU0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	265;"	f	line:265	signature:(int16 coeff)
-SetKU1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	277;"	f	line:277	signature:(int16 coeff)
+SetKU0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	307;"	f	line:307	signature:(int16 coeff)
+SetKU1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	321;"	f	line:321	signature:(int16 coeff)
 SetRegData	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	376;"	f	line:376	signature:(int8 reg)
-SetSawDac	C:\Projects\MWT-3\SPM3Firmware\spm3.c	253;"	f	line:253	signature:(int16 level)
-Speed	C:\Projects\MWT-3\SPM3Firmware\spm3.c	66;"	v	line:66	file:
+SetSawDac	C:\Projects\MWT-3\SPM3Firmware\spm3.c	295;"	f	line:295	signature:(int16 level)
+Speed	C:\Projects\MWT-3\SPM3Firmware\spm3.c	55;"	v	line:55	file:
 StAddr	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	509;"	l	line:509
-StorAddr	C:\Projects\MWT-3\SPM3Firmware\spm3.c	301;"	l	line:301
-Sum	C:\Projects\MWT-3\SPM3Firmware\spm3.c	303;"	l	line:303
+StorAddr	C:\Projects\MWT-3\SPM3Firmware\spm3.c	345;"	l	line:345
+Sum	C:\Projects\MWT-3\SPM3Firmware\spm3.c	347;"	l	line:347
 T0::PIN_A2	C:\Projects\MWT-3\SPM3Firmware\spm3.h	32;"	d	line:32
 T0_8_BIT::0x40	C:\Program Files (x86)\PICC\Devices\18F4520.h	120;"	d	line:120
 T0_CAL	C:\Projects\MWT-3\SPM3Firmware\spm3.c	29;"	v	line:29	file:
@@ -575,7 +574,7 @@ T0_EXT_L_TO_H::32	C:\Program Files (x86)\PICC\Devices\18F4520.h	105;"	d	line:105
 T0_INTERNAL::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	104;"	d	line:104
 T0_OFF::0x80	C:\Program Files (x86)\PICC\Devices\18F4520.h	118;"	d	line:118
 T1::PIN_A4	C:\Projects\MWT-3\SPM3Firmware\spm3.h	34;"	d	line:34
-T1_CAL	C:\Projects\MWT-3\SPM3Firmware\spm3.c	48;"	v	line:48	file:
+T1_CAL	C:\Projects\MWT-3\SPM3Firmware\spm3.c	34;"	v	line:34	file:
 T1_CLK_OUT::8	C:\Program Files (x86)\PICC\Devices\18F4520.h	158;"	d	line:158
 T1_CLK_OUT::8	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	136;"	d	line:136
 T1_DISABLED::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	153;"	d	line:153
@@ -621,21 +620,21 @@ T3_EXTERNAL_SYNC::0x83	C:\Program Files (x86)\PICC\Devices\18F4520.h	180;"	d	lin
 T3_EXTERNAL_SYNC::0x83	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	158;"	d	line:158
 T3_INTERNAL::0x85	C:\Program Files (x86)\PICC\Devices\18F4520.h	178;"	d	line:178
 T3_INTERNAL::0x85	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	156;"	d	line:156
-TAQ	C:\Projects\MWT-3\SPM3Firmware\spm3.c	51;"	v	line:51	file:
+TAQ	C:\Projects\MWT-3\SPM3Firmware\spm3.c	38;"	v	line:38	file:
 TERMO::PIN_E1	C:\Projects\MWT-3\SPM3Firmware\spm3.h	51;"	d	line:51
-TG_CAL	C:\Projects\MWT-3\SPM3Firmware\spm3.c	64;"	v	line:64	file:
+TG_CAL	C:\Projects\MWT-3\SPM3Firmware\spm3.c	52;"	v	line:52	file:
 TRUE::1	C:\Program Files (x86)\PICC\Devices\18F4520.h	68;"	d	line:68
 TRUE::1	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	68;"	d	line:68
 TX::PIN_C6	C:\Projects\MWT-3\SPM3Firmware\spm3.h	44;"	d	line:44
-T_0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	91;"	v	line:91
-T_G	C:\Projects\MWT-3\SPM3Firmware\spm3.c	91;"	v	line:91
-T_GEN	C:\Projects\MWT-3\SPM3Firmware\spm3.c	57;"	v	line:57	file:
-T_G_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	91;"	v	line:91
-T_S0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	98;"	v	line:98
-T_S0_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	98;"	v	line:98
+T_0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	82;"	v	line:82
+T_G	C:\Projects\MWT-3\SPM3Firmware\spm3.c	82;"	v	line:82
+T_GEN	C:\Projects\MWT-3\SPM3Firmware\spm3.c	45;"	v	line:45	file:
+T_G_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	82;"	v	line:82
+T_S0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	89;"	v	line:89
+T_S0_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	89;"	v	line:89
 T_SR0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	30;"	v	line:30	file:
-T_SR1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	49;"	v	line:49	file:
-Termometer	C:\Projects\MWT-3\SPM3Firmware\spm3.c	233;"	f	line:233	signature:(void)
+T_SR1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	35;"	v	line:35	file:
+Termometer	C:\Projects\MWT-3\SPM3Firmware\spm3.c	270;"	f	line:270	signature:(void)
 UART_ADDRESS::2	C:\Program Files (x86)\PICC\Devices\18F4520.h	274;"	d	line:274
 UART_ADDRESS::2	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	250;"	d	line:250
 UART_AUTODETECT::8	C:\Program Files (x86)\PICC\Devices\18F4520.h	276;"	d	line:276
@@ -665,9 +664,9 @@ VSS_VDD::0x00	C:\Program Files (x86)\PICC\Devices\18F4520.h	410;"	d	line:410
 VSS_VDD::0x00	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	386;"	d	line:386
 VSS_VREF::0x10	C:\Program Files (x86)\PICC\Devices\18F4520.h	413;"	d	line:413
 VSS_VREF::0x10	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	389;"	d	line:389
-Va	C:\Projects\MWT-3\SPM3Firmware\spm3.c	89;"	v	line:89
+Va	C:\Projects\MWT-3\SPM3Firmware\spm3.c	80;"	v	line:80
 ValidReq	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	14;"	v	line:14
-W	C:\Projects\MWT-3\SPM3Firmware\spm3.c	94;"	v	line:94
+W	C:\Projects\MWT-3\SPM3Firmware\spm3.c	85;"	v	line:85
 WDT_FROM_SLEEP::3	C:\Program Files (x86)\PICC\Devices\18F4520.h	90;"	d	line:90
 WDT_FROM_SLEEP::3	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	90;"	d	line:90
 WDT_OFF::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	147;"	d	line:147
@@ -676,35 +675,33 @@ WDT_ON::0x100	C:\Program Files (x86)\PICC\Devices\18F4520.h	146;"	d	line:146
 WDT_ON::0x100	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	124;"	d	line:124
 WDT_TIMEOUT::7	C:\Program Files (x86)\PICC\Devices\18F4520.h	85;"	d	line:85
 WDT_TIMEOUT::7	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	85;"	d	line:85
-Wrk0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	300;"	l	line:300
-a0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
-a1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
-a2	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
-a3	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
-a4	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
-a5	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
+Wrk0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	344;"	l	line:344
+a0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	87;"	v	line:87
+a1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	87;"	v	line:87
+a2	C:\Projects\MWT-3\SPM3Firmware\spm3.c	87;"	v	line:87
+a3	C:\Projects\MWT-3\SPM3Firmware\spm3.c	87;"	v	line:87
+a4	C:\Projects\MWT-3\SPM3Firmware\spm3.c	87;"	v	line:87
+a5	C:\Projects\MWT-3\SPM3Firmware\spm3.c	87;"	v	line:87
 acknowledge	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	9;"	e	line:9	enum:modbus_exceptions
 alp_buf0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	21;"	v	line:21	file:
 bet_buf0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	22;"	v	line:22	file:
-bet_cur	C:\Projects\MWT-3\SPM3Firmware\spm3.c	305;"	l	line:305
+bet_cur	C:\Projects\MWT-3\SPM3Firmware\spm3.c	349;"	l	line:349
 bytecount	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	374;"	v	line:374
 bytecount	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	510;"	l	line:510
-changed	C:\Projects\MWT-3\SPM3Firmware\spm3.c	310;"	l	line:310
-cnt	C:\Projects\MWT-3\SPM3Firmware\spm3.c	298;"	l	line:298
-course	C:\Projects\MWT-3\SPM3Firmware\spm3.c	254;"	l	line:254
-dacval	C:\Projects\MWT-3\SPM3Firmware\spm3.c	266;"	l	line:266
-dacval	C:\Projects\MWT-3\SPM3Firmware\spm3.c	278;"	l	line:278
-daq_states	C:\Projects\MWT-3\SPM3Firmware\spm3.c	78;"	g	line:78	file:
+cnt	C:\Projects\MWT-3\SPM3Firmware\spm3.c	342;"	l	line:342
+course	C:\Projects\MWT-3\SPM3Firmware\spm3.c	296;"	l	line:296
+dacval	C:\Projects\MWT-3\SPM3Firmware\spm3.c	309;"	l	line:309
+dacval	C:\Projects\MWT-3\SPM3Firmware\spm3.c	323;"	l	line:323
+daq_states	C:\Projects\MWT-3\SPM3Firmware\spm3.c	68;"	g	line:68	file:
 data_filt0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	15;"	v	line:15	file:
 data_mean0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	16;"	v	line:16	file:
-delta_gamma	C:\Projects\MWT-3\SPM3Firmware\spm3.c	90;"	v	line:90
-delta_gamma2	C:\Projects\MWT-3\SPM3Firmware\spm3.c	90;"	v	line:90
-difftime0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	103;"	l	line:103
+delta_gamma	C:\Projects\MWT-3\SPM3Firmware\spm3.c	81;"	v	line:81
+delta_gamma2	C:\Projects\MWT-3\SPM3Firmware\spm3.c	81;"	v	line:81
 fgetc::getch	C:\Program Files (x86)\PICC\Devices\18F4520.h	74;"	d	line:74
 fgetc::getch	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	74;"	d	line:74
 fgets::gets	C:\Program Files (x86)\PICC\Devices\18F4520.h	78;"	d	line:78
 fgets::gets	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	78;"	d	line:78
-filterWidth	C:\Projects\MWT-3\SPM3Firmware\spm3.c	306;"	l	line:306
+filterWidth	C:\Projects\MWT-3\SPM3Firmware\spm3.c	350;"	l	line:350
 flcopy	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	127;"	l	line:127
 flcopy	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	377;"	l	line:377
 fputc::putchar	C:\Program Files (x86)\PICC\Devices\18F4520.h	77;"	d	line:77
@@ -717,21 +714,21 @@ getc::getch	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	73;"	d	line:73
 getchar::getch	C:\Program Files (x86)\PICC\Devices\18F4520.h	75;"	d	line:75
 getchar::getch	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	75;"	d	line:75
 i	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	109;"	l	line:109
-iGam	C:\Projects\MWT-3\SPM3Firmware\spm3.c	55;"	v	line:55	file:
+iGam	C:\Projects\MWT-3\SPM3Firmware\spm3.c	42;"	v	line:42	file:
 iMaxFall0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	20;"	v	line:20	file:
 iMaxRise0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	18;"	v	line:18	file:
-iWin	C:\Projects\MWT-3\SPM3Firmware\spm3.c	69;"	v	line:69	file:
+iWin	C:\Projects\MWT-3\SPM3Firmware\spm3.c	59;"	v	line:59	file:
 illegal_data_address	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	6;"	e	line:6	enum:modbus_exceptions
 illegal_data_value	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	7;"	e	line:7	enum:modbus_exceptions
 illegal_function	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	5;"	e	line:5	enum:modbus_exceptions
 index	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	109;"	l	line:109
 j	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	122;"	v	line:122
 k	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	511;"	l	line:511
-k1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	93;"	v	line:93
-kgv	C:\Projects\MWT-3\SPM3Firmware\spm3.c	88;"	v	line:88
+k1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	84;"	v	line:84
+kgv	C:\Projects\MWT-3\SPM3Firmware\spm3.c	79;"	v	line:79
 l	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	511;"	l	line:511
-main	C:\Projects\MWT-3\SPM3Firmware\spm3.c	295;"	f	line:295	signature:(void)
-maxCycles	C:\Projects\MWT-3\SPM3Firmware\spm3.c	297;"	l	line:297
+main	C:\Projects\MWT-3\SPM3Firmware\spm3.c	338;"	f	line:338	signature:(void)
+maxCycles	C:\Projects\MWT-3\SPM3Firmware\spm3.c	341;"	l	line:341
 maxFall0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	19;"	v	line:19	file:
 maxRise0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	17;"	v	line:17	file:
 modbus_auchCRCHi	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	20;"	v	line:20
@@ -739,13 +736,13 @@ modbus_auchCRCLo	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	42;"	v	line:42
 modbus_exceptions	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	4;"	g	line:4
 putc::putchar	C:\Program Files (x86)\PICC\Devices\18F4520.h	76;"	d	line:76
 putc::putchar	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	76;"	d	line:76
-sawEndLevel	C:\Projects\MWT-3\SPM3Firmware\spm3.c	61;"	v	line:61	file:
-sawLevel	C:\Projects\MWT-3\SPM3Firmware\spm3.c	307;"	l	line:307
-sawStartLevel	C:\Projects\MWT-3\SPM3Firmware\spm3.c	59;"	v	line:59	file:
+sawEndLevel	C:\Projects\MWT-3\SPM3Firmware\spm3.c	49;"	v	line:49	file:
+sawLevel	C:\Projects\MWT-3\SPM3Firmware\spm3.c	351;"	l	line:351
+sawStartLevel	C:\Projects\MWT-3\SPM3Firmware\spm3.c	47;"	v	line:47	file:
 slave_device_busy	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	10;"	e	line:10	enum:modbus_exceptions
 slave_device_failure	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	8;"	e	line:8	enum:modbus_exceptions
-temp	C:\Projects\MWT-3\SPM3Firmware\spm3.c	173;"	l	line:173
-temp	C:\Projects\MWT-3\SPM3Firmware\spm3.c	199;"	l	line:199
-temp	C:\Projects\MWT-3\SPM3Firmware\spm3.c	234;"	l	line:234
-tsn	C:\Projects\MWT-3\SPM3Firmware\spm3.c	93;"	v	line:93
+temp	C:\Projects\MWT-3\SPM3Firmware\spm3.c	178;"	l	line:178
+temp	C:\Projects\MWT-3\SPM3Firmware\spm3.c	210;"	l	line:210
+temp	C:\Projects\MWT-3\SPM3Firmware\spm3.c	273;"	l	line:273
+tsn	C:\Projects\MWT-3\SPM3Firmware\spm3.c	84;"	v	line:84
 volts2dac	C:\Projects\MWT-3\SPM3Firmware\spm3.c	10;"	v	line:10

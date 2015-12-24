@@ -1,10 +1,10 @@
 ÀÄspm3
-   ÃÄMAIN  0/4566  Ram=29
+   ÃÄMAIN  0/4566  Ram=28
    ³  ÃÄ??0??
    ³  ÃÄInitMcu  0/158  Ram=0
    ³  ÃÄBURead  0/1238  Ram=12
    ³  ÃÄRsInit  0/324  Ram=0
-   ³  ÃÄ@goto10686  0/34  Ram=0
+   ³  ÃÄ@goto10671  0/34  Ram=0
    ³  ÃÄTermometer  0/374  Ram=4
    ³  ³  ÃÄ@SITOF  0/80  Ram=2
    ³  ³  ÃÄ@MULFF  0/246  Ram=11
@@ -49,13 +49,13 @@
    ³  ÀÄ@DIV3232  0/148  Ram=13
    ÀÄReaction  0/1434  Ram=11
       ÃÄModbusCRC  0/88  Ram=7
-      ³  ÃÄ@const188  0/272  Ram=0
-      ³  ÀÄ@const190  0/272  Ram=0
+      ³  ÃÄ@const177  0/272  Ram=0
+      ³  ÀÄ@const179  0/272  Ram=0
       ÃÄAddRegData  0/2034  Ram=7
       ÃÄSetRegData  0/1320  Ram=9
       ÃÄBUWrite  0/1882  Ram=5
       ÃÄ@delay_ms1  0/50  Ram=1
       ÃÄModbusCRC  0/88  Ram=7
-      ³  ÃÄ@const188  0/272  Ram=0
-      ³  ÀÄ@const190  0/272  Ram=0
+      ³  ÃÄ@const177  0/272  Ram=0
+      ³  ÀÄ@const179  0/272  Ram=0
       ÀÄ@PUTCHAR_BIU_1  0/34  Ram=1
