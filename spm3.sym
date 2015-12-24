@@ -1,0 +1,292 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @INTERRUPT_AREA
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017     @INTERRUPT_AREA
+018     @INTERRUPT_AREA
+019-098 data_filt0
+099-09A data_mean0
+09B-09C maxRise0
+09D-09E iMaxRise0
+09F-0A0 maxFall0
+0A1-0A2 iMaxFall0
+0A3-1A2 alp_buf0
+1A3-2A2 bet_buf0
+2A3-3A2 gam_buf0
+3A3-3A4 Amplitude0
+3A5-3A6 PulseWdt0
+3A7-3A8 iGamma0
+3A9-3AA Gamma0
+3AB-3AC AmpCoef0
+3AD-3B0 KST0
+3B1-3B2 T0_CAL
+3B3-3B4 T_SR0
+3B5-3B6 Gamma1
+3B7-3B8 AmpCoef1
+3B9-3BC KST1
+3BD-3BE T1_CAL
+3BF-3C0 T_SR1
+3C1-3C2 TAQ
+3C3-3C4 FWDT
+3C5-3C6 PCOUNT
+3C7.0   OneCycle
+3C8     iGam
+3C9-3CA T_GEN
+3CB-3CC SAW_A0
+3CD-3D0 SawLevel
+3D1-3D2 SAW_A1
+3D3-3D6 SawStep
+3D7-3DA KGT
+3DB-3DE KGU
+3DF-3E0 TG_CAL
+3E1-3E2 Speed
+3E3-3E4 Addr
+3E5     iWin
+3E6-3E9 AlpSum
+3EA-3ED BetSum
+3EE-3F1 GamSum
+3F2-3F3 Hst
+3F4     DaqState
+3F5-3F8 kgv
+3F9-3FC Va
+3FD-400 delta_gamma
+401-404 delta_gamma2
+405-408 T_0
+409-40C T_G
+40D-410 T_G_k
+411-414 Gam0
+415-418 Gam0_k
+419-41C k1
+41D-420 tsn
+421-424 W
+425-428 Haw0
+429-42C Haw0_k
+42D-430 AA
+431-434 BB
+435-438 a0
+439-43C a1
+43D-440 a2
+441-444 a3
+445-448 a4
+449-44C a5
+44D-450 Am0
+451-454 Am0_k
+455-458 T_S0
+459-45C T_S0_k
+45D-55C MB_Buffer
+55D     MB_Length
+55E-55F ValidReq
+560-561 CRCReq
+562-563 ExcReq
+564-565 CRCr
+566-567 CRCc
+568     j
+569     bytecount
+56A-56B MAIN.CycleCounter
+56C-56D MAIN.MaxCycles
+56E-56F MAIN.cnt
+570-571 MAIN.course
+572-573 MAIN.ADC0
+574-575 MAIN.Wrk0
+576-577 MAIN.FiltFact
+578-579 MAIN.StorAddr
+57A     MAIN.OutBufAddr
+57B-57E MAIN.Sum
+57F-580 MAIN.Mx
+581-582 MAIN.BetTrsh
+583-584 MAIN.bet_cur
+585.0   MAIN.changed
+586-589 BURead.temp
+586-589 @FTOSD.P1
+586-587 Termometer.temp
+586-587 SetKU1.coeff
+586-587 SetKU0.coeff
+586     MAIN.@SCRATCH1
+587     MAIN.@SCRATCH2
+588-58B @SFTOI.P1
+588-589 SetKU0.dacval
+588-589 SetKU1.dacval
+588     Termometer.@SCRATCH1
+588     MAIN.@SCRATCH3
+589     Termometer.@SCRATCH2
+589     MAIN.@SCRATCH4
+58A-58B @SITOF.P1
+58A-58D @MULFF.P2
+58A-58B @ITOF.P3
+58A-58D @DIVFF.P4
+58A-58D @ADDFF.P5
+58A     BURead.@SCRATCH1
+58A     SetKU0.@SCRATCH1
+58A     SetKU1.@SCRATCH1
+58A     @FTOSD.@SCRATCH1
+58B     BURead.@SCRATCH2
+58B     SetKU0.@SCRATCH2
+58B     SetKU1.@SCRATCH2
+58C     BURead.@SCRATCH3
+58D     BURead.@SCRATCH4
+58E-591 @ADDFF.P1
+58E-591 @MULFF.P2
+58E-591 @DIVFF.P3
+58E     BURead.@SCRATCH5
+58F     BURead.@SCRATCH6
+590     BURead.@SCRATCH7
+591     BURead.@SCRATCH8
+592     @DIVFF.@SCRATCH1
+592     @MULFF.@SCRATCH1
+592     @ADDFF.@SCRATCH1
+593     @DIVFF.@SCRATCH2
+593     @MULFF.@SCRATCH2
+593     @ADDFF.@SCRATCH2
+594     @DIVFF.@SCRATCH3
+594     @MULFF.@SCRATCH3
+594     @ADDFF.@SCRATCH3
+595     @DIVFF.@SCRATCH4
+595     @ADDFF.@SCRATCH4
+596     @DIVFF.@SCRATCH5
+596     @ADDFF.@SCRATCH5
+597     @DIVFF.@SCRATCH6
+597     @ADDFF.@SCRATCH6
+598     @ADDFF.@SCRATCH7
+599     @ADDFF.@SCRATCH8
+59A-59D @DIV3232.P1
+59A     Reaction.StAddr
+59A     Incoming.@SCRATCH1
+59B     Reaction.EnAddr
+59B     Incoming.@SCRATCH2
+59C     Reaction.bytecount
+59D-59E Reaction.k
+59E-5A1 @DIV3232.P1
+59F-5A0 Reaction.l
+5A1-5A4 BUWrite.temp
+5A1     @delay_ms1.P1
+5A1     AddRegData.regist
+5A1     SetRegData.reg
+5A1     Reaction.@SCRATCH1
+5A2     @PUTCHAR_BIU_1.P1
+5A2-5A5 AddRegData.flcopy
+5A2-5A5 SetRegData.flcopy
+5A2-5A3 ModbusCRC.buf
+5A2     @DIV3232.@SCRATCH1
+5A2     Reaction.@SCRATCH2
+5A3     @DIV3232.@SCRATCH2
+5A3     Reaction.@SCRATCH3
+5A4     ModbusCRC.len
+5A4     @DIV3232.@SCRATCH3
+5A4     Reaction.@SCRATCH4
+5A5     ModbusCRC.i
+5A5     BUWrite.@SCRATCH1
+5A5     @DIV3232.@SCRATCH4
+5A6     ModbusCRC.index
+5A6     @DIV3232.@SCRATCH5
+5A6     AddRegData.@SCRATCH1
+5A6     SetRegData.@SCRATCH1
+5A7     ModbusCRC.CRC_Low
+5A7     AddRegData.@SCRATCH2
+5A7     SetRegData.@SCRATCH2
+5A8     ModbusCRC.CRC_High
+5A8     SetRegData.@SCRATCH3
+5A9     SetRegData.@SCRATCH4
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB     CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE     CCP_1
+FBF     CCP_1_HIGH
+FE1-FE2 @WRITE_PACKED_MEMORY.P1
+FE1-FE2 @READ_PACKED_MEMORY.P2
+FE9-FEA @READ_PROGRAM_MEMORY.P1
+FE9-FEA @WRITE_PROGRAM_MEMORY.P2
+FE9-FEA @READ_PACKED_MEMORY.P3
+FE9-FEA @WRITE_PACKED_MEMORY.P4
+FF6-FF8 @READ_PROGRAM_MEMORY.P1
+FF6-FF8 @WRITE_PROGRAM_MEMORY.P2
+
+ROM Allocation:
+189C  @delay_ms1
+2968  @DIVFF
+2592  @MULFF
+2B08  @ADDFF
+1E8A  InitMcu
+1F28  BURead
+1142  BUWrite
+26C4  Termometer
+2542  @SITOF
+2688  @SFTOI
+283A  SetKU0
+28B6  SetKU1
+00BA  modbus_auchCRCHi
+01CA  modbus_auchCRCLo
+18CE  @PUTCHAR_BIU_1
+23FE  RsInit
+0370  Incoming
+02DA  @DIV3232
+03D0  ModbusCRC
+0428  AddRegData
+0C1A  SetRegData
+18F0  Reaction
+2D82  MAIN
+2932  @ITOF
+2AC6  @FTOSD
+4376  @goto10737
+2D82  @cinit
+0F39  exit
+
+
+User Memory space: 
+
+User Memory space: 
+
+Project Directory:
+    C:\Projects\MWT-3\SPM3Firmware\
+
+Project Files:
+    spm3.c
+    spm3.h
+    ..\..\..\Program Files (x86)\PICC\devices\18F4520.h
+    ee_var.h
+    modbus_isr.h
+
+Units:
+    C:\Projects\MWT-3\SPM3Firmware\spm3 (main)
+
+Compiler Settings:
+    Processor:      PIC18F4520
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    ICD Provisions: Yes
+
+Output Files:
+    Errors:      spm3.err
+    Ext Symbols: spm3.esym
+    INHX32:      spm3.hex
+    Symbols:     spm3.sym
+    List:        spm3.lst
+    Debug/COFF:  spm3.cof
+    Project:     spm3.PJT
+    Call Tree:   spm3.tre

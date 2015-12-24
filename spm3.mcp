@@ -52,11 +52,11 @@ file_006=yes
 file_007=yes
 [FILE_INFO]
 file_000=spm3.c
-file_001=E:\Projects\MWT-3\SPM-3Code\spm3.h
-file_002=E:\Projects\MWT-3\SPM-3Code\ee_var.h
-file_003=E:\Projects\MWT-3\SPM-3Code\modbus_isr.h
-file_004=18F4520.h
-file_005=C:\Program Files\PICC\devices\18F4520.h
+file_001=18F4520.h
+file_002=spm3.h
+file_003=..\..\..\Program Files (x86)\PICC\devices\18F4520.h
+file_004=ee_var.h
+file_005=modbus_isr.h
 file_006=spm3.SYM
 file_007=spm3.TRE
 [SUITE_INFO]
