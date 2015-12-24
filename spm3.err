@@ -1,3 +1,4 @@
->>> Warning 202 "spm3.c" Line 321(5,12): Variable never used:   changed
-      Memory usage:   ROM=54%      RAM=93% - 95%
-      0 Errors,  1 Warnings.
+>>> Warning 216 "spm3.c" Line 490(0,1): Interrupts disabled during call to prevent re-entrancy:  (@DIV3232)
+>>> Warning 202 "spm3.c" Line 310(5,12): Variable never used:   changed
+      Memory usage:   ROM=51%      RAM=93% - 95%
+      0 Errors,  2 Warnings.

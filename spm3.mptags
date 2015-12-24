@@ -6,749 +6,746 @@
 !_TAG_PROGRAM_VERSION	5.5.4	//
 !_TAG_REVISION_NAME	MCHPTags	//
 !_TAG_REVISION_VERSION	6.0.1	//
-A0_A3_A1_A2::0xfff02	C:\Program Files\PICC\Devices\18F4520.h	287;"	d	line:287
-A0_A3_A1_A2::0xfff02	E:\Projects\MWT-3\SPM-3Code\18F4520.h	263;"	d	line:263
-A0_A3_A1_A2_OUT_ON_A4_A5::0xfcf03	C:\Program Files\PICC\Devices\18F4520.h	284;"	d	line:284
-A0_A3_A1_A2_OUT_ON_A4_A5::0xfcf03	E:\Projects\MWT-3\SPM-3Code\18F4520.h	260;"	d	line:260
-A0_A3_A1_A3::0xfff04	C:\Program Files\PICC\Devices\18F4520.h	283;"	d	line:283
-A0_A3_A1_A3::0xfff04	E:\Projects\MWT-3\SPM-3Code\18F4520.h	259;"	d	line:259
-A0_A3_A1_A3_OUT_ON_A4_A5::0xbcf05	C:\Program Files\PICC\Devices\18F4520.h	285;"	d	line:285
-A0_A3_A1_A3_OUT_ON_A4_A5::0xbcf05	E:\Projects\MWT-3\SPM-3Code\18F4520.h	261;"	d	line:261
-A0_A3_NC_NC_OUT_ON_A4::0x9ef01	C:\Program Files\PICC\Devices\18F4520.h	288;"	d	line:288
-A0_A3_NC_NC_OUT_ON_A4::0x9ef01	E:\Projects\MWT-3\SPM-3Code\18F4520.h	264;"	d	line:264
-A0_VR_A1_VR::0x3ff06	C:\Program Files\PICC\Devices\18F4520.h	289;"	d	line:289
-A0_VR_A1_VR::0x3ff06	E:\Projects\MWT-3\SPM-3Code\18F4520.h	265;"	d	line:265
-A3_VR_A2_VR::0xcff0e	C:\Program Files\PICC\Devices\18F4520.h	290;"	d	line:290
-A3_VR_A2_VR::0xcff0e	E:\Projects\MWT-3\SPM-3Code\18F4520.h	266;"	d	line:266
-AA	E:\Projects\MWT-3\SPM-3Code\spm3.c	101;"	v	line:101
-ADC0	E:\Projects\MWT-3\SPM-3Code\spm3.c	310;"	l	line:310
-ADC_CLOCK_DIV_16::0x05	C:\Program Files\PICC\Devices\18F4520.h	367;"	d	line:367
-ADC_CLOCK_DIV_16::0x05	E:\Projects\MWT-3\SPM-3Code\18F4520.h	343;"	d	line:343
-ADC_CLOCK_DIV_2::0x100	C:\Program Files\PICC\Devices\18F4520.h	364;"	d	line:364
-ADC_CLOCK_DIV_2::0x100	E:\Projects\MWT-3\SPM-3Code\18F4520.h	340;"	d	line:340
-ADC_CLOCK_DIV_32::0x02	C:\Program Files\PICC\Devices\18F4520.h	368;"	d	line:368
-ADC_CLOCK_DIV_32::0x02	E:\Projects\MWT-3\SPM-3Code\18F4520.h	344;"	d	line:344
-ADC_CLOCK_DIV_4::0x04	C:\Program Files\PICC\Devices\18F4520.h	365;"	d	line:365
-ADC_CLOCK_DIV_4::0x04	E:\Projects\MWT-3\SPM-3Code\18F4520.h	341;"	d	line:341
-ADC_CLOCK_DIV_64::0x06	C:\Program Files\PICC\Devices\18F4520.h	369;"	d	line:369
-ADC_CLOCK_DIV_64::0x06	E:\Projects\MWT-3\SPM-3Code\18F4520.h	345;"	d	line:345
-ADC_CLOCK_DIV_8::0x01	C:\Program Files\PICC\Devices\18F4520.h	366;"	d	line:366
-ADC_CLOCK_DIV_8::0x01	E:\Projects\MWT-3\SPM-3Code\18F4520.h	342;"	d	line:342
-ADC_CLOCK_INTERNAL::0x07	C:\Program Files\PICC\Devices\18F4520.h	370;"	d	line:370
-ADC_CLOCK_INTERNAL::0x07	E:\Projects\MWT-3\SPM-3Code\18F4520.h	346;"	d	line:346
-ADC_OFF::0	C:\Program Files\PICC\Devices\18F4520.h	363;"	d	line:363
-ADC_OFF::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	339;"	d	line:339
-ADC_READ_ONLY::6	C:\Program Files\PICC\Devices\18F4520.h	419;"	d	line:419
-ADC_READ_ONLY::6	E:\Projects\MWT-3\SPM-3Code\18F4520.h	395;"	d	line:395
-ADC_START_AND_READ::7	C:\Program Files\PICC\Devices\18F4520.h	417;"	d	line:417
-ADC_START_AND_READ::7	E:\Projects\MWT-3\SPM-3Code\18F4520.h	393;"	d	line:393
-ADC_START_ONLY::1	C:\Program Files\PICC\Devices\18F4520.h	418;"	d	line:418
-ADC_START_ONLY::1	E:\Projects\MWT-3\SPM-3Code\18F4520.h	394;"	d	line:394
-ADC_TAD_MUL_0::0x00	C:\Program Files\PICC\Devices\18F4520.h	372;"	d	line:372
-ADC_TAD_MUL_0::0x00	E:\Projects\MWT-3\SPM-3Code\18F4520.h	348;"	d	line:348
-ADC_TAD_MUL_12::0x28	C:\Program Files\PICC\Devices\18F4520.h	377;"	d	line:377
-ADC_TAD_MUL_12::0x28	E:\Projects\MWT-3\SPM-3Code\18F4520.h	353;"	d	line:353
-ADC_TAD_MUL_16::0x30	C:\Program Files\PICC\Devices\18F4520.h	378;"	d	line:378
-ADC_TAD_MUL_16::0x30	E:\Projects\MWT-3\SPM-3Code\18F4520.h	354;"	d	line:354
-ADC_TAD_MUL_20::0x38	C:\Program Files\PICC\Devices\18F4520.h	379;"	d	line:379
-ADC_TAD_MUL_20::0x38	E:\Projects\MWT-3\SPM-3Code\18F4520.h	355;"	d	line:355
-ADC_TAD_MUL_2::0x08	C:\Program Files\PICC\Devices\18F4520.h	373;"	d	line:373
-ADC_TAD_MUL_2::0x08	E:\Projects\MWT-3\SPM-3Code\18F4520.h	349;"	d	line:349
-ADC_TAD_MUL_4::0x10	C:\Program Files\PICC\Devices\18F4520.h	374;"	d	line:374
-ADC_TAD_MUL_4::0x10	E:\Projects\MWT-3\SPM-3Code\18F4520.h	350;"	d	line:350
-ADC_TAD_MUL_6::0x18	C:\Program Files\PICC\Devices\18F4520.h	375;"	d	line:375
-ADC_TAD_MUL_6::0x18	E:\Projects\MWT-3\SPM-3Code\18F4520.h	351;"	d	line:351
-ADC_TAD_MUL_8::0x20	C:\Program Files\PICC\Devices\18F4520.h	376;"	d	line:376
-ADC_TAD_MUL_8::0x20	E:\Projects\MWT-3\SPM-3Code\18F4520.h	352;"	d	line:352
-ALL_ANALOG::0x00	C:\Program Files\PICC\Devices\18F4520.h	383;"	d	line:383
-ALL_ANALOG::0x00	E:\Projects\MWT-3\SPM-3Code\18F4520.h	359;"	d	line:359
-AN0::0x0E	C:\Program Files\PICC\Devices\18F4520.h	395;"	d	line:395
-AN0::0x0E	E:\Projects\MWT-3\SPM-3Code\18F4520.h	371;"	d	line:371
-AN0_ANALOG::0x0E	C:\Program Files\PICC\Devices\18F4520.h	407;"	d	line:407
-AN0_ANALOG::0x0E	E:\Projects\MWT-3\SPM-3Code\18F4520.h	383;"	d	line:383
-AN0_TO_AN10::0x04	C:\Program Files\PICC\Devices\18F4520.h	385;"	d	line:385
-AN0_TO_AN10::0x04	E:\Projects\MWT-3\SPM-3Code\18F4520.h	361;"	d	line:361
-AN0_TO_AN10_ANALOG::0x04	C:\Program Files\PICC\Devices\18F4520.h	397;"	d	line:397
-AN0_TO_AN10_ANALOG::0x04	E:\Projects\MWT-3\SPM-3Code\18F4520.h	373;"	d	line:373
-AN0_TO_AN11::0x03	C:\Program Files\PICC\Devices\18F4520.h	384;"	d	line:384
-AN0_TO_AN11::0x03	E:\Projects\MWT-3\SPM-3Code\18F4520.h	360;"	d	line:360
-AN0_TO_AN11_ANALOG::0x03	C:\Program Files\PICC\Devices\18F4520.h	396;"	d	line:396
-AN0_TO_AN11_ANALOG::0x03	E:\Projects\MWT-3\SPM-3Code\18F4520.h	372;"	d	line:372
-AN0_TO_AN1::0x0D	C:\Program Files\PICC\Devices\18F4520.h	394;"	d	line:394
-AN0_TO_AN1::0x0D	E:\Projects\MWT-3\SPM-3Code\18F4520.h	370;"	d	line:370
-AN0_TO_AN1_ANALOG::0x0D	C:\Program Files\PICC\Devices\18F4520.h	406;"	d	line:406
-AN0_TO_AN1_ANALOG::0x0D	E:\Projects\MWT-3\SPM-3Code\18F4520.h	382;"	d	line:382
-AN0_TO_AN2::0x0C	C:\Program Files\PICC\Devices\18F4520.h	393;"	d	line:393
-AN0_TO_AN2::0x0C	E:\Projects\MWT-3\SPM-3Code\18F4520.h	369;"	d	line:369
-AN0_TO_AN2_ANALOG::0x0C	C:\Program Files\PICC\Devices\18F4520.h	405;"	d	line:405
-AN0_TO_AN2_ANALOG::0x0C	E:\Projects\MWT-3\SPM-3Code\18F4520.h	381;"	d	line:381
-AN0_TO_AN3::0x0B	C:\Program Files\PICC\Devices\18F4520.h	392;"	d	line:392
-AN0_TO_AN3::0x0B	E:\Projects\MWT-3\SPM-3Code\18F4520.h	368;"	d	line:368
-AN0_TO_AN3_ANALOG::0x0B	C:\Program Files\PICC\Devices\18F4520.h	404;"	d	line:404
-AN0_TO_AN3_ANALOG::0x0B	E:\Projects\MWT-3\SPM-3Code\18F4520.h	380;"	d	line:380
-AN0_TO_AN4::0x0A	C:\Program Files\PICC\Devices\18F4520.h	391;"	d	line:391
-AN0_TO_AN4::0x0A	E:\Projects\MWT-3\SPM-3Code\18F4520.h	367;"	d	line:367
-AN0_TO_AN4_ANALOG::0x0A	C:\Program Files\PICC\Devices\18F4520.h	403;"	d	line:403
-AN0_TO_AN4_ANALOG::0x0A	E:\Projects\MWT-3\SPM-3Code\18F4520.h	379;"	d	line:379
-AN0_TO_AN5::0x09	C:\Program Files\PICC\Devices\18F4520.h	390;"	d	line:390
-AN0_TO_AN5::0x09	E:\Projects\MWT-3\SPM-3Code\18F4520.h	366;"	d	line:366
-AN0_TO_AN5_ANALOG::0x09	C:\Program Files\PICC\Devices\18F4520.h	402;"	d	line:402
-AN0_TO_AN5_ANALOG::0x09	E:\Projects\MWT-3\SPM-3Code\18F4520.h	378;"	d	line:378
-AN0_TO_AN6::0x08	C:\Program Files\PICC\Devices\18F4520.h	389;"	d	line:389
-AN0_TO_AN6::0x08	E:\Projects\MWT-3\SPM-3Code\18F4520.h	365;"	d	line:365
-AN0_TO_AN6_ANALOG::0x08	C:\Program Files\PICC\Devices\18F4520.h	401;"	d	line:401
-AN0_TO_AN6_ANALOG::0x08	E:\Projects\MWT-3\SPM-3Code\18F4520.h	377;"	d	line:377
-AN0_TO_AN7::0x07	C:\Program Files\PICC\Devices\18F4520.h	388;"	d	line:388
-AN0_TO_AN7::0x07	E:\Projects\MWT-3\SPM-3Code\18F4520.h	364;"	d	line:364
-AN0_TO_AN7_ANALOG::0x07	C:\Program Files\PICC\Devices\18F4520.h	400;"	d	line:400
-AN0_TO_AN7_ANALOG::0x07	E:\Projects\MWT-3\SPM-3Code\18F4520.h	376;"	d	line:376
-AN0_TO_AN8::0x06	C:\Program Files\PICC\Devices\18F4520.h	387;"	d	line:387
-AN0_TO_AN8::0x06	E:\Projects\MWT-3\SPM-3Code\18F4520.h	363;"	d	line:363
-AN0_TO_AN8_ANALOG::0x06	C:\Program Files\PICC\Devices\18F4520.h	399;"	d	line:399
-AN0_TO_AN8_ANALOG::0x06	E:\Projects\MWT-3\SPM-3Code\18F4520.h	375;"	d	line:375
-AN0_TO_AN9::0x05	C:\Program Files\PICC\Devices\18F4520.h	386;"	d	line:386
-AN0_TO_AN9::0x05	E:\Projects\MWT-3\SPM-3Code\18F4520.h	362;"	d	line:362
-AN0_TO_AN9_ANALOG::0x05	C:\Program Files\PICC\Devices\18F4520.h	398;"	d	line:398
-AN0_TO_AN9_ANALOG::0x05	E:\Projects\MWT-3\SPM-3Code\18F4520.h	374;"	d	line:374
-AddRegData	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	126;"	f	line:126	signature:(int8 regist)
-Addr	E:\Projects\MWT-3\SPM-3Code\spm3.c	72;"	v	line:72	file:
-AlpSum	E:\Projects\MWT-3\SPM-3Code\spm3.c	75;"	v	line:75	file:
-Am0	E:\Projects\MWT-3\SPM-3Code\spm3.c	102;"	v	line:102
-Am0_k	E:\Projects\MWT-3\SPM-3Code\spm3.c	102;"	v	line:102
-AmpCoef0	E:\Projects\MWT-3\SPM-3Code\spm3.c	32;"	v	line:32	file:
-AmpCoef1	E:\Projects\MWT-3\SPM-3Code\spm3.c	51;"	v	line:51	file:
-Amplitude0	E:\Projects\MWT-3\SPM-3Code\spm3.c	28;"	v	line:28	file:
-BB	E:\Projects\MWT-3\SPM-3Code\spm3.c	101;"	v	line:101
-BOOLEAN::int1	C:\Program Files\PICC\Devices\18F4520.h	71;"	d	line:71
-BOOLEAN::shortint	E:\Projects\MWT-3\SPM-3Code\18F4520.h	71;"	d	line:71
-BROWNOUT_RESTART::14	C:\Program Files\PICC\Devices\18F4520.h	89;"	d	line:89
-BROWNOUT_RESTART::14	E:\Projects\MWT-3\SPM-3Code\18F4520.h	89;"	d	line:89
-BURead	E:\Projects\MWT-3\SPM-3Code\spm3.c	177;"	f	line:177	signature:(void)
-BUWrite	E:\Projects\MWT-3\SPM-3Code\spm3.c	203;"	f	line:203	signature:(void)
-BYTE::int	E:\Projects\MWT-3\SPM-3Code\18F4520.h	70;"	d	line:70
-BYTE::int8	C:\Program Files\PICC\Devices\18F4520.h	70;"	d	line:70
-BetSum	E:\Projects\MWT-3\SPM-3Code\spm3.c	76;"	v	line:76	file:
-BetTrsh	E:\Projects\MWT-3\SPM-3Code\spm3.c	317;"	l	line:317
-CCP_1	E:\Projects\MWT-3\SPM-3Code\18F4520.h	184;"	v	line:184
-CCP_2	E:\Projects\MWT-3\SPM-3Code\18F4520.h	216;"	v	line:216
-CCP_CAPTURE_DIV_16::7	C:\Program Files\PICC\Devices\18F4520.h	199;"	d	line:199
-CCP_CAPTURE_DIV_16::7	E:\Projects\MWT-3\SPM-3Code\18F4520.h	173;"	d	line:173
-CCP_CAPTURE_DIV_4::6	C:\Program Files\PICC\Devices\18F4520.h	198;"	d	line:198
-CCP_CAPTURE_DIV_4::6	E:\Projects\MWT-3\SPM-3Code\18F4520.h	172;"	d	line:172
-CCP_CAPTURE_FE::4	C:\Program Files\PICC\Devices\18F4520.h	196;"	d	line:196
-CCP_CAPTURE_FE::4	E:\Projects\MWT-3\SPM-3Code\18F4520.h	170;"	d	line:170
-CCP_CAPTURE_RE::5	C:\Program Files\PICC\Devices\18F4520.h	197;"	d	line:197
-CCP_CAPTURE_RE::5	E:\Projects\MWT-3\SPM-3Code\18F4520.h	171;"	d	line:171
-CCP_COMPARE_CLR_ON_MATCH::9	C:\Program Files\PICC\Devices\18F4520.h	201;"	d	line:201
-CCP_COMPARE_CLR_ON_MATCH::9	E:\Projects\MWT-3\SPM-3Code\18F4520.h	175;"	d	line:175
-CCP_COMPARE_INT::0xA	C:\Program Files\PICC\Devices\18F4520.h	202;"	d	line:202
-CCP_COMPARE_INT::0xA	E:\Projects\MWT-3\SPM-3Code\18F4520.h	176;"	d	line:176
-CCP_COMPARE_INT_AND_TOGGLE::0x2	C:\Program Files\PICC\Devices\18F4520.h	203;"	d	line:203
-CCP_COMPARE_INT_AND_TOGGLE::0x2	E:\Projects\MWT-3\SPM-3Code\18F4520.h	177;"	d	line:177
-CCP_COMPARE_RESET_TIMER::0xB	C:\Program Files\PICC\Devices\18F4520.h	204;"	d	line:204
-CCP_COMPARE_RESET_TIMER::0xB	E:\Projects\MWT-3\SPM-3Code\18F4520.h	178;"	d	line:178
-CCP_COMPARE_SET_ON_MATCH::8	C:\Program Files\PICC\Devices\18F4520.h	200;"	d	line:200
-CCP_COMPARE_SET_ON_MATCH::8	E:\Projects\MWT-3\SPM-3Code\18F4520.h	174;"	d	line:174
-CCP_OFF::0	C:\Program Files\PICC\Devices\18F4520.h	195;"	d	line:195
-CCP_OFF::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	169;"	d	line:169
-CCP_PWM::0xC	C:\Program Files\PICC\Devices\18F4520.h	205;"	d	line:205
-CCP_PWM::0xC	E:\Projects\MWT-3\SPM-3Code\18F4520.h	179;"	d	line:179
-CCP_PWM_FULL_BRIDGE::0x40	C:\Program Files\PICC\Devices\18F4520.h	219;"	d	line:219
-CCP_PWM_FULL_BRIDGE::0x40	E:\Projects\MWT-3\SPM-3Code\18F4520.h	194;"	d	line:194
-CCP_PWM_FULL_BRIDGE_REV::0xC0	C:\Program Files\PICC\Devices\18F4520.h	220;"	d	line:220
-CCP_PWM_FULL_BRIDGE_REV::0xC0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	195;"	d	line:195
-CCP_PWM_HALF_BRIDGE::0x80	C:\Program Files\PICC\Devices\18F4520.h	221;"	d	line:221
-CCP_PWM_HALF_BRIDGE::0x80	E:\Projects\MWT-3\SPM-3Code\18F4520.h	196;"	d	line:196
-CCP_PWM_H_H::0x0c	C:\Program Files\PICC\Devices\18F4520.h	214;"	d	line:214
-CCP_PWM_H_H::0x0c	E:\Projects\MWT-3\SPM-3Code\18F4520.h	189;"	d	line:189
-CCP_PWM_H_L::0x0d	C:\Program Files\PICC\Devices\18F4520.h	215;"	d	line:215
-CCP_PWM_H_L::0x0d	E:\Projects\MWT-3\SPM-3Code\18F4520.h	190;"	d	line:190
-CCP_PWM_L_H::0x0e	C:\Program Files\PICC\Devices\18F4520.h	216;"	d	line:216
-CCP_PWM_L_H::0x0e	E:\Projects\MWT-3\SPM-3Code\18F4520.h	191;"	d	line:191
-CCP_PWM_L_L::0x0f	C:\Program Files\PICC\Devices\18F4520.h	217;"	d	line:217
-CCP_PWM_L_L::0x0f	E:\Projects\MWT-3\SPM-3Code\18F4520.h	192;"	d	line:192
-CCP_PWM_PLUS_1::0x1c	C:\Program Files\PICC\Devices\18F4520.h	206;"	d	line:206
-CCP_PWM_PLUS_1::0x1c	E:\Projects\MWT-3\SPM-3Code\18F4520.h	180;"	d	line:180
-CCP_PWM_PLUS_2::0x2c	C:\Program Files\PICC\Devices\18F4520.h	207;"	d	line:207
-CCP_PWM_PLUS_2::0x2c	E:\Projects\MWT-3\SPM-3Code\18F4520.h	181;"	d	line:181
-CCP_PWM_PLUS_3::0x3c	C:\Program Files\PICC\Devices\18F4520.h	208;"	d	line:208
-CCP_PWM_PLUS_3::0x3c	E:\Projects\MWT-3\SPM-3Code\18F4520.h	182;"	d	line:182
-CCP_SHUTDOWN_AC_F::0x080000	C:\Program Files\PICC\Devices\18F4520.h	233;"	d	line:233
-CCP_SHUTDOWN_AC_F::0x080000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	208;"	d	line:208
-CCP_SHUTDOWN_AC_H::0x040000	C:\Program Files\PICC\Devices\18F4520.h	232;"	d	line:232
-CCP_SHUTDOWN_AC_H::0x040000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	207;"	d	line:207
-CCP_SHUTDOWN_AC_L::0x000000	C:\Program Files\PICC\Devices\18F4520.h	231;"	d	line:231
-CCP_SHUTDOWN_AC_L::0x000000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	206;"	d	line:206
-CCP_SHUTDOWN_BD_F::0x020000	C:\Program Files\PICC\Devices\18F4520.h	237;"	d	line:237
-CCP_SHUTDOWN_BD_F::0x020000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	212;"	d	line:212
-CCP_SHUTDOWN_BD_H::0x010000	C:\Program Files\PICC\Devices\18F4520.h	236;"	d	line:236
-CCP_SHUTDOWN_BD_H::0x010000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	211;"	d	line:211
-CCP_SHUTDOWN_BD_L::0x000000	C:\Program Files\PICC\Devices\18F4520.h	235;"	d	line:235
-CCP_SHUTDOWN_BD_L::0x000000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	210;"	d	line:210
-CCP_SHUTDOWN_ON_COMP1::0x100000	C:\Program Files\PICC\Devices\18F4520.h	223;"	d	line:223
-CCP_SHUTDOWN_ON_COMP1::0x100000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	198;"	d	line:198
-CCP_SHUTDOWN_ON_COMP1_INT0::0x500000	C:\Program Files\PICC\Devices\18F4520.h	227;"	d	line:227
-CCP_SHUTDOWN_ON_COMP1_INT0::0x500000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	202;"	d	line:202
-CCP_SHUTDOWN_ON_COMP2::0x200000	C:\Program Files\PICC\Devices\18F4520.h	224;"	d	line:224
-CCP_SHUTDOWN_ON_COMP2::0x200000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	199;"	d	line:199
-CCP_SHUTDOWN_ON_COMP2_INT0::0x600000	C:\Program Files\PICC\Devices\18F4520.h	228;"	d	line:228
-CCP_SHUTDOWN_ON_COMP2_INT0::0x600000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	203;"	d	line:203
-CCP_SHUTDOWN_ON_COMP::0x300000	C:\Program Files\PICC\Devices\18F4520.h	225;"	d	line:225
-CCP_SHUTDOWN_ON_COMP::0x300000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	200;"	d	line:200
-CCP_SHUTDOWN_ON_COMP_INT0::0x700000	C:\Program Files\PICC\Devices\18F4520.h	229;"	d	line:229
-CCP_SHUTDOWN_ON_COMP_INT0::0x700000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	204;"	d	line:204
-CCP_SHUTDOWN_ON_INT0::0x400000	C:\Program Files\PICC\Devices\18F4520.h	226;"	d	line:226
-CCP_SHUTDOWN_ON_INT0::0x400000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	201;"	d	line:201
-CCP_SHUTDOWN_RESTART::0x80000000	C:\Program Files\PICC\Devices\18F4520.h	239;"	d	line:239
-CCP_SHUTDOWN_RESTART::0x80000000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	214;"	d	line:214
-CCP_USE_TIMER3::0x100	E:\Projects\MWT-3\SPM-3Code\18F4520.h	183;"	d	line:183
-CP1_INVERT::0x0000010	C:\Program Files\PICC\Devices\18F4520.h	291;"	d	line:291
-CP1_INVERT::0x0000010	E:\Projects\MWT-3\SPM-3Code\18F4520.h	267;"	d	line:267
-CP2_INVERT::0x0000020	C:\Program Files\PICC\Devices\18F4520.h	292;"	d	line:292
-CP2_INVERT::0x0000020	E:\Projects\MWT-3\SPM-3Code\18F4520.h	268;"	d	line:268
-CRCReq	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	15;"	v	line:15
-CRC_High	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	110;"	l	line:110
-CRC_Low	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	110;"	l	line:110
-CRCc	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	121;"	v	line:121
-CRCr	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	121;"	v	line:121
-Calc	E:\Projects\MWT-3\SPM-3Code\spm3.c	106;"	f	line:106
-CycleCounter	E:\Projects\MWT-3\SPM-3Code\spm3.c	306;"	l	line:306
-DAC0::PIN_D0	E:\Projects\MWT-3\SPM-3Code\spm3.h	46;"	d	line:46
-DAC1::PIN_D1	E:\Projects\MWT-3\SPM-3Code\spm3.h	47;"	d	line:47
-DIR::PIN_A6	E:\Projects\MWT-3\SPM-3Code\spm3.h	36;"	d	line:36
-DaqEnd	E:\Projects\MWT-3\SPM-3Code\spm3.c	88;"	e	line:88	enum:daq_states	file:
-DaqIdle	E:\Projects\MWT-3\SPM-3Code\spm3.c	84;"	e	line:84	enum:daq_states	file:
-DaqMeasure	E:\Projects\MWT-3\SPM-3Code\spm3.c	86;"	e	line:86	enum:daq_states	file:
-DaqScale	E:\Projects\MWT-3\SPM-3Code\spm3.c	87;"	e	line:87	enum:daq_states	file:
-DaqStart	E:\Projects\MWT-3\SPM-3Code\spm3.c	85;"	e	line:85	enum:daq_states	file:
-DaqState	E:\Projects\MWT-3\SPM-3Code\spm3.c	90;"	v	line:90
-EE_FWDT::0x0C	E:\Projects\MWT-3\SPM-3Code\ee_var.h	11;"	d	line:11
-EE_Host::0x10	E:\Projects\MWT-3\SPM-3Code\ee_var.h	13;"	d	line:13
-EE_KGT::0x18	E:\Projects\MWT-3\SPM-3Code\ee_var.h	17;"	d	line:17
-EE_KGU::0x1C	E:\Projects\MWT-3\SPM-3Code\ee_var.h	18;"	d	line:18
-EE_KST0::0x20	E:\Projects\MWT-3\SPM-3Code\ee_var.h	19;"	d	line:19
-EE_KST1::0x24	E:\Projects\MWT-3\SPM-3Code\ee_var.h	20;"	d	line:20
-EE_KU0::0x04	E:\Projects\MWT-3\SPM-3Code\ee_var.h	7;"	d	line:7
-EE_KU1::0x06	E:\Projects\MWT-3\SPM-3Code\ee_var.h	8;"	d	line:8
-EE_PCOUNT::0x0A	E:\Projects\MWT-3\SPM-3Code\ee_var.h	10;"	d	line:10
-EE_SAW_A0::0x00	E:\Projects\MWT-3\SPM-3Code\ee_var.h	5;"	d	line:5
-EE_SAW_A1::0x02	E:\Projects\MWT-3\SPM-3Code\ee_var.h	6;"	d	line:6
-EE_Speed::0x0E	E:\Projects\MWT-3\SPM-3Code\ee_var.h	12;"	d	line:12
-EE_T0_CAL::0x12	E:\Projects\MWT-3\SPM-3Code\ee_var.h	14;"	d	line:14
-EE_T1_CAL::0x14	E:\Projects\MWT-3\SPM-3Code\ee_var.h	15;"	d	line:15
-EE_TAQ::0x08	E:\Projects\MWT-3\SPM-3Code\ee_var.h	9;"	d	line:9
-EE_TG_CAL::0x16	E:\Projects\MWT-3\SPM-3Code\ee_var.h	16;"	d	line:16
-EnAddr	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	509;"	l	line:509
-ExcReq	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	16;"	v	line:16
-FALSE::0	C:\Program Files\PICC\Devices\18F4520.h	67;"	d	line:67
-FALSE::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	67;"	d	line:67
-FWDT	E:\Projects\MWT-3\SPM-3Code\spm3.c	57;"	v	line:57	file:
-FiltFact	E:\Projects\MWT-3\SPM-3Code\spm3.c	312;"	l	line:312
-GLOBAL::0xF2C0	C:\Program Files\PICC\Devices\18F4520.h	434;"	d	line:434
-GLOBAL::0xF2C0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	407;"	d	line:407
-Gam0	E:\Projects\MWT-3\SPM-3Code\spm3.c	97;"	v	line:97
-Gam0_k	E:\Projects\MWT-3\SPM-3Code\spm3.c	97;"	v	line:97
-GamSum	E:\Projects\MWT-3\SPM-3Code\spm3.c	77;"	v	line:77	file:
-Gamma0	E:\Projects\MWT-3\SPM-3Code\spm3.c	31;"	v	line:31	file:
-Gamma1	E:\Projects\MWT-3\SPM-3Code\spm3.c	50;"	v	line:50	file:
-H_TO_L::0	C:\Program Files\PICC\Devices\18F4520.h	432;"	d	line:432
-H_TO_L::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	405;"	d	line:405
-Haw0	E:\Projects\MWT-3\SPM-3Code\spm3.c	100;"	v	line:100
-Haw0_k	E:\Projects\MWT-3\SPM-3Code\spm3.c	100;"	v	line:100
-Hst	E:\Projects\MWT-3\SPM-3Code\spm3.c	79;"	v	line:79	file:
-INT_AD::0x009D40	C:\Program Files\PICC\Devices\18F4520.h	452;"	d	line:452
-INT_AD::0x9D40	E:\Projects\MWT-3\SPM-3Code\18F4520.h	418;"	d	line:418
-INT_BUSCOL::0x00A008	C:\Program Files\PICC\Devices\18F4520.h	458;"	d	line:458
-INT_BUSCOL::0xA008	E:\Projects\MWT-3\SPM-3Code\18F4520.h	424;"	d	line:424
-INT_CCP1::0x009D04	C:\Program Files\PICC\Devices\18F4520.h	456;"	d	line:456
-INT_CCP1::0x9D04	E:\Projects\MWT-3\SPM-3Code\18F4520.h	422;"	d	line:422
-INT_CCP2::0x00A001	C:\Program Files\PICC\Devices\18F4520.h	457;"	d	line:457
-INT_CCP2::0xA001	E:\Projects\MWT-3\SPM-3Code\18F4520.h	423;"	d	line:423
-INT_COMP::0x00A040	C:\Program Files\PICC\Devices\18F4520.h	460;"	d	line:460
-INT_COMP::0xA040	E:\Projects\MWT-3\SPM-3Code\18F4520.h	426;"	d	line:426
-INT_EEPROM::0x00A010	C:\Program Files\PICC\Devices\18F4520.h	461;"	d	line:461
-INT_EEPROM::0xA010	E:\Projects\MWT-3\SPM-3Code\18F4520.h	427;"	d	line:427
-INT_EXT1::0x00F008	C:\Program Files\PICC\Devices\18F4520.h	446;"	d	line:446
-INT_EXT1::0xF008	E:\Projects\MWT-3\SPM-3Code\18F4520.h	414;"	d	line:414
-INT_EXT1_H2L::0x6001F008	C:\Program Files\PICC\Devices\18F4520.h	445;"	d	line:445
-INT_EXT1_L2H::0x5001F008	C:\Program Files\PICC\Devices\18F4520.h	444;"	d	line:444
-INT_EXT2::0x00F010	C:\Program Files\PICC\Devices\18F4520.h	449;"	d	line:449
-INT_EXT2::0xF010	E:\Projects\MWT-3\SPM-3Code\18F4520.h	415;"	d	line:415
-INT_EXT2_H2L::0x6002F010	C:\Program Files\PICC\Devices\18F4520.h	448;"	d	line:448
-INT_EXT2_L2H::0x5002F010	C:\Program Files\PICC\Devices\18F4520.h	447;"	d	line:447
-INT_EXT::0x00F210	C:\Program Files\PICC\Devices\18F4520.h	443;"	d	line:443
-INT_EXT::0xF210	E:\Projects\MWT-3\SPM-3Code\18F4520.h	413;"	d	line:413
-INT_EXT_H2L::0x6000F210	C:\Program Files\PICC\Devices\18F4520.h	442;"	d	line:442
-INT_EXT_L2H::0x5000F210	C:\Program Files\PICC\Devices\18F4520.h	441;"	d	line:441
-INT_HLVD::0x00A004	C:\Program Files\PICC\Devices\18F4520.h	463;"	d	line:463
-INT_LOWVOLT::0x00A004	C:\Program Files\PICC\Devices\18F4520.h	459;"	d	line:459
-INT_LOWVOLT::0xA004	E:\Projects\MWT-3\SPM-3Code\18F4520.h	425;"	d	line:425
-INT_OSCF::0x00A080	C:\Program Files\PICC\Devices\18F4520.h	462;"	d	line:462
-INT_OSCF::0xA080	E:\Projects\MWT-3\SPM-3Code\18F4520.h	428;"	d	line:428
-INT_PSP::0x009D80	C:\Program Files\PICC\Devices\18F4520.h	451;"	d	line:451
-INT_PSP::0x9D80	E:\Projects\MWT-3\SPM-3Code\18F4520.h	417;"	d	line:417
-INT_RB::0x00FFF208	C:\Program Files\PICC\Devices\18F4520.h	450;"	d	line:450
-INT_RB::0xFFF208	E:\Projects\MWT-3\SPM-3Code\18F4520.h	416;"	d	line:416
-INT_RDA::0x009D20	C:\Program Files\PICC\Devices\18F4520.h	453;"	d	line:453
-INT_RDA::0x9D20	E:\Projects\MWT-3\SPM-3Code\18F4520.h	419;"	d	line:419
-INT_RTCC::0x00F220	C:\Program Files\PICC\Devices\18F4520.h	436;"	d	line:436
-INT_RTCC::0xF220	E:\Projects\MWT-3\SPM-3Code\18F4520.h	408;"	d	line:408
-INT_SSP::0x009D08	C:\Program Files\PICC\Devices\18F4520.h	455;"	d	line:455
-INT_SSP::0x9D08	E:\Projects\MWT-3\SPM-3Code\18F4520.h	421;"	d	line:421
-INT_TBE::0x009D10	C:\Program Files\PICC\Devices\18F4520.h	454;"	d	line:454
-INT_TBE::0x9D10	E:\Projects\MWT-3\SPM-3Code\18F4520.h	420;"	d	line:420
-INT_TIMER0::0x00F220	C:\Program Files\PICC\Devices\18F4520.h	437;"	d	line:437
-INT_TIMER0::0xF220	E:\Projects\MWT-3\SPM-3Code\18F4520.h	409;"	d	line:409
-INT_TIMER1::0x009D01	C:\Program Files\PICC\Devices\18F4520.h	438;"	d	line:438
-INT_TIMER1::0x9D01	E:\Projects\MWT-3\SPM-3Code\18F4520.h	410;"	d	line:410
-INT_TIMER2::0x009D02	C:\Program Files\PICC\Devices\18F4520.h	439;"	d	line:439
-INT_TIMER2::0x9D02	E:\Projects\MWT-3\SPM-3Code\18F4520.h	411;"	d	line:411
-INT_TIMER3::0x00A002	C:\Program Files\PICC\Devices\18F4520.h	440;"	d	line:440
-INT_TIMER3::0xA002	E:\Projects\MWT-3\SPM-3Code\18F4520.h	412;"	d	line:412
-Incoming	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	97;"	f	line:97	signature:(void)
-InitMcu	E:\Projects\MWT-3\SPM-3Code\spm3.c	123;"	f	line:123	signature:(void)
-KGT	E:\Projects\MWT-3\SPM-3Code\spm3.c	67;"	v	line:67	file:
-KGU	E:\Projects\MWT-3\SPM-3Code\spm3.c	68;"	v	line:68	file:
-KST0	E:\Projects\MWT-3\SPM-3Code\spm3.c	33;"	v	line:33	file:
-KST1	E:\Projects\MWT-3\SPM-3Code\spm3.c	52;"	v	line:52	file:
-KU0::PIN_D5	E:\Projects\MWT-3\SPM-3Code\spm3.h	49;"	d	line:49
-KU1::PIN_D4	E:\Projects\MWT-3\SPM-3Code\spm3.h	48;"	d	line:48
-LDAC::PIN_A7	E:\Projects\MWT-3\SPM-3Code\spm3.h	37;"	d	line:37
-LVD_21::0x10	C:\Program Files\PICC\Devices\18F4520.h	324;"	d	line:324
-LVD_21::0x10	E:\Projects\MWT-3\SPM-3Code\18F4520.h	300;"	d	line:300
-LVD_22::0x11	C:\Program Files\PICC\Devices\18F4520.h	323;"	d	line:323
-LVD_22::0x11	E:\Projects\MWT-3\SPM-3Code\18F4520.h	299;"	d	line:299
-LVD_23::0x12	C:\Program Files\PICC\Devices\18F4520.h	322;"	d	line:322
-LVD_23::0x12	E:\Projects\MWT-3\SPM-3Code\18F4520.h	298;"	d	line:298
-LVD_24::0x13	C:\Program Files\PICC\Devices\18F4520.h	321;"	d	line:321
-LVD_24::0x13	E:\Projects\MWT-3\SPM-3Code\18F4520.h	297;"	d	line:297
-LVD_25::0x14	C:\Program Files\PICC\Devices\18F4520.h	320;"	d	line:320
-LVD_25::0x14	E:\Projects\MWT-3\SPM-3Code\18F4520.h	296;"	d	line:296
-LVD_27::0x15	C:\Program Files\PICC\Devices\18F4520.h	319;"	d	line:319
-LVD_27::0x15	E:\Projects\MWT-3\SPM-3Code\18F4520.h	295;"	d	line:295
-LVD_28::0x16	C:\Program Files\PICC\Devices\18F4520.h	318;"	d	line:318
-LVD_28::0x16	E:\Projects\MWT-3\SPM-3Code\18F4520.h	294;"	d	line:294
-LVD_30::0x17	C:\Program Files\PICC\Devices\18F4520.h	317;"	d	line:317
-LVD_30::0x17	E:\Projects\MWT-3\SPM-3Code\18F4520.h	293;"	d	line:293
-LVD_33::0x18	C:\Program Files\PICC\Devices\18F4520.h	316;"	d	line:316
-LVD_33::0x18	E:\Projects\MWT-3\SPM-3Code\18F4520.h	292;"	d	line:292
-LVD_35::0x19	C:\Program Files\PICC\Devices\18F4520.h	315;"	d	line:315
-LVD_35::0x19	E:\Projects\MWT-3\SPM-3Code\18F4520.h	291;"	d	line:291
-LVD_36::0x1A	C:\Program Files\PICC\Devices\18F4520.h	314;"	d	line:314
-LVD_36::0x1A	E:\Projects\MWT-3\SPM-3Code\18F4520.h	290;"	d	line:290
-LVD_38::0x1B	C:\Program Files\PICC\Devices\18F4520.h	313;"	d	line:313
-LVD_38::0x1B	E:\Projects\MWT-3\SPM-3Code\18F4520.h	289;"	d	line:289
-LVD_40::0x1C	C:\Program Files\PICC\Devices\18F4520.h	312;"	d	line:312
-LVD_40::0x1C	E:\Projects\MWT-3\SPM-3Code\18F4520.h	288;"	d	line:288
-LVD_42::0x1D	C:\Program Files\PICC\Devices\18F4520.h	311;"	d	line:311
-LVD_42::0x1D	E:\Projects\MWT-3\SPM-3Code\18F4520.h	287;"	d	line:287
-LVD_45::0x1E	C:\Program Files\PICC\Devices\18F4520.h	310;"	d	line:310
-LVD_45::0x1E	E:\Projects\MWT-3\SPM-3Code\18F4520.h	286;"	d	line:286
-LVD_LVDIN::0x1F	C:\Program Files\PICC\Devices\18F4520.h	309;"	d	line:309
-LVD_LVDIN::0x1F	E:\Projects\MWT-3\SPM-3Code\18F4520.h	285;"	d	line:285
-LVD_TRIGGER_ABOVE::0x80	C:\Program Files\PICC\Devices\18F4520.h	327;"	d	line:327
-LVD_TRIGGER_ABOVE::0x80	E:\Projects\MWT-3\SPM-3Code\18F4520.h	303;"	d	line:303
-LVD_TRIGGER_BELOW::0	C:\Program Files\PICC\Devices\18F4520.h	326;"	d	line:326
-LVD_TRIGGER_BELOW::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	302;"	d	line:302
-L_TO_H::0x40	C:\Program Files\PICC\Devices\18F4520.h	431;"	d	line:431
-L_TO_H::0x40	E:\Projects\MWT-3\SPM-3Code\18F4520.h	404;"	d	line:404
-MB_Buffer	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	12;"	v	line:12
-MB_Length	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	13;"	v	line:13
-MCLR_FROM_RUN::15	C:\Program Files\PICC\Devices\18F4520.h	87;"	d	line:87
-MCLR_FROM_RUN::15	E:\Projects\MWT-3\SPM-3Code\18F4520.h	87;"	d	line:87
-MCLR_FROM_SLEEP::11	C:\Program Files\PICC\Devices\18F4520.h	86;"	d	line:86
-MCLR_FROM_SLEEP::11	E:\Projects\MWT-3\SPM-3Code\18F4520.h	86;"	d	line:86
-MEM0::PIN_C1	E:\Projects\MWT-3\SPM-3Code\spm3.h	39;"	d	line:39
-MEM1::PIN_C2	E:\Projects\MWT-3\SPM-3Code\spm3.h	40;"	d	line:40
-MaxCycles	E:\Projects\MWT-3\SPM-3Code\spm3.c	307;"	l	line:307
-ModbusCRC	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	108;"	f	line:108	signature:(int8 * buf, int8 len)
-Mx	E:\Projects\MWT-3\SPM-3Code\spm3.c	316;"	l	line:316
-NC_NC_NC_NC::0x0ff07	C:\Program Files\PICC\Devices\18F4520.h	286;"	d	line:286
-NC_NC_NC_NC::0x0ff07	E:\Projects\MWT-3\SPM-3Code\18F4520.h	262;"	d	line:262
-NORMAL_POWER_UP::12	C:\Program Files\PICC\Devices\18F4520.h	88;"	d	line:88
-NORMAL_POWER_UP::12	E:\Projects\MWT-3\SPM-3Code\18F4520.h	88;"	d	line:88
-NO_ANALOGS::0x0F	C:\Program Files\PICC\Devices\18F4520.h	382;"	d	line:382
-NO_ANALOGS::0x0F	E:\Projects\MWT-3\SPM-3Code\18F4520.h	358;"	d	line:358
-OSC_125KHZ::0x10	C:\Program Files\PICC\Devices\18F4520.h	334;"	d	line:334
-OSC_125KHZ::0x10	E:\Projects\MWT-3\SPM-3Code\18F4520.h	310;"	d	line:310
-OSC_16MHZ::0x4060	C:\Program Files\PICC\Devices\18F4520.h	341;"	d	line:341
-OSC_16MHZ::0x4060	E:\Projects\MWT-3\SPM-3Code\18F4520.h	317;"	d	line:317
-OSC_1MHZ::0x40	C:\Program Files\PICC\Devices\18F4520.h	337;"	d	line:337
-OSC_1MHZ::0x40	E:\Projects\MWT-3\SPM-3Code\18F4520.h	313;"	d	line:313
-OSC_250KHZ::0x20	C:\Program Files\PICC\Devices\18F4520.h	335;"	d	line:335
-OSC_250KHZ::0x20	E:\Projects\MWT-3\SPM-3Code\18F4520.h	311;"	d	line:311
-OSC_2MHZ::0x50	C:\Program Files\PICC\Devices\18F4520.h	338;"	d	line:338
-OSC_2MHZ::0x50	E:\Projects\MWT-3\SPM-3Code\18F4520.h	314;"	d	line:314
-OSC_31250::0x8000	C:\Program Files\PICC\Devices\18F4520.h	349;"	d	line:349
-OSC_31250::0x8000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	325;"	d	line:325
-OSC_31KHZ::0	C:\Program Files\PICC\Devices\18F4520.h	333;"	d	line:333
-OSC_31KHZ::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	309;"	d	line:309
-OSC_32MHZ::0x4070	C:\Program Files\PICC\Devices\18F4520.h	342;"	d	line:342
-OSC_32MHZ::0x4070	E:\Projects\MWT-3\SPM-3Code\18F4520.h	318;"	d	line:318
-OSC_4MHZ::0x60	C:\Program Files\PICC\Devices\18F4520.h	339;"	d	line:339
-OSC_4MHZ::0x60	E:\Projects\MWT-3\SPM-3Code\18F4520.h	315;"	d	line:315
-OSC_500KHZ::0x30	C:\Program Files\PICC\Devices\18F4520.h	336;"	d	line:336
-OSC_500KHZ::0x30	E:\Projects\MWT-3\SPM-3Code\18F4520.h	312;"	d	line:312
-OSC_8MHZ::0x70	C:\Program Files\PICC\Devices\18F4520.h	340;"	d	line:340
-OSC_8MHZ::0x70	E:\Projects\MWT-3\SPM-3Code\18F4520.h	316;"	d	line:316
-OSC_IDLE_MODE::0x80	C:\Program Files\PICC\Devices\18F4520.h	348;"	d	line:348
-OSC_IDLE_MODE::0x80	E:\Projects\MWT-3\SPM-3Code\18F4520.h	324;"	d	line:324
-OSC_INTRC::2	C:\Program Files\PICC\Devices\18F4520.h	345;"	d	line:345
-OSC_INTRC::2	E:\Projects\MWT-3\SPM-3Code\18F4520.h	321;"	d	line:321
-OSC_NORMAL::0	C:\Program Files\PICC\Devices\18F4520.h	346;"	d	line:346
-OSC_NORMAL::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	322;"	d	line:322
-OSC_PLL_OFF::0	C:\Program Files\PICC\Devices\18F4520.h	351;"	d	line:351
-OSC_PLL_OFF::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	327;"	d	line:327
-OSC_PLL_ON::0x4000	C:\Program Files\PICC\Devices\18F4520.h	350;"	d	line:350
-OSC_PLL_ON::0x4000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	326;"	d	line:326
-OSC_STATE_EXT_RUNNING::8	C:\Program Files\PICC\Devices\18F4520.h	356;"	d	line:356
-OSC_STATE_EXT_RUNNING::8	E:\Projects\MWT-3\SPM-3Code\18F4520.h	332;"	d	line:332
-OSC_STATE_STABLE::4	C:\Program Files\PICC\Devices\18F4520.h	355;"	d	line:355
-OSC_STATE_STABLE::4	E:\Projects\MWT-3\SPM-3Code\18F4520.h	331;"	d	line:331
-OSC_TIMER1::1	C:\Program Files\PICC\Devices\18F4520.h	344;"	d	line:344
-OSC_TIMER1::1	E:\Projects\MWT-3\SPM-3Code\18F4520.h	320;"	d	line:320
-OneCycle	E:\Projects\MWT-3\SPM-3Code\spm3.c	59;"	v	line:59	file:
-OutBufAddr	E:\Projects\MWT-3\SPM-3Code\spm3.c	314;"	l	line:314
-PCOUNT	E:\Projects\MWT-3\SPM-3Code\spm3.c	58;"	v	line:58	file:
-PERIPH::0xF240	C:\Program Files\PICC\Devices\18F4520.h	435;"	d	line:435
-PIN_A0::31744	C:\Program Files\PICC\Devices\18F4520.h	25;"	d	line:25
-PIN_A0::31744	E:\Projects\MWT-3\SPM-3Code\18F4520.h	25;"	d	line:25
-PIN_A1::31745	C:\Program Files\PICC\Devices\18F4520.h	26;"	d	line:26
-PIN_A1::31745	E:\Projects\MWT-3\SPM-3Code\18F4520.h	26;"	d	line:26
-PIN_A2::31746	C:\Program Files\PICC\Devices\18F4520.h	27;"	d	line:27
-PIN_A2::31746	E:\Projects\MWT-3\SPM-3Code\18F4520.h	27;"	d	line:27
-PIN_A3::31747	C:\Program Files\PICC\Devices\18F4520.h	28;"	d	line:28
-PIN_A3::31747	E:\Projects\MWT-3\SPM-3Code\18F4520.h	28;"	d	line:28
-PIN_A4::31748	C:\Program Files\PICC\Devices\18F4520.h	29;"	d	line:29
-PIN_A4::31748	E:\Projects\MWT-3\SPM-3Code\18F4520.h	29;"	d	line:29
-PIN_A5::31749	C:\Program Files\PICC\Devices\18F4520.h	30;"	d	line:30
-PIN_A5::31749	E:\Projects\MWT-3\SPM-3Code\18F4520.h	30;"	d	line:30
-PIN_A6::31750	C:\Program Files\PICC\Devices\18F4520.h	31;"	d	line:31
-PIN_A6::31750	E:\Projects\MWT-3\SPM-3Code\18F4520.h	31;"	d	line:31
-PIN_A7::31751	C:\Program Files\PICC\Devices\18F4520.h	32;"	d	line:32
-PIN_A7::31751	E:\Projects\MWT-3\SPM-3Code\18F4520.h	32;"	d	line:32
-PIN_B0::31752	C:\Program Files\PICC\Devices\18F4520.h	34;"	d	line:34
-PIN_B0::31752	E:\Projects\MWT-3\SPM-3Code\18F4520.h	34;"	d	line:34
-PIN_B1::31753	C:\Program Files\PICC\Devices\18F4520.h	35;"	d	line:35
-PIN_B1::31753	E:\Projects\MWT-3\SPM-3Code\18F4520.h	35;"	d	line:35
-PIN_B2::31754	C:\Program Files\PICC\Devices\18F4520.h	36;"	d	line:36
-PIN_B2::31754	E:\Projects\MWT-3\SPM-3Code\18F4520.h	36;"	d	line:36
-PIN_B3::31755	C:\Program Files\PICC\Devices\18F4520.h	37;"	d	line:37
-PIN_B3::31755	E:\Projects\MWT-3\SPM-3Code\18F4520.h	37;"	d	line:37
-PIN_B4::31756	C:\Program Files\PICC\Devices\18F4520.h	38;"	d	line:38
-PIN_B4::31756	E:\Projects\MWT-3\SPM-3Code\18F4520.h	38;"	d	line:38
-PIN_B5::31757	C:\Program Files\PICC\Devices\18F4520.h	39;"	d	line:39
-PIN_B5::31757	E:\Projects\MWT-3\SPM-3Code\18F4520.h	39;"	d	line:39
-PIN_B6::31758	C:\Program Files\PICC\Devices\18F4520.h	40;"	d	line:40
-PIN_B6::31758	E:\Projects\MWT-3\SPM-3Code\18F4520.h	40;"	d	line:40
-PIN_B7::31759	C:\Program Files\PICC\Devices\18F4520.h	41;"	d	line:41
-PIN_B7::31759	E:\Projects\MWT-3\SPM-3Code\18F4520.h	41;"	d	line:41
-PIN_C0::31760	C:\Program Files\PICC\Devices\18F4520.h	43;"	d	line:43
-PIN_C0::31760	E:\Projects\MWT-3\SPM-3Code\18F4520.h	43;"	d	line:43
-PIN_C1::31761	C:\Program Files\PICC\Devices\18F4520.h	44;"	d	line:44
-PIN_C1::31761	E:\Projects\MWT-3\SPM-3Code\18F4520.h	44;"	d	line:44
-PIN_C2::31762	C:\Program Files\PICC\Devices\18F4520.h	45;"	d	line:45
-PIN_C2::31762	E:\Projects\MWT-3\SPM-3Code\18F4520.h	45;"	d	line:45
-PIN_C3::31763	C:\Program Files\PICC\Devices\18F4520.h	46;"	d	line:46
-PIN_C3::31763	E:\Projects\MWT-3\SPM-3Code\18F4520.h	46;"	d	line:46
-PIN_C4::31764	C:\Program Files\PICC\Devices\18F4520.h	47;"	d	line:47
-PIN_C4::31764	E:\Projects\MWT-3\SPM-3Code\18F4520.h	47;"	d	line:47
-PIN_C5::31765	C:\Program Files\PICC\Devices\18F4520.h	48;"	d	line:48
-PIN_C5::31765	E:\Projects\MWT-3\SPM-3Code\18F4520.h	48;"	d	line:48
-PIN_C6::31766	C:\Program Files\PICC\Devices\18F4520.h	49;"	d	line:49
-PIN_C6::31766	E:\Projects\MWT-3\SPM-3Code\18F4520.h	49;"	d	line:49
-PIN_C7::31767	C:\Program Files\PICC\Devices\18F4520.h	50;"	d	line:50
-PIN_C7::31767	E:\Projects\MWT-3\SPM-3Code\18F4520.h	50;"	d	line:50
-PIN_D0::31768	C:\Program Files\PICC\Devices\18F4520.h	52;"	d	line:52
-PIN_D0::31768	E:\Projects\MWT-3\SPM-3Code\18F4520.h	52;"	d	line:52
-PIN_D1::31769	C:\Program Files\PICC\Devices\18F4520.h	53;"	d	line:53
-PIN_D1::31769	E:\Projects\MWT-3\SPM-3Code\18F4520.h	53;"	d	line:53
-PIN_D2::31770	C:\Program Files\PICC\Devices\18F4520.h	54;"	d	line:54
-PIN_D2::31770	E:\Projects\MWT-3\SPM-3Code\18F4520.h	54;"	d	line:54
-PIN_D3::31771	C:\Program Files\PICC\Devices\18F4520.h	55;"	d	line:55
-PIN_D3::31771	E:\Projects\MWT-3\SPM-3Code\18F4520.h	55;"	d	line:55
-PIN_D4::31772	C:\Program Files\PICC\Devices\18F4520.h	56;"	d	line:56
-PIN_D4::31772	E:\Projects\MWT-3\SPM-3Code\18F4520.h	56;"	d	line:56
-PIN_D5::31773	C:\Program Files\PICC\Devices\18F4520.h	57;"	d	line:57
-PIN_D5::31773	E:\Projects\MWT-3\SPM-3Code\18F4520.h	57;"	d	line:57
-PIN_D6::31774	C:\Program Files\PICC\Devices\18F4520.h	58;"	d	line:58
-PIN_D6::31774	E:\Projects\MWT-3\SPM-3Code\18F4520.h	58;"	d	line:58
-PIN_D7::31775	C:\Program Files\PICC\Devices\18F4520.h	59;"	d	line:59
-PIN_D7::31775	E:\Projects\MWT-3\SPM-3Code\18F4520.h	59;"	d	line:59
-PIN_E0::31776	C:\Program Files\PICC\Devices\18F4520.h	61;"	d	line:61
-PIN_E0::31776	E:\Projects\MWT-3\SPM-3Code\18F4520.h	61;"	d	line:61
-PIN_E1::31777	C:\Program Files\PICC\Devices\18F4520.h	62;"	d	line:62
-PIN_E1::31777	E:\Projects\MWT-3\SPM-3Code\18F4520.h	62;"	d	line:62
-PIN_E2::31778	C:\Program Files\PICC\Devices\18F4520.h	63;"	d	line:63
-PIN_E2::31778	E:\Projects\MWT-3\SPM-3Code\18F4520.h	63;"	d	line:63
-PIN_E3::31779	C:\Program Files\PICC\Devices\18F4520.h	64;"	d	line:64
-PIN_E3::31779	E:\Projects\MWT-3\SPM-3Code\18F4520.h	64;"	d	line:64
-PSP_DISABLED::0	C:\Program Files\PICC\Devices\18F4520.h	250;"	d	line:250
-PSP_DISABLED::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	226;"	d	line:226
-PSP_ENABLED::0x10	C:\Program Files\PICC\Devices\18F4520.h	249;"	d	line:249
-PSP_ENABLED::0x10	E:\Projects\MWT-3\SPM-3Code\18F4520.h	225;"	d	line:225
-PulseWdt0	E:\Projects\MWT-3\SPM-3Code\spm3.c	29;"	v	line:29	file:
-RESET_INSTRUCTION::0	C:\Program Files\PICC\Devices\18F4520.h	91;"	d	line:91
-RESET_INSTRUCTION::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	91;"	d	line:91
-RTCC_8_BIT::0x40	C:\Program Files\PICC\Devices\18F4520.h	135;"	d	line:135
-RTCC_8_BIT::0x40	E:\Projects\MWT-3\SPM-3Code\18F4520.h	114;"	d	line:114
-RTCC_DIV_128::6	C:\Program Files\PICC\Devices\18F4520.h	132;"	d	line:132
-RTCC_DIV_128::6	E:\Projects\MWT-3\SPM-3Code\18F4520.h	109;"	d	line:109
-RTCC_DIV_16::3	C:\Program Files\PICC\Devices\18F4520.h	129;"	d	line:129
-RTCC_DIV_16::3	E:\Projects\MWT-3\SPM-3Code\18F4520.h	106;"	d	line:106
-RTCC_DIV_1::8	C:\Program Files\PICC\Devices\18F4520.h	125;"	d	line:125
-RTCC_DIV_1::8	E:\Projects\MWT-3\SPM-3Code\18F4520.h	102;"	d	line:102
-RTCC_DIV_256::7	C:\Program Files\PICC\Devices\18F4520.h	133;"	d	line:133
-RTCC_DIV_256::7	E:\Projects\MWT-3\SPM-3Code\18F4520.h	110;"	d	line:110
-RTCC_DIV_2::0	C:\Program Files\PICC\Devices\18F4520.h	126;"	d	line:126
-RTCC_DIV_2::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	103;"	d	line:103
-RTCC_DIV_32::4	C:\Program Files\PICC\Devices\18F4520.h	130;"	d	line:130
-RTCC_DIV_32::4	E:\Projects\MWT-3\SPM-3Code\18F4520.h	107;"	d	line:107
-RTCC_DIV_4::1	C:\Program Files\PICC\Devices\18F4520.h	127;"	d	line:127
-RTCC_DIV_4::1	E:\Projects\MWT-3\SPM-3Code\18F4520.h	104;"	d	line:104
-RTCC_DIV_64::5	C:\Program Files\PICC\Devices\18F4520.h	131;"	d	line:131
-RTCC_DIV_64::5	E:\Projects\MWT-3\SPM-3Code\18F4520.h	108;"	d	line:108
-RTCC_DIV_8::2	C:\Program Files\PICC\Devices\18F4520.h	128;"	d	line:128
-RTCC_DIV_8::2	E:\Projects\MWT-3\SPM-3Code\18F4520.h	105;"	d	line:105
-RTCC_EXT_H_TO_L::48	C:\Program Files\PICC\Devices\18F4520.h	124;"	d	line:124
-RTCC_EXT_H_TO_L::48	E:\Projects\MWT-3\SPM-3Code\18F4520.h	100;"	d	line:100
-RTCC_EXT_L_TO_H::32	C:\Program Files\PICC\Devices\18F4520.h	123;"	d	line:123
-RTCC_EXT_L_TO_H::32	E:\Projects\MWT-3\SPM-3Code\18F4520.h	99;"	d	line:99
-RTCC_INTERNAL::0	C:\Program Files\PICC\Devices\18F4520.h	122;"	d	line:122
-RTCC_INTERNAL::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	98;"	d	line:98
-RTCC_OFF::0x80	C:\Program Files\PICC\Devices\18F4520.h	134;"	d	line:134
-RTCC_OFF::0x80	E:\Projects\MWT-3\SPM-3Code\18F4520.h	112;"	d	line:112
-RX::PIN_C7	E:\Projects\MWT-3\SPM-3Code\spm3.h	45;"	d	line:45
-Reaction	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	508;"	f	line:508	signature:(void)
-RsInit	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	67;"	f	line:67	signature:(void)
-S0::PIN_A0	E:\Projects\MWT-3\SPM-3Code\spm3.h	30;"	d	line:30
-S1::PIN_A1	E:\Projects\MWT-3\SPM-3Code\spm3.h	31;"	d	line:31
-SAW_A0	E:\Projects\MWT-3\SPM-3Code\spm3.c	63;"	v	line:63	file:
-SAW_A1	E:\Projects\MWT-3\SPM-3Code\spm3.c	65;"	v	line:65	file:
-SCK::PIN_C3	E:\Projects\MWT-3\SPM-3Code\spm3.h	41;"	d	line:41
-SDI::PIN_C4	E:\Projects\MWT-3\SPM-3Code\spm3.h	42;"	d	line:42
-SDO::PIN_C5	E:\Projects\MWT-3\SPM-3Code\spm3.h	43;"	d	line:43
-SLEEP_FULL::0	C:\Program Files\PICC\Devices\18F4520.h	95;"	d	line:95
-SLEEP_IDLE::1	C:\Program Files\PICC\Devices\18F4520.h	96;"	d	line:96
-SPI_CLK_DIV_16::1	C:\Program Files\PICC\Devices\18F4520.h	262;"	d	line:262
-SPI_CLK_DIV_16::1	E:\Projects\MWT-3\SPM-3Code\18F4520.h	238;"	d	line:238
-SPI_CLK_DIV_4::0	C:\Program Files\PICC\Devices\18F4520.h	261;"	d	line:261
-SPI_CLK_DIV_4::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	237;"	d	line:237
-SPI_CLK_DIV_64::2	C:\Program Files\PICC\Devices\18F4520.h	263;"	d	line:263
-SPI_CLK_DIV_64::2	E:\Projects\MWT-3\SPM-3Code\18F4520.h	239;"	d	line:239
-SPI_CLK_T2::3	C:\Program Files\PICC\Devices\18F4520.h	264;"	d	line:264
-SPI_CLK_T2::3	E:\Projects\MWT-3\SPM-3Code\18F4520.h	240;"	d	line:240
-SPI_H_TO_L::0x10	C:\Program Files\PICC\Devices\18F4520.h	260;"	d	line:260
-SPI_H_TO_L::0x10	E:\Projects\MWT-3\SPM-3Code\18F4520.h	236;"	d	line:236
-SPI_L_TO_H::0	C:\Program Files\PICC\Devices\18F4520.h	259;"	d	line:259
-SPI_L_TO_H::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	235;"	d	line:235
-SPI_MASTER::0x20	C:\Program Files\PICC\Devices\18F4520.h	257;"	d	line:257
-SPI_MASTER::0x20	E:\Projects\MWT-3\SPM-3Code\18F4520.h	233;"	d	line:233
-SPI_SAMPLE_AT_END::0x8000	C:\Program Files\PICC\Devices\18F4520.h	267;"	d	line:267
-SPI_SAMPLE_AT_END::0x8000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	243;"	d	line:243
-SPI_SLAVE::0x24	C:\Program Files\PICC\Devices\18F4520.h	258;"	d	line:258
-SPI_SLAVE::0x24	E:\Projects\MWT-3\SPM-3Code\18F4520.h	234;"	d	line:234
-SPI_SS_DISABLED::1	C:\Program Files\PICC\Devices\18F4520.h	265;"	d	line:265
-SPI_SS_DISABLED::1	E:\Projects\MWT-3\SPM-3Code\18F4520.h	241;"	d	line:241
-SPI_XMIT_L_TO_H::0x4000	C:\Program Files\PICC\Devices\18F4520.h	268;"	d	line:268
-SPI_XMIT_L_TO_H::0x4000	E:\Projects\MWT-3\SPM-3Code\18F4520.h	244;"	d	line:244
-STAT::PIN_C0	E:\Projects\MWT-3\SPM-3Code\spm3.h	38;"	d	line:38
-SYNC_POS::PIN_E0	E:\Projects\MWT-3\SPM-3Code\spm3.h	50;"	d	line:50
-SawLevel	E:\Projects\MWT-3\SPM-3Code\spm3.c	64;"	v	line:64	file:
-SawStep	E:\Projects\MWT-3\SPM-3Code\spm3.c	66;"	v	line:66	file:
-SetKU0	E:\Projects\MWT-3\SPM-3Code\spm3.c	275;"	f	line:275	signature:(int16 coeff)
-SetKU1	E:\Projects\MWT-3\SPM-3Code\spm3.c	286;"	f	line:286	signature:(int16 coeff)
-SetRegData	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	376;"	f	line:376	signature:(int8 reg)
-SetSawDac	E:\Projects\MWT-3\SPM-3Code\spm3.c	258;"	f	line:258	signature:(int32 level)
-Speed	E:\Projects\MWT-3\SPM-3Code\spm3.c	71;"	v	line:71	file:
-StAddr	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	509;"	l	line:509
-StorAddr	E:\Projects\MWT-3\SPM-3Code\spm3.c	313;"	l	line:313
-Sum	E:\Projects\MWT-3\SPM-3Code\spm3.c	315;"	l	line:315
-T0::PIN_A2	E:\Projects\MWT-3\SPM-3Code\spm3.h	32;"	d	line:32
-T0_8_BIT::0x40	C:\Program Files\PICC\Devices\18F4520.h	120;"	d	line:120
-T0_CAL	E:\Projects\MWT-3\SPM-3Code\spm3.c	34;"	v	line:34	file:
-T0_DIV_128::6	C:\Program Files\PICC\Devices\18F4520.h	115;"	d	line:115
-T0_DIV_16::3	C:\Program Files\PICC\Devices\18F4520.h	112;"	d	line:112
-T0_DIV_1::8	C:\Program Files\PICC\Devices\18F4520.h	108;"	d	line:108
-T0_DIV_256::7	C:\Program Files\PICC\Devices\18F4520.h	116;"	d	line:116
-T0_DIV_2::0	C:\Program Files\PICC\Devices\18F4520.h	109;"	d	line:109
-T0_DIV_32::4	C:\Program Files\PICC\Devices\18F4520.h	113;"	d	line:113
-T0_DIV_4::1	C:\Program Files\PICC\Devices\18F4520.h	110;"	d	line:110
-T0_DIV_64::5	C:\Program Files\PICC\Devices\18F4520.h	114;"	d	line:114
-T0_DIV_8::2	C:\Program Files\PICC\Devices\18F4520.h	111;"	d	line:111
-T0_EXT_H_TO_L::48	C:\Program Files\PICC\Devices\18F4520.h	106;"	d	line:106
-T0_EXT_L_TO_H::32	C:\Program Files\PICC\Devices\18F4520.h	105;"	d	line:105
-T0_INTERNAL::0	C:\Program Files\PICC\Devices\18F4520.h	104;"	d	line:104
-T0_OFF::0x80	C:\Program Files\PICC\Devices\18F4520.h	118;"	d	line:118
-T1::PIN_A4	E:\Projects\MWT-3\SPM-3Code\spm3.h	34;"	d	line:34
-T1_CAL	E:\Projects\MWT-3\SPM-3Code\spm3.c	53;"	v	line:53	file:
-T1_CLK_OUT::8	C:\Program Files\PICC\Devices\18F4520.h	158;"	d	line:158
-T1_CLK_OUT::8	E:\Projects\MWT-3\SPM-3Code\18F4520.h	136;"	d	line:136
-T1_DISABLED::0	C:\Program Files\PICC\Devices\18F4520.h	153;"	d	line:153
-T1_DISABLED::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	131;"	d	line:131
-T1_DIV_BY_1::0	C:\Program Files\PICC\Devices\18F4520.h	160;"	d	line:160
-T1_DIV_BY_1::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	138;"	d	line:138
-T1_DIV_BY_2::0x10	C:\Program Files\PICC\Devices\18F4520.h	161;"	d	line:161
-T1_DIV_BY_2::0x10	E:\Projects\MWT-3\SPM-3Code\18F4520.h	139;"	d	line:139
-T1_DIV_BY_4::0x20	C:\Program Files\PICC\Devices\18F4520.h	162;"	d	line:162
-T1_DIV_BY_4::0x20	E:\Projects\MWT-3\SPM-3Code\18F4520.h	140;"	d	line:140
-T1_DIV_BY_8::0x30	C:\Program Files\PICC\Devices\18F4520.h	163;"	d	line:163
-T1_DIV_BY_8::0x30	E:\Projects\MWT-3\SPM-3Code\18F4520.h	141;"	d	line:141
-T1_EXTERNAL::0x87	C:\Program Files\PICC\Devices\18F4520.h	155;"	d	line:155
-T1_EXTERNAL::0x87	E:\Projects\MWT-3\SPM-3Code\18F4520.h	133;"	d	line:133
-T1_EXTERNAL_SYNC::0x83	C:\Program Files\PICC\Devices\18F4520.h	156;"	d	line:156
-T1_EXTERNAL_SYNC::0x83	E:\Projects\MWT-3\SPM-3Code\18F4520.h	134;"	d	line:134
-T1_INTERNAL::0x85	C:\Program Files\PICC\Devices\18F4520.h	154;"	d	line:154
-T1_INTERNAL::0x85	E:\Projects\MWT-3\SPM-3Code\18F4520.h	132;"	d	line:132
-T2::PIN_A5	E:\Projects\MWT-3\SPM-3Code\spm3.h	35;"	d	line:35
-T2_DISABLED::0	C:\Program Files\PICC\Devices\18F4520.h	168;"	d	line:168
-T2_DISABLED::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	146;"	d	line:146
-T2_DIV_BY_16::6	C:\Program Files\PICC\Devices\18F4520.h	171;"	d	line:171
-T2_DIV_BY_16::6	E:\Projects\MWT-3\SPM-3Code\18F4520.h	149;"	d	line:149
-T2_DIV_BY_1::4	C:\Program Files\PICC\Devices\18F4520.h	169;"	d	line:169
-T2_DIV_BY_1::4	E:\Projects\MWT-3\SPM-3Code\18F4520.h	147;"	d	line:147
-T2_DIV_BY_4::5	C:\Program Files\PICC\Devices\18F4520.h	170;"	d	line:170
-T2_DIV_BY_4::5	E:\Projects\MWT-3\SPM-3Code\18F4520.h	148;"	d	line:148
-T3_CCP1_TO_2::0x48	C:\Program Files\PICC\Devices\18F4520.h	188;"	d	line:188
-T3_CCP2::0x8	C:\Program Files\PICC\Devices\18F4520.h	189;"	d	line:189
-T3_DISABLED::0	C:\Program Files\PICC\Devices\18F4520.h	177;"	d	line:177
-T3_DISABLED::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	155;"	d	line:155
-T3_DIV_BY_1::0	C:\Program Files\PICC\Devices\18F4520.h	182;"	d	line:182
-T3_DIV_BY_1::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	160;"	d	line:160
-T3_DIV_BY_2::0x10	C:\Program Files\PICC\Devices\18F4520.h	183;"	d	line:183
-T3_DIV_BY_2::0x10	E:\Projects\MWT-3\SPM-3Code\18F4520.h	161;"	d	line:161
-T3_DIV_BY_4::0x20	C:\Program Files\PICC\Devices\18F4520.h	184;"	d	line:184
-T3_DIV_BY_4::0x20	E:\Projects\MWT-3\SPM-3Code\18F4520.h	162;"	d	line:162
-T3_DIV_BY_8::0x30	C:\Program Files\PICC\Devices\18F4520.h	185;"	d	line:185
-T3_DIV_BY_8::0x30	E:\Projects\MWT-3\SPM-3Code\18F4520.h	163;"	d	line:163
-T3_EXTERNAL::0x87	C:\Program Files\PICC\Devices\18F4520.h	179;"	d	line:179
-T3_EXTERNAL::0x87	E:\Projects\MWT-3\SPM-3Code\18F4520.h	157;"	d	line:157
-T3_EXTERNAL_SYNC::0x83	C:\Program Files\PICC\Devices\18F4520.h	180;"	d	line:180
-T3_EXTERNAL_SYNC::0x83	E:\Projects\MWT-3\SPM-3Code\18F4520.h	158;"	d	line:158
-T3_INTERNAL::0x85	C:\Program Files\PICC\Devices\18F4520.h	178;"	d	line:178
-T3_INTERNAL::0x85	E:\Projects\MWT-3\SPM-3Code\18F4520.h	156;"	d	line:156
-TAQ	E:\Projects\MWT-3\SPM-3Code\spm3.c	56;"	v	line:56	file:
-TERMO::PIN_E1	E:\Projects\MWT-3\SPM-3Code\spm3.h	51;"	d	line:51
-TG_CAL	E:\Projects\MWT-3\SPM-3Code\spm3.c	69;"	v	line:69	file:
-TRUE::1	C:\Program Files\PICC\Devices\18F4520.h	68;"	d	line:68
-TRUE::1	E:\Projects\MWT-3\SPM-3Code\18F4520.h	68;"	d	line:68
-TX::PIN_C6	E:\Projects\MWT-3\SPM-3Code\spm3.h	44;"	d	line:44
-T_0	E:\Projects\MWT-3\SPM-3Code\spm3.c	96;"	v	line:96
-T_G	E:\Projects\MWT-3\SPM-3Code\spm3.c	96;"	v	line:96
-T_GEN	E:\Projects\MWT-3\SPM-3Code\spm3.c	62;"	v	line:62	file:
-T_G_k	E:\Projects\MWT-3\SPM-3Code\spm3.c	96;"	v	line:96
-T_S0	E:\Projects\MWT-3\SPM-3Code\spm3.c	103;"	v	line:103
-T_S0_k	E:\Projects\MWT-3\SPM-3Code\spm3.c	103;"	v	line:103
-T_SR0	E:\Projects\MWT-3\SPM-3Code\spm3.c	35;"	v	line:35	file:
-T_SR1	E:\Projects\MWT-3\SPM-3Code\spm3.c	54;"	v	line:54	file:
-Termometer	E:\Projects\MWT-3\SPM-3Code\spm3.c	238;"	f	line:238	signature:(void)
-UART_ADDRESS::2	C:\Program Files\PICC\Devices\18F4520.h	274;"	d	line:274
-UART_ADDRESS::2	E:\Projects\MWT-3\SPM-3Code\18F4520.h	250;"	d	line:250
-UART_AUTODETECT::8	C:\Program Files\PICC\Devices\18F4520.h	276;"	d	line:276
-UART_AUTODETECT::8	E:\Projects\MWT-3\SPM-3Code\18F4520.h	252;"	d	line:252
-UART_AUTODETECT_NOWAIT::9	C:\Program Files\PICC\Devices\18F4520.h	277;"	d	line:277
-UART_AUTODETECT_NOWAIT::9	E:\Projects\MWT-3\SPM-3Code\18F4520.h	253;"	d	line:253
-UART_DATA::4	C:\Program Files\PICC\Devices\18F4520.h	275;"	d	line:275
-UART_DATA::4	E:\Projects\MWT-3\SPM-3Code\18F4520.h	251;"	d	line:251
-UART_SEND_BREAK::13	C:\Program Files\PICC\Devices\18F4520.h	279;"	d	line:279
-UART_SEND_BREAK::13	E:\Projects\MWT-3\SPM-3Code\18F4520.h	255;"	d	line:255
-UART_WAKEUP_ON_RDA::10	C:\Program Files\PICC\Devices\18F4520.h	278;"	d	line:278
-UART_WAKEUP_ON_RDA::10	E:\Projects\MWT-3\SPM-3Code\18F4520.h	254;"	d	line:254
-Uref::PIN_A3	E:\Projects\MWT-3\SPM-3Code\spm3.h	33;"	d	line:33
-VREF_COMP::0x10	C:\Program Files\PICC\Devices\18F4520.h	304;"	d	line:304
-VREF_COMP::0x10	E:\Projects\MWT-3\SPM-3Code\18F4520.h	280;"	d	line:280
-VREF_F5::0x40	C:\Program Files\PICC\Devices\18F4520.h	303;"	d	line:303
-VREF_F5::0x40	E:\Projects\MWT-3\SPM-3Code\18F4520.h	279;"	d	line:279
-VREF_HIGH::0x80	C:\Program Files\PICC\Devices\18F4520.h	301;"	d	line:301
-VREF_HIGH::0x80	E:\Projects\MWT-3\SPM-3Code\18F4520.h	277;"	d	line:277
-VREF_LOW::0xa0	C:\Program Files\PICC\Devices\18F4520.h	300;"	d	line:300
-VREF_LOW::0xa0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	276;"	d	line:276
-VREF_VDD::0x20	C:\Program Files\PICC\Devices\18F4520.h	412;"	d	line:412
-VREF_VDD::0x20	E:\Projects\MWT-3\SPM-3Code\18F4520.h	388;"	d	line:388
-VREF_VREF::0x30	C:\Program Files\PICC\Devices\18F4520.h	411;"	d	line:411
-VREF_VREF::0x30	E:\Projects\MWT-3\SPM-3Code\18F4520.h	387;"	d	line:387
-VSS_VDD::0x00	C:\Program Files\PICC\Devices\18F4520.h	410;"	d	line:410
-VSS_VDD::0x00	E:\Projects\MWT-3\SPM-3Code\18F4520.h	386;"	d	line:386
-VSS_VREF::0x10	C:\Program Files\PICC\Devices\18F4520.h	413;"	d	line:413
-VSS_VREF::0x10	E:\Projects\MWT-3\SPM-3Code\18F4520.h	389;"	d	line:389
-Va	E:\Projects\MWT-3\SPM-3Code\spm3.c	94;"	v	line:94
-ValidReq	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	14;"	v	line:14
-W	E:\Projects\MWT-3\SPM-3Code\spm3.c	99;"	v	line:99
-WDT_FROM_SLEEP::3	C:\Program Files\PICC\Devices\18F4520.h	90;"	d	line:90
-WDT_FROM_SLEEP::3	E:\Projects\MWT-3\SPM-3Code\18F4520.h	90;"	d	line:90
-WDT_OFF::0	C:\Program Files\PICC\Devices\18F4520.h	147;"	d	line:147
-WDT_OFF::0	E:\Projects\MWT-3\SPM-3Code\18F4520.h	125;"	d	line:125
-WDT_ON::0x100	C:\Program Files\PICC\Devices\18F4520.h	146;"	d	line:146
-WDT_ON::0x100	E:\Projects\MWT-3\SPM-3Code\18F4520.h	124;"	d	line:124
-WDT_TIMEOUT::7	C:\Program Files\PICC\Devices\18F4520.h	85;"	d	line:85
-WDT_TIMEOUT::7	E:\Projects\MWT-3\SPM-3Code\18F4520.h	85;"	d	line:85
-Wrk0	E:\Projects\MWT-3\SPM-3Code\spm3.c	311;"	l	line:311
-a0	E:\Projects\MWT-3\SPM-3Code\spm3.c	101;"	v	line:101
-a1	E:\Projects\MWT-3\SPM-3Code\spm3.c	101;"	v	line:101
-a2	E:\Projects\MWT-3\SPM-3Code\spm3.c	101;"	v	line:101
-a3	E:\Projects\MWT-3\SPM-3Code\spm3.c	101;"	v	line:101
-a4	E:\Projects\MWT-3\SPM-3Code\spm3.c	101;"	v	line:101
-a5	E:\Projects\MWT-3\SPM-3Code\spm3.c	101;"	v	line:101
-acknowledge	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	9;"	e	line:9	enum:modbus_exceptions
-alp_buf0	E:\Projects\MWT-3\SPM-3Code\spm3.c	22;"	v	line:22	file:
-bet_buf0	E:\Projects\MWT-3\SPM-3Code\spm3.c	24;"	v	line:24	file:
-bet_cur	E:\Projects\MWT-3\SPM-3Code\spm3.c	318;"	l	line:318
-bytecount	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	374;"	v	line:374
-bytecount	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	510;"	l	line:510
-changed	E:\Projects\MWT-3\SPM-3Code\spm3.c	321;"	l	line:321
-cnt	E:\Projects\MWT-3\SPM-3Code\spm3.c	308;"	l	line:308
-course	E:\Projects\MWT-3\SPM-3Code\spm3.c	259;"	l	line:259
-course	E:\Projects\MWT-3\SPM-3Code\spm3.c	309;"	l	line:309
-dacval	E:\Projects\MWT-3\SPM-3Code\spm3.c	276;"	l	line:276
-dacval	E:\Projects\MWT-3\SPM-3Code\spm3.c	287;"	l	line:287
-daq_states	E:\Projects\MWT-3\SPM-3Code\spm3.c	83;"	g	line:83	file:
-data_filt0	E:\Projects\MWT-3\SPM-3Code\spm3.c	15;"	v	line:15	file:
-data_mean0	E:\Projects\MWT-3\SPM-3Code\spm3.c	16;"	v	line:16	file:
-delta_gamma	E:\Projects\MWT-3\SPM-3Code\spm3.c	95;"	v	line:95
-delta_gamma2	E:\Projects\MWT-3\SPM-3Code\spm3.c	95;"	v	line:95
-difftime0	E:\Projects\MWT-3\SPM-3Code\spm3.c	108;"	l	line:108
-f2int32	E:\Projects\MWT-3\SPM-3Code\spm3.c	9;"	v	line:9
-fgetc::getch	C:\Program Files\PICC\Devices\18F4520.h	74;"	d	line:74
-fgetc::getch	E:\Projects\MWT-3\SPM-3Code\18F4520.h	74;"	d	line:74
-fgets::gets	C:\Program Files\PICC\Devices\18F4520.h	78;"	d	line:78
-fgets::gets	E:\Projects\MWT-3\SPM-3Code\18F4520.h	78;"	d	line:78
-flcopy	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	127;"	l	line:127
-flcopy	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	377;"	l	line:377
-fputc::putchar	C:\Program Files\PICC\Devices\18F4520.h	77;"	d	line:77
-fputc::putchar	E:\Projects\MWT-3\SPM-3Code\18F4520.h	77;"	d	line:77
-fputs::puts	C:\Program Files\PICC\Devices\18F4520.h	79;"	d	line:79
-fputs::puts	E:\Projects\MWT-3\SPM-3Code\18F4520.h	79;"	d	line:79
-gam_buf0	E:\Projects\MWT-3\SPM-3Code\spm3.c	26;"	v	line:26	file:
-getc::getch	C:\Program Files\PICC\Devices\18F4520.h	73;"	d	line:73
-getc::getch	E:\Projects\MWT-3\SPM-3Code\18F4520.h	73;"	d	line:73
-getchar::getch	C:\Program Files\PICC\Devices\18F4520.h	75;"	d	line:75
-getchar::getch	E:\Projects\MWT-3\SPM-3Code\18F4520.h	75;"	d	line:75
-i	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	109;"	l	line:109
-iGam	E:\Projects\MWT-3\SPM-3Code\spm3.c	60;"	v	line:60	file:
-iGamma0	E:\Projects\MWT-3\SPM-3Code\spm3.c	30;"	v	line:30	file:
-iMaxFall0	E:\Projects\MWT-3\SPM-3Code\spm3.c	21;"	v	line:21	file:
-iMaxRise0	E:\Projects\MWT-3\SPM-3Code\spm3.c	19;"	v	line:19	file:
-iWin	E:\Projects\MWT-3\SPM-3Code\spm3.c	74;"	v	line:74	file:
-illegal_data_address	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	6;"	e	line:6	enum:modbus_exceptions
-illegal_data_value	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	7;"	e	line:7	enum:modbus_exceptions
-illegal_function	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	5;"	e	line:5	enum:modbus_exceptions
-index	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	109;"	l	line:109
-j	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	122;"	v	line:122
-k	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	511;"	l	line:511
-k1	E:\Projects\MWT-3\SPM-3Code\spm3.c	98;"	v	line:98
-kgv	E:\Projects\MWT-3\SPM-3Code\spm3.c	93;"	v	line:93
-l	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	511;"	l	line:511
-main	E:\Projects\MWT-3\SPM-3Code\spm3.c	304;"	f	line:304	signature:(void)
-maxFall0	E:\Projects\MWT-3\SPM-3Code\spm3.c	20;"	v	line:20	file:
-maxRise0	E:\Projects\MWT-3\SPM-3Code\spm3.c	18;"	v	line:18	file:
-modbus_auchCRCHi	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	20;"	v	line:20
-modbus_auchCRCLo	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	42;"	v	line:42
-modbus_exceptions	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	4;"	g	line:4
-putc::putchar	C:\Program Files\PICC\Devices\18F4520.h	76;"	d	line:76
-putc::putchar	E:\Projects\MWT-3\SPM-3Code\18F4520.h	76;"	d	line:76
-slave_device_busy	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	10;"	e	line:10	enum:modbus_exceptions
-slave_device_failure	E:\Projects\MWT-3\SPM-3Code\modbus_isr.h	8;"	e	line:8	enum:modbus_exceptions
-temp	E:\Projects\MWT-3\SPM-3Code\spm3.c	178;"	l	line:178
-temp	E:\Projects\MWT-3\SPM-3Code\spm3.c	204;"	l	line:204
-temp	E:\Projects\MWT-3\SPM-3Code\spm3.c	239;"	l	line:239
-tsn	E:\Projects\MWT-3\SPM-3Code\spm3.c	98;"	v	line:98
+A0_A3_A1_A2::0xfff02	C:\Program Files (x86)\PICC\Devices\18F4520.h	287;"	d	line:287
+A0_A3_A1_A2::0xfff02	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	263;"	d	line:263
+A0_A3_A1_A2_OUT_ON_A4_A5::0xfcf03	C:\Program Files (x86)\PICC\Devices\18F4520.h	284;"	d	line:284
+A0_A3_A1_A2_OUT_ON_A4_A5::0xfcf03	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	260;"	d	line:260
+A0_A3_A1_A3::0xfff04	C:\Program Files (x86)\PICC\Devices\18F4520.h	283;"	d	line:283
+A0_A3_A1_A3::0xfff04	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	259;"	d	line:259
+A0_A3_A1_A3_OUT_ON_A4_A5::0xbcf05	C:\Program Files (x86)\PICC\Devices\18F4520.h	285;"	d	line:285
+A0_A3_A1_A3_OUT_ON_A4_A5::0xbcf05	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	261;"	d	line:261
+A0_A3_NC_NC_OUT_ON_A4::0x9ef01	C:\Program Files (x86)\PICC\Devices\18F4520.h	288;"	d	line:288
+A0_A3_NC_NC_OUT_ON_A4::0x9ef01	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	264;"	d	line:264
+A0_VR_A1_VR::0x3ff06	C:\Program Files (x86)\PICC\Devices\18F4520.h	289;"	d	line:289
+A0_VR_A1_VR::0x3ff06	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	265;"	d	line:265
+A3_VR_A2_VR::0xcff0e	C:\Program Files (x86)\PICC\Devices\18F4520.h	290;"	d	line:290
+A3_VR_A2_VR::0xcff0e	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	266;"	d	line:266
+AA	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
+ADC0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	299;"	l	line:299
+ADC_CLOCK_DIV_16::0x05	C:\Program Files (x86)\PICC\Devices\18F4520.h	367;"	d	line:367
+ADC_CLOCK_DIV_16::0x05	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	343;"	d	line:343
+ADC_CLOCK_DIV_2::0x100	C:\Program Files (x86)\PICC\Devices\18F4520.h	364;"	d	line:364
+ADC_CLOCK_DIV_2::0x100	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	340;"	d	line:340
+ADC_CLOCK_DIV_32::0x02	C:\Program Files (x86)\PICC\Devices\18F4520.h	368;"	d	line:368
+ADC_CLOCK_DIV_32::0x02	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	344;"	d	line:344
+ADC_CLOCK_DIV_4::0x04	C:\Program Files (x86)\PICC\Devices\18F4520.h	365;"	d	line:365
+ADC_CLOCK_DIV_4::0x04	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	341;"	d	line:341
+ADC_CLOCK_DIV_64::0x06	C:\Program Files (x86)\PICC\Devices\18F4520.h	369;"	d	line:369
+ADC_CLOCK_DIV_64::0x06	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	345;"	d	line:345
+ADC_CLOCK_DIV_8::0x01	C:\Program Files (x86)\PICC\Devices\18F4520.h	366;"	d	line:366
+ADC_CLOCK_DIV_8::0x01	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	342;"	d	line:342
+ADC_CLOCK_INTERNAL::0x07	C:\Program Files (x86)\PICC\Devices\18F4520.h	370;"	d	line:370
+ADC_CLOCK_INTERNAL::0x07	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	346;"	d	line:346
+ADC_OFF::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	363;"	d	line:363
+ADC_OFF::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	339;"	d	line:339
+ADC_READ_ONLY::6	C:\Program Files (x86)\PICC\Devices\18F4520.h	419;"	d	line:419
+ADC_READ_ONLY::6	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	395;"	d	line:395
+ADC_START_AND_READ::7	C:\Program Files (x86)\PICC\Devices\18F4520.h	417;"	d	line:417
+ADC_START_AND_READ::7	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	393;"	d	line:393
+ADC_START_ONLY::1	C:\Program Files (x86)\PICC\Devices\18F4520.h	418;"	d	line:418
+ADC_START_ONLY::1	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	394;"	d	line:394
+ADC_TAD_MUL_0::0x00	C:\Program Files (x86)\PICC\Devices\18F4520.h	372;"	d	line:372
+ADC_TAD_MUL_0::0x00	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	348;"	d	line:348
+ADC_TAD_MUL_12::0x28	C:\Program Files (x86)\PICC\Devices\18F4520.h	377;"	d	line:377
+ADC_TAD_MUL_12::0x28	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	353;"	d	line:353
+ADC_TAD_MUL_16::0x30	C:\Program Files (x86)\PICC\Devices\18F4520.h	378;"	d	line:378
+ADC_TAD_MUL_16::0x30	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	354;"	d	line:354
+ADC_TAD_MUL_20::0x38	C:\Program Files (x86)\PICC\Devices\18F4520.h	379;"	d	line:379
+ADC_TAD_MUL_20::0x38	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	355;"	d	line:355
+ADC_TAD_MUL_2::0x08	C:\Program Files (x86)\PICC\Devices\18F4520.h	373;"	d	line:373
+ADC_TAD_MUL_2::0x08	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	349;"	d	line:349
+ADC_TAD_MUL_4::0x10	C:\Program Files (x86)\PICC\Devices\18F4520.h	374;"	d	line:374
+ADC_TAD_MUL_4::0x10	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	350;"	d	line:350
+ADC_TAD_MUL_6::0x18	C:\Program Files (x86)\PICC\Devices\18F4520.h	375;"	d	line:375
+ADC_TAD_MUL_6::0x18	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	351;"	d	line:351
+ADC_TAD_MUL_8::0x20	C:\Program Files (x86)\PICC\Devices\18F4520.h	376;"	d	line:376
+ADC_TAD_MUL_8::0x20	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	352;"	d	line:352
+ALL_ANALOG::0x00	C:\Program Files (x86)\PICC\Devices\18F4520.h	383;"	d	line:383
+ALL_ANALOG::0x00	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	359;"	d	line:359
+AN0::0x0E	C:\Program Files (x86)\PICC\Devices\18F4520.h	395;"	d	line:395
+AN0::0x0E	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	371;"	d	line:371
+AN0_ANALOG::0x0E	C:\Program Files (x86)\PICC\Devices\18F4520.h	407;"	d	line:407
+AN0_ANALOG::0x0E	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	383;"	d	line:383
+AN0_TO_AN10::0x04	C:\Program Files (x86)\PICC\Devices\18F4520.h	385;"	d	line:385
+AN0_TO_AN10::0x04	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	361;"	d	line:361
+AN0_TO_AN10_ANALOG::0x04	C:\Program Files (x86)\PICC\Devices\18F4520.h	397;"	d	line:397
+AN0_TO_AN10_ANALOG::0x04	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	373;"	d	line:373
+AN0_TO_AN11::0x03	C:\Program Files (x86)\PICC\Devices\18F4520.h	384;"	d	line:384
+AN0_TO_AN11::0x03	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	360;"	d	line:360
+AN0_TO_AN11_ANALOG::0x03	C:\Program Files (x86)\PICC\Devices\18F4520.h	396;"	d	line:396
+AN0_TO_AN11_ANALOG::0x03	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	372;"	d	line:372
+AN0_TO_AN1::0x0D	C:\Program Files (x86)\PICC\Devices\18F4520.h	394;"	d	line:394
+AN0_TO_AN1::0x0D	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	370;"	d	line:370
+AN0_TO_AN1_ANALOG::0x0D	C:\Program Files (x86)\PICC\Devices\18F4520.h	406;"	d	line:406
+AN0_TO_AN1_ANALOG::0x0D	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	382;"	d	line:382
+AN0_TO_AN2::0x0C	C:\Program Files (x86)\PICC\Devices\18F4520.h	393;"	d	line:393
+AN0_TO_AN2::0x0C	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	369;"	d	line:369
+AN0_TO_AN2_ANALOG::0x0C	C:\Program Files (x86)\PICC\Devices\18F4520.h	405;"	d	line:405
+AN0_TO_AN2_ANALOG::0x0C	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	381;"	d	line:381
+AN0_TO_AN3::0x0B	C:\Program Files (x86)\PICC\Devices\18F4520.h	392;"	d	line:392
+AN0_TO_AN3::0x0B	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	368;"	d	line:368
+AN0_TO_AN3_ANALOG::0x0B	C:\Program Files (x86)\PICC\Devices\18F4520.h	404;"	d	line:404
+AN0_TO_AN3_ANALOG::0x0B	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	380;"	d	line:380
+AN0_TO_AN4::0x0A	C:\Program Files (x86)\PICC\Devices\18F4520.h	391;"	d	line:391
+AN0_TO_AN4::0x0A	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	367;"	d	line:367
+AN0_TO_AN4_ANALOG::0x0A	C:\Program Files (x86)\PICC\Devices\18F4520.h	403;"	d	line:403
+AN0_TO_AN4_ANALOG::0x0A	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	379;"	d	line:379
+AN0_TO_AN5::0x09	C:\Program Files (x86)\PICC\Devices\18F4520.h	390;"	d	line:390
+AN0_TO_AN5::0x09	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	366;"	d	line:366
+AN0_TO_AN5_ANALOG::0x09	C:\Program Files (x86)\PICC\Devices\18F4520.h	402;"	d	line:402
+AN0_TO_AN5_ANALOG::0x09	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	378;"	d	line:378
+AN0_TO_AN6::0x08	C:\Program Files (x86)\PICC\Devices\18F4520.h	389;"	d	line:389
+AN0_TO_AN6::0x08	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	365;"	d	line:365
+AN0_TO_AN6_ANALOG::0x08	C:\Program Files (x86)\PICC\Devices\18F4520.h	401;"	d	line:401
+AN0_TO_AN6_ANALOG::0x08	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	377;"	d	line:377
+AN0_TO_AN7::0x07	C:\Program Files (x86)\PICC\Devices\18F4520.h	388;"	d	line:388
+AN0_TO_AN7::0x07	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	364;"	d	line:364
+AN0_TO_AN7_ANALOG::0x07	C:\Program Files (x86)\PICC\Devices\18F4520.h	400;"	d	line:400
+AN0_TO_AN7_ANALOG::0x07	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	376;"	d	line:376
+AN0_TO_AN8::0x06	C:\Program Files (x86)\PICC\Devices\18F4520.h	387;"	d	line:387
+AN0_TO_AN8::0x06	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	363;"	d	line:363
+AN0_TO_AN8_ANALOG::0x06	C:\Program Files (x86)\PICC\Devices\18F4520.h	399;"	d	line:399
+AN0_TO_AN8_ANALOG::0x06	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	375;"	d	line:375
+AN0_TO_AN9::0x05	C:\Program Files (x86)\PICC\Devices\18F4520.h	386;"	d	line:386
+AN0_TO_AN9::0x05	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	362;"	d	line:362
+AN0_TO_AN9_ANALOG::0x05	C:\Program Files (x86)\PICC\Devices\18F4520.h	398;"	d	line:398
+AN0_TO_AN9_ANALOG::0x05	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	374;"	d	line:374
+AddRegData	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	126;"	f	line:126	signature:(int8 regist)
+Addr	C:\Projects\MWT-3\SPM3Firmware\spm3.c	67;"	v	line:67	file:
+AlpSum	C:\Projects\MWT-3\SPM3Firmware\spm3.c	70;"	v	line:70	file:
+Am0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	97;"	v	line:97
+Am0_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	97;"	v	line:97
+AmpCoef0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	27;"	v	line:27	file:
+AmpCoef1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	46;"	v	line:46	file:
+Amplitude0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	24;"	v	line:24	file:
+BB	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
+BOOLEAN::int1	C:\Program Files (x86)\PICC\Devices\18F4520.h	71;"	d	line:71
+BOOLEAN::shortint	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	71;"	d	line:71
+BROWNOUT_RESTART::14	C:\Program Files (x86)\PICC\Devices\18F4520.h	89;"	d	line:89
+BROWNOUT_RESTART::14	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	89;"	d	line:89
+BURead	C:\Projects\MWT-3\SPM3Firmware\spm3.c	172;"	f	line:172	signature:(void)
+BUWrite	C:\Projects\MWT-3\SPM3Firmware\spm3.c	198;"	f	line:198	signature:(void)
+BYTE::int	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	70;"	d	line:70
+BYTE::int8	C:\Program Files (x86)\PICC\Devices\18F4520.h	70;"	d	line:70
+BetSum	C:\Projects\MWT-3\SPM3Firmware\spm3.c	71;"	v	line:71	file:
+BetTrsh	C:\Projects\MWT-3\SPM3Firmware\spm3.c	304;"	l	line:304
+CCP_1	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	184;"	v	line:184
+CCP_2	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	216;"	v	line:216
+CCP_CAPTURE_DIV_16::7	C:\Program Files (x86)\PICC\Devices\18F4520.h	199;"	d	line:199
+CCP_CAPTURE_DIV_16::7	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	173;"	d	line:173
+CCP_CAPTURE_DIV_4::6	C:\Program Files (x86)\PICC\Devices\18F4520.h	198;"	d	line:198
+CCP_CAPTURE_DIV_4::6	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	172;"	d	line:172
+CCP_CAPTURE_FE::4	C:\Program Files (x86)\PICC\Devices\18F4520.h	196;"	d	line:196
+CCP_CAPTURE_FE::4	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	170;"	d	line:170
+CCP_CAPTURE_RE::5	C:\Program Files (x86)\PICC\Devices\18F4520.h	197;"	d	line:197
+CCP_CAPTURE_RE::5	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	171;"	d	line:171
+CCP_COMPARE_CLR_ON_MATCH::9	C:\Program Files (x86)\PICC\Devices\18F4520.h	201;"	d	line:201
+CCP_COMPARE_CLR_ON_MATCH::9	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	175;"	d	line:175
+CCP_COMPARE_INT::0xA	C:\Program Files (x86)\PICC\Devices\18F4520.h	202;"	d	line:202
+CCP_COMPARE_INT::0xA	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	176;"	d	line:176
+CCP_COMPARE_INT_AND_TOGGLE::0x2	C:\Program Files (x86)\PICC\Devices\18F4520.h	203;"	d	line:203
+CCP_COMPARE_INT_AND_TOGGLE::0x2	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	177;"	d	line:177
+CCP_COMPARE_RESET_TIMER::0xB	C:\Program Files (x86)\PICC\Devices\18F4520.h	204;"	d	line:204
+CCP_COMPARE_RESET_TIMER::0xB	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	178;"	d	line:178
+CCP_COMPARE_SET_ON_MATCH::8	C:\Program Files (x86)\PICC\Devices\18F4520.h	200;"	d	line:200
+CCP_COMPARE_SET_ON_MATCH::8	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	174;"	d	line:174
+CCP_OFF::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	195;"	d	line:195
+CCP_OFF::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	169;"	d	line:169
+CCP_PWM::0xC	C:\Program Files (x86)\PICC\Devices\18F4520.h	205;"	d	line:205
+CCP_PWM::0xC	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	179;"	d	line:179
+CCP_PWM_FULL_BRIDGE::0x40	C:\Program Files (x86)\PICC\Devices\18F4520.h	219;"	d	line:219
+CCP_PWM_FULL_BRIDGE::0x40	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	194;"	d	line:194
+CCP_PWM_FULL_BRIDGE_REV::0xC0	C:\Program Files (x86)\PICC\Devices\18F4520.h	220;"	d	line:220
+CCP_PWM_FULL_BRIDGE_REV::0xC0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	195;"	d	line:195
+CCP_PWM_HALF_BRIDGE::0x80	C:\Program Files (x86)\PICC\Devices\18F4520.h	221;"	d	line:221
+CCP_PWM_HALF_BRIDGE::0x80	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	196;"	d	line:196
+CCP_PWM_H_H::0x0c	C:\Program Files (x86)\PICC\Devices\18F4520.h	214;"	d	line:214
+CCP_PWM_H_H::0x0c	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	189;"	d	line:189
+CCP_PWM_H_L::0x0d	C:\Program Files (x86)\PICC\Devices\18F4520.h	215;"	d	line:215
+CCP_PWM_H_L::0x0d	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	190;"	d	line:190
+CCP_PWM_L_H::0x0e	C:\Program Files (x86)\PICC\Devices\18F4520.h	216;"	d	line:216
+CCP_PWM_L_H::0x0e	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	191;"	d	line:191
+CCP_PWM_L_L::0x0f	C:\Program Files (x86)\PICC\Devices\18F4520.h	217;"	d	line:217
+CCP_PWM_L_L::0x0f	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	192;"	d	line:192
+CCP_PWM_PLUS_1::0x1c	C:\Program Files (x86)\PICC\Devices\18F4520.h	206;"	d	line:206
+CCP_PWM_PLUS_1::0x1c	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	180;"	d	line:180
+CCP_PWM_PLUS_2::0x2c	C:\Program Files (x86)\PICC\Devices\18F4520.h	207;"	d	line:207
+CCP_PWM_PLUS_2::0x2c	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	181;"	d	line:181
+CCP_PWM_PLUS_3::0x3c	C:\Program Files (x86)\PICC\Devices\18F4520.h	208;"	d	line:208
+CCP_PWM_PLUS_3::0x3c	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	182;"	d	line:182
+CCP_SHUTDOWN_AC_F::0x080000	C:\Program Files (x86)\PICC\Devices\18F4520.h	233;"	d	line:233
+CCP_SHUTDOWN_AC_F::0x080000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	208;"	d	line:208
+CCP_SHUTDOWN_AC_H::0x040000	C:\Program Files (x86)\PICC\Devices\18F4520.h	232;"	d	line:232
+CCP_SHUTDOWN_AC_H::0x040000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	207;"	d	line:207
+CCP_SHUTDOWN_AC_L::0x000000	C:\Program Files (x86)\PICC\Devices\18F4520.h	231;"	d	line:231
+CCP_SHUTDOWN_AC_L::0x000000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	206;"	d	line:206
+CCP_SHUTDOWN_BD_F::0x020000	C:\Program Files (x86)\PICC\Devices\18F4520.h	237;"	d	line:237
+CCP_SHUTDOWN_BD_F::0x020000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	212;"	d	line:212
+CCP_SHUTDOWN_BD_H::0x010000	C:\Program Files (x86)\PICC\Devices\18F4520.h	236;"	d	line:236
+CCP_SHUTDOWN_BD_H::0x010000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	211;"	d	line:211
+CCP_SHUTDOWN_BD_L::0x000000	C:\Program Files (x86)\PICC\Devices\18F4520.h	235;"	d	line:235
+CCP_SHUTDOWN_BD_L::0x000000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	210;"	d	line:210
+CCP_SHUTDOWN_ON_COMP1::0x100000	C:\Program Files (x86)\PICC\Devices\18F4520.h	223;"	d	line:223
+CCP_SHUTDOWN_ON_COMP1::0x100000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	198;"	d	line:198
+CCP_SHUTDOWN_ON_COMP1_INT0::0x500000	C:\Program Files (x86)\PICC\Devices\18F4520.h	227;"	d	line:227
+CCP_SHUTDOWN_ON_COMP1_INT0::0x500000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	202;"	d	line:202
+CCP_SHUTDOWN_ON_COMP2::0x200000	C:\Program Files (x86)\PICC\Devices\18F4520.h	224;"	d	line:224
+CCP_SHUTDOWN_ON_COMP2::0x200000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	199;"	d	line:199
+CCP_SHUTDOWN_ON_COMP2_INT0::0x600000	C:\Program Files (x86)\PICC\Devices\18F4520.h	228;"	d	line:228
+CCP_SHUTDOWN_ON_COMP2_INT0::0x600000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	203;"	d	line:203
+CCP_SHUTDOWN_ON_COMP::0x300000	C:\Program Files (x86)\PICC\Devices\18F4520.h	225;"	d	line:225
+CCP_SHUTDOWN_ON_COMP::0x300000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	200;"	d	line:200
+CCP_SHUTDOWN_ON_COMP_INT0::0x700000	C:\Program Files (x86)\PICC\Devices\18F4520.h	229;"	d	line:229
+CCP_SHUTDOWN_ON_COMP_INT0::0x700000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	204;"	d	line:204
+CCP_SHUTDOWN_ON_INT0::0x400000	C:\Program Files (x86)\PICC\Devices\18F4520.h	226;"	d	line:226
+CCP_SHUTDOWN_ON_INT0::0x400000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	201;"	d	line:201
+CCP_SHUTDOWN_RESTART::0x80000000	C:\Program Files (x86)\PICC\Devices\18F4520.h	239;"	d	line:239
+CCP_SHUTDOWN_RESTART::0x80000000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	214;"	d	line:214
+CCP_USE_TIMER3::0x100	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	183;"	d	line:183
+CP1_INVERT::0x0000010	C:\Program Files (x86)\PICC\Devices\18F4520.h	291;"	d	line:291
+CP1_INVERT::0x0000010	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	267;"	d	line:267
+CP2_INVERT::0x0000020	C:\Program Files (x86)\PICC\Devices\18F4520.h	292;"	d	line:292
+CP2_INVERT::0x0000020	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	268;"	d	line:268
+CRCReq	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	15;"	v	line:15
+CRC_High	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	110;"	l	line:110
+CRC_Low	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	110;"	l	line:110
+CRCc	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	121;"	v	line:121
+CRCr	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	121;"	v	line:121
+Calc	C:\Projects\MWT-3\SPM3Firmware\spm3.c	101;"	f	line:101
+DAC0::PIN_D0	C:\Projects\MWT-3\SPM3Firmware\spm3.h	46;"	d	line:46
+DAC1::PIN_D1	C:\Projects\MWT-3\SPM3Firmware\spm3.h	47;"	d	line:47
+DIR::PIN_A6	C:\Projects\MWT-3\SPM3Firmware\spm3.h	36;"	d	line:36
+DaqEnd	C:\Projects\MWT-3\SPM3Firmware\spm3.c	83;"	e	line:83	enum:daq_states	file:
+DaqIdle	C:\Projects\MWT-3\SPM3Firmware\spm3.c	79;"	e	line:79	enum:daq_states	file:
+DaqMeasure	C:\Projects\MWT-3\SPM3Firmware\spm3.c	81;"	e	line:81	enum:daq_states	file:
+DaqScale	C:\Projects\MWT-3\SPM3Firmware\spm3.c	82;"	e	line:82	enum:daq_states	file:
+DaqStart	C:\Projects\MWT-3\SPM3Firmware\spm3.c	80;"	e	line:80	enum:daq_states	file:
+DaqState	C:\Projects\MWT-3\SPM3Firmware\spm3.c	85;"	v	line:85
+EE_FWDT::0x0C	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	11;"	d	line:11
+EE_Host::0x10	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	13;"	d	line:13
+EE_KGT::0x18	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	17;"	d	line:17
+EE_KGU::0x1C	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	18;"	d	line:18
+EE_KST0::0x20	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	19;"	d	line:19
+EE_KST1::0x24	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	20;"	d	line:20
+EE_KU0::0x04	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	7;"	d	line:7
+EE_KU1::0x06	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	8;"	d	line:8
+EE_PCOUNT::0x0A	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	10;"	d	line:10
+EE_SAW_A0::0x00	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	5;"	d	line:5
+EE_SAW_A1::0x02	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	6;"	d	line:6
+EE_Speed::0x0E	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	12;"	d	line:12
+EE_T0_CAL::0x12	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	14;"	d	line:14
+EE_T1_CAL::0x14	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	15;"	d	line:15
+EE_TAQ::0x08	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	9;"	d	line:9
+EE_TG_CAL::0x16	C:\Projects\MWT-3\SPM3Firmware\ee_var.h	16;"	d	line:16
+EnAddr	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	509;"	l	line:509
+ExcReq	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	16;"	v	line:16
+FALSE::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	67;"	d	line:67
+FALSE::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	67;"	d	line:67
+FWDT	C:\Projects\MWT-3\SPM3Firmware\spm3.c	52;"	v	line:52	file:
+GLOBAL::0xF2C0	C:\Program Files (x86)\PICC\Devices\18F4520.h	434;"	d	line:434
+GLOBAL::0xF2C0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	407;"	d	line:407
+Gam0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	92;"	v	line:92
+Gam0_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	92;"	v	line:92
+GamSum	C:\Projects\MWT-3\SPM3Firmware\spm3.c	72;"	v	line:72	file:
+Gamma0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	26;"	v	line:26	file:
+Gamma1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	45;"	v	line:45	file:
+H_TO_L::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	432;"	d	line:432
+H_TO_L::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	405;"	d	line:405
+Haw0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	95;"	v	line:95
+Haw0_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	95;"	v	line:95
+Hst	C:\Projects\MWT-3\SPM3Firmware\spm3.c	74;"	v	line:74	file:
+INT_AD::0x009D40	C:\Program Files (x86)\PICC\Devices\18F4520.h	452;"	d	line:452
+INT_AD::0x9D40	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	418;"	d	line:418
+INT_BUSCOL::0x00A008	C:\Program Files (x86)\PICC\Devices\18F4520.h	458;"	d	line:458
+INT_BUSCOL::0xA008	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	424;"	d	line:424
+INT_CCP1::0x009D04	C:\Program Files (x86)\PICC\Devices\18F4520.h	456;"	d	line:456
+INT_CCP1::0x9D04	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	422;"	d	line:422
+INT_CCP2::0x00A001	C:\Program Files (x86)\PICC\Devices\18F4520.h	457;"	d	line:457
+INT_CCP2::0xA001	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	423;"	d	line:423
+INT_COMP::0x00A040	C:\Program Files (x86)\PICC\Devices\18F4520.h	460;"	d	line:460
+INT_COMP::0xA040	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	426;"	d	line:426
+INT_EEPROM::0x00A010	C:\Program Files (x86)\PICC\Devices\18F4520.h	461;"	d	line:461
+INT_EEPROM::0xA010	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	427;"	d	line:427
+INT_EXT1::0x00F008	C:\Program Files (x86)\PICC\Devices\18F4520.h	446;"	d	line:446
+INT_EXT1::0xF008	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	414;"	d	line:414
+INT_EXT1_H2L::0x6001F008	C:\Program Files (x86)\PICC\Devices\18F4520.h	445;"	d	line:445
+INT_EXT1_L2H::0x5001F008	C:\Program Files (x86)\PICC\Devices\18F4520.h	444;"	d	line:444
+INT_EXT2::0x00F010	C:\Program Files (x86)\PICC\Devices\18F4520.h	449;"	d	line:449
+INT_EXT2::0xF010	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	415;"	d	line:415
+INT_EXT2_H2L::0x6002F010	C:\Program Files (x86)\PICC\Devices\18F4520.h	448;"	d	line:448
+INT_EXT2_L2H::0x5002F010	C:\Program Files (x86)\PICC\Devices\18F4520.h	447;"	d	line:447
+INT_EXT::0x00F210	C:\Program Files (x86)\PICC\Devices\18F4520.h	443;"	d	line:443
+INT_EXT::0xF210	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	413;"	d	line:413
+INT_EXT_H2L::0x6000F210	C:\Program Files (x86)\PICC\Devices\18F4520.h	442;"	d	line:442
+INT_EXT_L2H::0x5000F210	C:\Program Files (x86)\PICC\Devices\18F4520.h	441;"	d	line:441
+INT_HLVD::0x00A004	C:\Program Files (x86)\PICC\Devices\18F4520.h	463;"	d	line:463
+INT_LOWVOLT::0x00A004	C:\Program Files (x86)\PICC\Devices\18F4520.h	459;"	d	line:459
+INT_LOWVOLT::0xA004	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	425;"	d	line:425
+INT_OSCF::0x00A080	C:\Program Files (x86)\PICC\Devices\18F4520.h	462;"	d	line:462
+INT_OSCF::0xA080	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	428;"	d	line:428
+INT_PSP::0x009D80	C:\Program Files (x86)\PICC\Devices\18F4520.h	451;"	d	line:451
+INT_PSP::0x9D80	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	417;"	d	line:417
+INT_RB::0x00FFF208	C:\Program Files (x86)\PICC\Devices\18F4520.h	450;"	d	line:450
+INT_RB::0xFFF208	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	416;"	d	line:416
+INT_RDA::0x009D20	C:\Program Files (x86)\PICC\Devices\18F4520.h	453;"	d	line:453
+INT_RDA::0x9D20	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	419;"	d	line:419
+INT_RTCC::0x00F220	C:\Program Files (x86)\PICC\Devices\18F4520.h	436;"	d	line:436
+INT_RTCC::0xF220	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	408;"	d	line:408
+INT_SSP::0x009D08	C:\Program Files (x86)\PICC\Devices\18F4520.h	455;"	d	line:455
+INT_SSP::0x9D08	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	421;"	d	line:421
+INT_TBE::0x009D10	C:\Program Files (x86)\PICC\Devices\18F4520.h	454;"	d	line:454
+INT_TBE::0x9D10	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	420;"	d	line:420
+INT_TIMER0::0x00F220	C:\Program Files (x86)\PICC\Devices\18F4520.h	437;"	d	line:437
+INT_TIMER0::0xF220	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	409;"	d	line:409
+INT_TIMER1::0x009D01	C:\Program Files (x86)\PICC\Devices\18F4520.h	438;"	d	line:438
+INT_TIMER1::0x9D01	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	410;"	d	line:410
+INT_TIMER2::0x009D02	C:\Program Files (x86)\PICC\Devices\18F4520.h	439;"	d	line:439
+INT_TIMER2::0x9D02	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	411;"	d	line:411
+INT_TIMER3::0x00A002	C:\Program Files (x86)\PICC\Devices\18F4520.h	440;"	d	line:440
+INT_TIMER3::0xA002	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	412;"	d	line:412
+Incoming	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	97;"	f	line:97	signature:(void)
+InitMcu	C:\Projects\MWT-3\SPM3Firmware\spm3.c	118;"	f	line:118	signature:(void)
+KGT	C:\Projects\MWT-3\SPM3Firmware\spm3.c	62;"	v	line:62	file:
+KGU	C:\Projects\MWT-3\SPM3Firmware\spm3.c	63;"	v	line:63	file:
+KST0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	28;"	v	line:28	file:
+KST1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	47;"	v	line:47	file:
+KU0::PIN_D5	C:\Projects\MWT-3\SPM3Firmware\spm3.h	49;"	d	line:49
+KU1::PIN_D4	C:\Projects\MWT-3\SPM3Firmware\spm3.h	48;"	d	line:48
+LDAC::PIN_A7	C:\Projects\MWT-3\SPM3Firmware\spm3.h	37;"	d	line:37
+LVD_21::0x10	C:\Program Files (x86)\PICC\Devices\18F4520.h	324;"	d	line:324
+LVD_21::0x10	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	300;"	d	line:300
+LVD_22::0x11	C:\Program Files (x86)\PICC\Devices\18F4520.h	323;"	d	line:323
+LVD_22::0x11	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	299;"	d	line:299
+LVD_23::0x12	C:\Program Files (x86)\PICC\Devices\18F4520.h	322;"	d	line:322
+LVD_23::0x12	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	298;"	d	line:298
+LVD_24::0x13	C:\Program Files (x86)\PICC\Devices\18F4520.h	321;"	d	line:321
+LVD_24::0x13	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	297;"	d	line:297
+LVD_25::0x14	C:\Program Files (x86)\PICC\Devices\18F4520.h	320;"	d	line:320
+LVD_25::0x14	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	296;"	d	line:296
+LVD_27::0x15	C:\Program Files (x86)\PICC\Devices\18F4520.h	319;"	d	line:319
+LVD_27::0x15	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	295;"	d	line:295
+LVD_28::0x16	C:\Program Files (x86)\PICC\Devices\18F4520.h	318;"	d	line:318
+LVD_28::0x16	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	294;"	d	line:294
+LVD_30::0x17	C:\Program Files (x86)\PICC\Devices\18F4520.h	317;"	d	line:317
+LVD_30::0x17	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	293;"	d	line:293
+LVD_33::0x18	C:\Program Files (x86)\PICC\Devices\18F4520.h	316;"	d	line:316
+LVD_33::0x18	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	292;"	d	line:292
+LVD_35::0x19	C:\Program Files (x86)\PICC\Devices\18F4520.h	315;"	d	line:315
+LVD_35::0x19	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	291;"	d	line:291
+LVD_36::0x1A	C:\Program Files (x86)\PICC\Devices\18F4520.h	314;"	d	line:314
+LVD_36::0x1A	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	290;"	d	line:290
+LVD_38::0x1B	C:\Program Files (x86)\PICC\Devices\18F4520.h	313;"	d	line:313
+LVD_38::0x1B	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	289;"	d	line:289
+LVD_40::0x1C	C:\Program Files (x86)\PICC\Devices\18F4520.h	312;"	d	line:312
+LVD_40::0x1C	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	288;"	d	line:288
+LVD_42::0x1D	C:\Program Files (x86)\PICC\Devices\18F4520.h	311;"	d	line:311
+LVD_42::0x1D	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	287;"	d	line:287
+LVD_45::0x1E	C:\Program Files (x86)\PICC\Devices\18F4520.h	310;"	d	line:310
+LVD_45::0x1E	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	286;"	d	line:286
+LVD_LVDIN::0x1F	C:\Program Files (x86)\PICC\Devices\18F4520.h	309;"	d	line:309
+LVD_LVDIN::0x1F	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	285;"	d	line:285
+LVD_TRIGGER_ABOVE::0x80	C:\Program Files (x86)\PICC\Devices\18F4520.h	327;"	d	line:327
+LVD_TRIGGER_ABOVE::0x80	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	303;"	d	line:303
+LVD_TRIGGER_BELOW::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	326;"	d	line:326
+LVD_TRIGGER_BELOW::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	302;"	d	line:302
+L_TO_H::0x40	C:\Program Files (x86)\PICC\Devices\18F4520.h	431;"	d	line:431
+L_TO_H::0x40	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	404;"	d	line:404
+MB_Buffer	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	12;"	v	line:12
+MB_Length	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	13;"	v	line:13
+MCLR_FROM_RUN::15	C:\Program Files (x86)\PICC\Devices\18F4520.h	87;"	d	line:87
+MCLR_FROM_RUN::15	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	87;"	d	line:87
+MCLR_FROM_SLEEP::11	C:\Program Files (x86)\PICC\Devices\18F4520.h	86;"	d	line:86
+MCLR_FROM_SLEEP::11	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	86;"	d	line:86
+MEM0::PIN_C1	C:\Projects\MWT-3\SPM3Firmware\spm3.h	39;"	d	line:39
+MEM1::PIN_C2	C:\Projects\MWT-3\SPM3Firmware\spm3.h	40;"	d	line:40
+ModbusCRC	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	108;"	f	line:108	signature:(int8 * buf, int8 len)
+NC_NC_NC_NC::0x0ff07	C:\Program Files (x86)\PICC\Devices\18F4520.h	286;"	d	line:286
+NC_NC_NC_NC::0x0ff07	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	262;"	d	line:262
+NORMAL_POWER_UP::12	C:\Program Files (x86)\PICC\Devices\18F4520.h	88;"	d	line:88
+NORMAL_POWER_UP::12	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	88;"	d	line:88
+NO_ANALOGS::0x0F	C:\Program Files (x86)\PICC\Devices\18F4520.h	382;"	d	line:382
+NO_ANALOGS::0x0F	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	358;"	d	line:358
+OSC_125KHZ::0x10	C:\Program Files (x86)\PICC\Devices\18F4520.h	334;"	d	line:334
+OSC_125KHZ::0x10	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	310;"	d	line:310
+OSC_16MHZ::0x4060	C:\Program Files (x86)\PICC\Devices\18F4520.h	341;"	d	line:341
+OSC_16MHZ::0x4060	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	317;"	d	line:317
+OSC_1MHZ::0x40	C:\Program Files (x86)\PICC\Devices\18F4520.h	337;"	d	line:337
+OSC_1MHZ::0x40	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	313;"	d	line:313
+OSC_250KHZ::0x20	C:\Program Files (x86)\PICC\Devices\18F4520.h	335;"	d	line:335
+OSC_250KHZ::0x20	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	311;"	d	line:311
+OSC_2MHZ::0x50	C:\Program Files (x86)\PICC\Devices\18F4520.h	338;"	d	line:338
+OSC_2MHZ::0x50	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	314;"	d	line:314
+OSC_31250::0x8000	C:\Program Files (x86)\PICC\Devices\18F4520.h	349;"	d	line:349
+OSC_31250::0x8000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	325;"	d	line:325
+OSC_31KHZ::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	333;"	d	line:333
+OSC_31KHZ::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	309;"	d	line:309
+OSC_32MHZ::0x4070	C:\Program Files (x86)\PICC\Devices\18F4520.h	342;"	d	line:342
+OSC_32MHZ::0x4070	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	318;"	d	line:318
+OSC_4MHZ::0x60	C:\Program Files (x86)\PICC\Devices\18F4520.h	339;"	d	line:339
+OSC_4MHZ::0x60	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	315;"	d	line:315
+OSC_500KHZ::0x30	C:\Program Files (x86)\PICC\Devices\18F4520.h	336;"	d	line:336
+OSC_500KHZ::0x30	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	312;"	d	line:312
+OSC_8MHZ::0x70	C:\Program Files (x86)\PICC\Devices\18F4520.h	340;"	d	line:340
+OSC_8MHZ::0x70	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	316;"	d	line:316
+OSC_IDLE_MODE::0x80	C:\Program Files (x86)\PICC\Devices\18F4520.h	348;"	d	line:348
+OSC_IDLE_MODE::0x80	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	324;"	d	line:324
+OSC_INTRC::2	C:\Program Files (x86)\PICC\Devices\18F4520.h	345;"	d	line:345
+OSC_INTRC::2	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	321;"	d	line:321
+OSC_NORMAL::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	346;"	d	line:346
+OSC_NORMAL::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	322;"	d	line:322
+OSC_PLL_OFF::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	351;"	d	line:351
+OSC_PLL_OFF::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	327;"	d	line:327
+OSC_PLL_ON::0x4000	C:\Program Files (x86)\PICC\Devices\18F4520.h	350;"	d	line:350
+OSC_PLL_ON::0x4000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	326;"	d	line:326
+OSC_STATE_EXT_RUNNING::8	C:\Program Files (x86)\PICC\Devices\18F4520.h	356;"	d	line:356
+OSC_STATE_EXT_RUNNING::8	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	332;"	d	line:332
+OSC_STATE_STABLE::4	C:\Program Files (x86)\PICC\Devices\18F4520.h	355;"	d	line:355
+OSC_STATE_STABLE::4	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	331;"	d	line:331
+OSC_TIMER1::1	C:\Program Files (x86)\PICC\Devices\18F4520.h	344;"	d	line:344
+OSC_TIMER1::1	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	320;"	d	line:320
+OneCycle	C:\Projects\MWT-3\SPM3Firmware\spm3.c	54;"	v	line:54	file:
+OutBufAddr	C:\Projects\MWT-3\SPM3Firmware\spm3.c	302;"	l	line:302
+PCOUNT	C:\Projects\MWT-3\SPM3Firmware\spm3.c	53;"	v	line:53	file:
+PERIPH::0xF240	C:\Program Files (x86)\PICC\Devices\18F4520.h	435;"	d	line:435
+PIN_A0::31744	C:\Program Files (x86)\PICC\Devices\18F4520.h	25;"	d	line:25
+PIN_A0::31744	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	25;"	d	line:25
+PIN_A1::31745	C:\Program Files (x86)\PICC\Devices\18F4520.h	26;"	d	line:26
+PIN_A1::31745	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	26;"	d	line:26
+PIN_A2::31746	C:\Program Files (x86)\PICC\Devices\18F4520.h	27;"	d	line:27
+PIN_A2::31746	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	27;"	d	line:27
+PIN_A3::31747	C:\Program Files (x86)\PICC\Devices\18F4520.h	28;"	d	line:28
+PIN_A3::31747	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	28;"	d	line:28
+PIN_A4::31748	C:\Program Files (x86)\PICC\Devices\18F4520.h	29;"	d	line:29
+PIN_A4::31748	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	29;"	d	line:29
+PIN_A5::31749	C:\Program Files (x86)\PICC\Devices\18F4520.h	30;"	d	line:30
+PIN_A5::31749	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	30;"	d	line:30
+PIN_A6::31750	C:\Program Files (x86)\PICC\Devices\18F4520.h	31;"	d	line:31
+PIN_A6::31750	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	31;"	d	line:31
+PIN_A7::31751	C:\Program Files (x86)\PICC\Devices\18F4520.h	32;"	d	line:32
+PIN_A7::31751	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	32;"	d	line:32
+PIN_B0::31752	C:\Program Files (x86)\PICC\Devices\18F4520.h	34;"	d	line:34
+PIN_B0::31752	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	34;"	d	line:34
+PIN_B1::31753	C:\Program Files (x86)\PICC\Devices\18F4520.h	35;"	d	line:35
+PIN_B1::31753	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	35;"	d	line:35
+PIN_B2::31754	C:\Program Files (x86)\PICC\Devices\18F4520.h	36;"	d	line:36
+PIN_B2::31754	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	36;"	d	line:36
+PIN_B3::31755	C:\Program Files (x86)\PICC\Devices\18F4520.h	37;"	d	line:37
+PIN_B3::31755	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	37;"	d	line:37
+PIN_B4::31756	C:\Program Files (x86)\PICC\Devices\18F4520.h	38;"	d	line:38
+PIN_B4::31756	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	38;"	d	line:38
+PIN_B5::31757	C:\Program Files (x86)\PICC\Devices\18F4520.h	39;"	d	line:39
+PIN_B5::31757	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	39;"	d	line:39
+PIN_B6::31758	C:\Program Files (x86)\PICC\Devices\18F4520.h	40;"	d	line:40
+PIN_B6::31758	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	40;"	d	line:40
+PIN_B7::31759	C:\Program Files (x86)\PICC\Devices\18F4520.h	41;"	d	line:41
+PIN_B7::31759	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	41;"	d	line:41
+PIN_C0::31760	C:\Program Files (x86)\PICC\Devices\18F4520.h	43;"	d	line:43
+PIN_C0::31760	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	43;"	d	line:43
+PIN_C1::31761	C:\Program Files (x86)\PICC\Devices\18F4520.h	44;"	d	line:44
+PIN_C1::31761	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	44;"	d	line:44
+PIN_C2::31762	C:\Program Files (x86)\PICC\Devices\18F4520.h	45;"	d	line:45
+PIN_C2::31762	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	45;"	d	line:45
+PIN_C3::31763	C:\Program Files (x86)\PICC\Devices\18F4520.h	46;"	d	line:46
+PIN_C3::31763	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	46;"	d	line:46
+PIN_C4::31764	C:\Program Files (x86)\PICC\Devices\18F4520.h	47;"	d	line:47
+PIN_C4::31764	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	47;"	d	line:47
+PIN_C5::31765	C:\Program Files (x86)\PICC\Devices\18F4520.h	48;"	d	line:48
+PIN_C5::31765	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	48;"	d	line:48
+PIN_C6::31766	C:\Program Files (x86)\PICC\Devices\18F4520.h	49;"	d	line:49
+PIN_C6::31766	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	49;"	d	line:49
+PIN_C7::31767	C:\Program Files (x86)\PICC\Devices\18F4520.h	50;"	d	line:50
+PIN_C7::31767	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	50;"	d	line:50
+PIN_D0::31768	C:\Program Files (x86)\PICC\Devices\18F4520.h	52;"	d	line:52
+PIN_D0::31768	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	52;"	d	line:52
+PIN_D1::31769	C:\Program Files (x86)\PICC\Devices\18F4520.h	53;"	d	line:53
+PIN_D1::31769	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	53;"	d	line:53
+PIN_D2::31770	C:\Program Files (x86)\PICC\Devices\18F4520.h	54;"	d	line:54
+PIN_D2::31770	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	54;"	d	line:54
+PIN_D3::31771	C:\Program Files (x86)\PICC\Devices\18F4520.h	55;"	d	line:55
+PIN_D3::31771	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	55;"	d	line:55
+PIN_D4::31772	C:\Program Files (x86)\PICC\Devices\18F4520.h	56;"	d	line:56
+PIN_D4::31772	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	56;"	d	line:56
+PIN_D5::31773	C:\Program Files (x86)\PICC\Devices\18F4520.h	57;"	d	line:57
+PIN_D5::31773	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	57;"	d	line:57
+PIN_D6::31774	C:\Program Files (x86)\PICC\Devices\18F4520.h	58;"	d	line:58
+PIN_D6::31774	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	58;"	d	line:58
+PIN_D7::31775	C:\Program Files (x86)\PICC\Devices\18F4520.h	59;"	d	line:59
+PIN_D7::31775	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	59;"	d	line:59
+PIN_E0::31776	C:\Program Files (x86)\PICC\Devices\18F4520.h	61;"	d	line:61
+PIN_E0::31776	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	61;"	d	line:61
+PIN_E1::31777	C:\Program Files (x86)\PICC\Devices\18F4520.h	62;"	d	line:62
+PIN_E1::31777	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	62;"	d	line:62
+PIN_E2::31778	C:\Program Files (x86)\PICC\Devices\18F4520.h	63;"	d	line:63
+PIN_E2::31778	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	63;"	d	line:63
+PIN_E3::31779	C:\Program Files (x86)\PICC\Devices\18F4520.h	64;"	d	line:64
+PIN_E3::31779	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	64;"	d	line:64
+PSP_DISABLED::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	250;"	d	line:250
+PSP_DISABLED::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	226;"	d	line:226
+PSP_ENABLED::0x10	C:\Program Files (x86)\PICC\Devices\18F4520.h	249;"	d	line:249
+PSP_ENABLED::0x10	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	225;"	d	line:225
+PulseWdt0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	25;"	v	line:25	file:
+RESET_INSTRUCTION::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	91;"	d	line:91
+RESET_INSTRUCTION::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	91;"	d	line:91
+RTCC_8_BIT::0x40	C:\Program Files (x86)\PICC\Devices\18F4520.h	135;"	d	line:135
+RTCC_8_BIT::0x40	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	114;"	d	line:114
+RTCC_DIV_128::6	C:\Program Files (x86)\PICC\Devices\18F4520.h	132;"	d	line:132
+RTCC_DIV_128::6	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	109;"	d	line:109
+RTCC_DIV_16::3	C:\Program Files (x86)\PICC\Devices\18F4520.h	129;"	d	line:129
+RTCC_DIV_16::3	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	106;"	d	line:106
+RTCC_DIV_1::8	C:\Program Files (x86)\PICC\Devices\18F4520.h	125;"	d	line:125
+RTCC_DIV_1::8	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	102;"	d	line:102
+RTCC_DIV_256::7	C:\Program Files (x86)\PICC\Devices\18F4520.h	133;"	d	line:133
+RTCC_DIV_256::7	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	110;"	d	line:110
+RTCC_DIV_2::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	126;"	d	line:126
+RTCC_DIV_2::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	103;"	d	line:103
+RTCC_DIV_32::4	C:\Program Files (x86)\PICC\Devices\18F4520.h	130;"	d	line:130
+RTCC_DIV_32::4	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	107;"	d	line:107
+RTCC_DIV_4::1	C:\Program Files (x86)\PICC\Devices\18F4520.h	127;"	d	line:127
+RTCC_DIV_4::1	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	104;"	d	line:104
+RTCC_DIV_64::5	C:\Program Files (x86)\PICC\Devices\18F4520.h	131;"	d	line:131
+RTCC_DIV_64::5	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	108;"	d	line:108
+RTCC_DIV_8::2	C:\Program Files (x86)\PICC\Devices\18F4520.h	128;"	d	line:128
+RTCC_DIV_8::2	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	105;"	d	line:105
+RTCC_EXT_H_TO_L::48	C:\Program Files (x86)\PICC\Devices\18F4520.h	124;"	d	line:124
+RTCC_EXT_H_TO_L::48	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	100;"	d	line:100
+RTCC_EXT_L_TO_H::32	C:\Program Files (x86)\PICC\Devices\18F4520.h	123;"	d	line:123
+RTCC_EXT_L_TO_H::32	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	99;"	d	line:99
+RTCC_INTERNAL::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	122;"	d	line:122
+RTCC_INTERNAL::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	98;"	d	line:98
+RTCC_OFF::0x80	C:\Program Files (x86)\PICC\Devices\18F4520.h	134;"	d	line:134
+RTCC_OFF::0x80	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	112;"	d	line:112
+RX::PIN_C7	C:\Projects\MWT-3\SPM3Firmware\spm3.h	45;"	d	line:45
+Reaction	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	508;"	f	line:508	signature:(void)
+RsInit	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	67;"	f	line:67	signature:(void)
+S0::PIN_A0	C:\Projects\MWT-3\SPM3Firmware\spm3.h	30;"	d	line:30
+S1::PIN_A1	C:\Projects\MWT-3\SPM3Firmware\spm3.h	31;"	d	line:31
+SAW_A0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	58;"	v	line:58	file:
+SAW_A1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	60;"	v	line:60	file:
+SCK::PIN_C3	C:\Projects\MWT-3\SPM3Firmware\spm3.h	41;"	d	line:41
+SDI::PIN_C4	C:\Projects\MWT-3\SPM3Firmware\spm3.h	42;"	d	line:42
+SDO::PIN_C5	C:\Projects\MWT-3\SPM3Firmware\spm3.h	43;"	d	line:43
+SLEEP_FULL::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	95;"	d	line:95
+SLEEP_IDLE::1	C:\Program Files (x86)\PICC\Devices\18F4520.h	96;"	d	line:96
+SPI_CLK_DIV_16::1	C:\Program Files (x86)\PICC\Devices\18F4520.h	262;"	d	line:262
+SPI_CLK_DIV_16::1	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	238;"	d	line:238
+SPI_CLK_DIV_4::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	261;"	d	line:261
+SPI_CLK_DIV_4::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	237;"	d	line:237
+SPI_CLK_DIV_64::2	C:\Program Files (x86)\PICC\Devices\18F4520.h	263;"	d	line:263
+SPI_CLK_DIV_64::2	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	239;"	d	line:239
+SPI_CLK_T2::3	C:\Program Files (x86)\PICC\Devices\18F4520.h	264;"	d	line:264
+SPI_CLK_T2::3	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	240;"	d	line:240
+SPI_H_TO_L::0x10	C:\Program Files (x86)\PICC\Devices\18F4520.h	260;"	d	line:260
+SPI_H_TO_L::0x10	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	236;"	d	line:236
+SPI_L_TO_H::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	259;"	d	line:259
+SPI_L_TO_H::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	235;"	d	line:235
+SPI_MASTER::0x20	C:\Program Files (x86)\PICC\Devices\18F4520.h	257;"	d	line:257
+SPI_MASTER::0x20	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	233;"	d	line:233
+SPI_SAMPLE_AT_END::0x8000	C:\Program Files (x86)\PICC\Devices\18F4520.h	267;"	d	line:267
+SPI_SAMPLE_AT_END::0x8000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	243;"	d	line:243
+SPI_SLAVE::0x24	C:\Program Files (x86)\PICC\Devices\18F4520.h	258;"	d	line:258
+SPI_SLAVE::0x24	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	234;"	d	line:234
+SPI_SS_DISABLED::1	C:\Program Files (x86)\PICC\Devices\18F4520.h	265;"	d	line:265
+SPI_SS_DISABLED::1	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	241;"	d	line:241
+SPI_XMIT_L_TO_H::0x4000	C:\Program Files (x86)\PICC\Devices\18F4520.h	268;"	d	line:268
+SPI_XMIT_L_TO_H::0x4000	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	244;"	d	line:244
+STAT::PIN_C0	C:\Projects\MWT-3\SPM3Firmware\spm3.h	38;"	d	line:38
+SYNC_POS::PIN_E0	C:\Projects\MWT-3\SPM3Firmware\spm3.h	50;"	d	line:50
+SetKU0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	265;"	f	line:265	signature:(int16 coeff)
+SetKU1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	277;"	f	line:277	signature:(int16 coeff)
+SetRegData	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	376;"	f	line:376	signature:(int8 reg)
+SetSawDac	C:\Projects\MWT-3\SPM3Firmware\spm3.c	253;"	f	line:253	signature:(int16 level)
+Speed	C:\Projects\MWT-3\SPM3Firmware\spm3.c	66;"	v	line:66	file:
+StAddr	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	509;"	l	line:509
+StorAddr	C:\Projects\MWT-3\SPM3Firmware\spm3.c	301;"	l	line:301
+Sum	C:\Projects\MWT-3\SPM3Firmware\spm3.c	303;"	l	line:303
+T0::PIN_A2	C:\Projects\MWT-3\SPM3Firmware\spm3.h	32;"	d	line:32
+T0_8_BIT::0x40	C:\Program Files (x86)\PICC\Devices\18F4520.h	120;"	d	line:120
+T0_CAL	C:\Projects\MWT-3\SPM3Firmware\spm3.c	29;"	v	line:29	file:
+T0_DIV_128::6	C:\Program Files (x86)\PICC\Devices\18F4520.h	115;"	d	line:115
+T0_DIV_16::3	C:\Program Files (x86)\PICC\Devices\18F4520.h	112;"	d	line:112
+T0_DIV_1::8	C:\Program Files (x86)\PICC\Devices\18F4520.h	108;"	d	line:108
+T0_DIV_256::7	C:\Program Files (x86)\PICC\Devices\18F4520.h	116;"	d	line:116
+T0_DIV_2::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	109;"	d	line:109
+T0_DIV_32::4	C:\Program Files (x86)\PICC\Devices\18F4520.h	113;"	d	line:113
+T0_DIV_4::1	C:\Program Files (x86)\PICC\Devices\18F4520.h	110;"	d	line:110
+T0_DIV_64::5	C:\Program Files (x86)\PICC\Devices\18F4520.h	114;"	d	line:114
+T0_DIV_8::2	C:\Program Files (x86)\PICC\Devices\18F4520.h	111;"	d	line:111
+T0_EXT_H_TO_L::48	C:\Program Files (x86)\PICC\Devices\18F4520.h	106;"	d	line:106
+T0_EXT_L_TO_H::32	C:\Program Files (x86)\PICC\Devices\18F4520.h	105;"	d	line:105
+T0_INTERNAL::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	104;"	d	line:104
+T0_OFF::0x80	C:\Program Files (x86)\PICC\Devices\18F4520.h	118;"	d	line:118
+T1::PIN_A4	C:\Projects\MWT-3\SPM3Firmware\spm3.h	34;"	d	line:34
+T1_CAL	C:\Projects\MWT-3\SPM3Firmware\spm3.c	48;"	v	line:48	file:
+T1_CLK_OUT::8	C:\Program Files (x86)\PICC\Devices\18F4520.h	158;"	d	line:158
+T1_CLK_OUT::8	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	136;"	d	line:136
+T1_DISABLED::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	153;"	d	line:153
+T1_DISABLED::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	131;"	d	line:131
+T1_DIV_BY_1::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	160;"	d	line:160
+T1_DIV_BY_1::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	138;"	d	line:138
+T1_DIV_BY_2::0x10	C:\Program Files (x86)\PICC\Devices\18F4520.h	161;"	d	line:161
+T1_DIV_BY_2::0x10	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	139;"	d	line:139
+T1_DIV_BY_4::0x20	C:\Program Files (x86)\PICC\Devices\18F4520.h	162;"	d	line:162
+T1_DIV_BY_4::0x20	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	140;"	d	line:140
+T1_DIV_BY_8::0x30	C:\Program Files (x86)\PICC\Devices\18F4520.h	163;"	d	line:163
+T1_DIV_BY_8::0x30	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	141;"	d	line:141
+T1_EXTERNAL::0x87	C:\Program Files (x86)\PICC\Devices\18F4520.h	155;"	d	line:155
+T1_EXTERNAL::0x87	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	133;"	d	line:133
+T1_EXTERNAL_SYNC::0x83	C:\Program Files (x86)\PICC\Devices\18F4520.h	156;"	d	line:156
+T1_EXTERNAL_SYNC::0x83	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	134;"	d	line:134
+T1_INTERNAL::0x85	C:\Program Files (x86)\PICC\Devices\18F4520.h	154;"	d	line:154
+T1_INTERNAL::0x85	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	132;"	d	line:132
+T2::PIN_A5	C:\Projects\MWT-3\SPM3Firmware\spm3.h	35;"	d	line:35
+T2_DISABLED::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	168;"	d	line:168
+T2_DISABLED::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	146;"	d	line:146
+T2_DIV_BY_16::6	C:\Program Files (x86)\PICC\Devices\18F4520.h	171;"	d	line:171
+T2_DIV_BY_16::6	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	149;"	d	line:149
+T2_DIV_BY_1::4	C:\Program Files (x86)\PICC\Devices\18F4520.h	169;"	d	line:169
+T2_DIV_BY_1::4	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	147;"	d	line:147
+T2_DIV_BY_4::5	C:\Program Files (x86)\PICC\Devices\18F4520.h	170;"	d	line:170
+T2_DIV_BY_4::5	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	148;"	d	line:148
+T3_CCP1_TO_2::0x48	C:\Program Files (x86)\PICC\Devices\18F4520.h	188;"	d	line:188
+T3_CCP2::0x8	C:\Program Files (x86)\PICC\Devices\18F4520.h	189;"	d	line:189
+T3_DISABLED::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	177;"	d	line:177
+T3_DISABLED::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	155;"	d	line:155
+T3_DIV_BY_1::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	182;"	d	line:182
+T3_DIV_BY_1::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	160;"	d	line:160
+T3_DIV_BY_2::0x10	C:\Program Files (x86)\PICC\Devices\18F4520.h	183;"	d	line:183
+T3_DIV_BY_2::0x10	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	161;"	d	line:161
+T3_DIV_BY_4::0x20	C:\Program Files (x86)\PICC\Devices\18F4520.h	184;"	d	line:184
+T3_DIV_BY_4::0x20	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	162;"	d	line:162
+T3_DIV_BY_8::0x30	C:\Program Files (x86)\PICC\Devices\18F4520.h	185;"	d	line:185
+T3_DIV_BY_8::0x30	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	163;"	d	line:163
+T3_EXTERNAL::0x87	C:\Program Files (x86)\PICC\Devices\18F4520.h	179;"	d	line:179
+T3_EXTERNAL::0x87	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	157;"	d	line:157
+T3_EXTERNAL_SYNC::0x83	C:\Program Files (x86)\PICC\Devices\18F4520.h	180;"	d	line:180
+T3_EXTERNAL_SYNC::0x83	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	158;"	d	line:158
+T3_INTERNAL::0x85	C:\Program Files (x86)\PICC\Devices\18F4520.h	178;"	d	line:178
+T3_INTERNAL::0x85	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	156;"	d	line:156
+TAQ	C:\Projects\MWT-3\SPM3Firmware\spm3.c	51;"	v	line:51	file:
+TERMO::PIN_E1	C:\Projects\MWT-3\SPM3Firmware\spm3.h	51;"	d	line:51
+TG_CAL	C:\Projects\MWT-3\SPM3Firmware\spm3.c	64;"	v	line:64	file:
+TRUE::1	C:\Program Files (x86)\PICC\Devices\18F4520.h	68;"	d	line:68
+TRUE::1	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	68;"	d	line:68
+TX::PIN_C6	C:\Projects\MWT-3\SPM3Firmware\spm3.h	44;"	d	line:44
+T_0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	91;"	v	line:91
+T_G	C:\Projects\MWT-3\SPM3Firmware\spm3.c	91;"	v	line:91
+T_GEN	C:\Projects\MWT-3\SPM3Firmware\spm3.c	57;"	v	line:57	file:
+T_G_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	91;"	v	line:91
+T_S0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	98;"	v	line:98
+T_S0_k	C:\Projects\MWT-3\SPM3Firmware\spm3.c	98;"	v	line:98
+T_SR0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	30;"	v	line:30	file:
+T_SR1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	49;"	v	line:49	file:
+Termometer	C:\Projects\MWT-3\SPM3Firmware\spm3.c	233;"	f	line:233	signature:(void)
+UART_ADDRESS::2	C:\Program Files (x86)\PICC\Devices\18F4520.h	274;"	d	line:274
+UART_ADDRESS::2	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	250;"	d	line:250
+UART_AUTODETECT::8	C:\Program Files (x86)\PICC\Devices\18F4520.h	276;"	d	line:276
+UART_AUTODETECT::8	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	252;"	d	line:252
+UART_AUTODETECT_NOWAIT::9	C:\Program Files (x86)\PICC\Devices\18F4520.h	277;"	d	line:277
+UART_AUTODETECT_NOWAIT::9	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	253;"	d	line:253
+UART_DATA::4	C:\Program Files (x86)\PICC\Devices\18F4520.h	275;"	d	line:275
+UART_DATA::4	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	251;"	d	line:251
+UART_SEND_BREAK::13	C:\Program Files (x86)\PICC\Devices\18F4520.h	279;"	d	line:279
+UART_SEND_BREAK::13	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	255;"	d	line:255
+UART_WAKEUP_ON_RDA::10	C:\Program Files (x86)\PICC\Devices\18F4520.h	278;"	d	line:278
+UART_WAKEUP_ON_RDA::10	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	254;"	d	line:254
+Uref::PIN_A3	C:\Projects\MWT-3\SPM3Firmware\spm3.h	33;"	d	line:33
+VREF_COMP::0x10	C:\Program Files (x86)\PICC\Devices\18F4520.h	304;"	d	line:304
+VREF_COMP::0x10	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	280;"	d	line:280
+VREF_F5::0x40	C:\Program Files (x86)\PICC\Devices\18F4520.h	303;"	d	line:303
+VREF_F5::0x40	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	279;"	d	line:279
+VREF_HIGH::0x80	C:\Program Files (x86)\PICC\Devices\18F4520.h	301;"	d	line:301
+VREF_HIGH::0x80	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	277;"	d	line:277
+VREF_LOW::0xa0	C:\Program Files (x86)\PICC\Devices\18F4520.h	300;"	d	line:300
+VREF_LOW::0xa0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	276;"	d	line:276
+VREF_VDD::0x20	C:\Program Files (x86)\PICC\Devices\18F4520.h	412;"	d	line:412
+VREF_VDD::0x20	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	388;"	d	line:388
+VREF_VREF::0x30	C:\Program Files (x86)\PICC\Devices\18F4520.h	411;"	d	line:411
+VREF_VREF::0x30	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	387;"	d	line:387
+VSS_VDD::0x00	C:\Program Files (x86)\PICC\Devices\18F4520.h	410;"	d	line:410
+VSS_VDD::0x00	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	386;"	d	line:386
+VSS_VREF::0x10	C:\Program Files (x86)\PICC\Devices\18F4520.h	413;"	d	line:413
+VSS_VREF::0x10	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	389;"	d	line:389
+Va	C:\Projects\MWT-3\SPM3Firmware\spm3.c	89;"	v	line:89
+ValidReq	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	14;"	v	line:14
+W	C:\Projects\MWT-3\SPM3Firmware\spm3.c	94;"	v	line:94
+WDT_FROM_SLEEP::3	C:\Program Files (x86)\PICC\Devices\18F4520.h	90;"	d	line:90
+WDT_FROM_SLEEP::3	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	90;"	d	line:90
+WDT_OFF::0	C:\Program Files (x86)\PICC\Devices\18F4520.h	147;"	d	line:147
+WDT_OFF::0	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	125;"	d	line:125
+WDT_ON::0x100	C:\Program Files (x86)\PICC\Devices\18F4520.h	146;"	d	line:146
+WDT_ON::0x100	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	124;"	d	line:124
+WDT_TIMEOUT::7	C:\Program Files (x86)\PICC\Devices\18F4520.h	85;"	d	line:85
+WDT_TIMEOUT::7	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	85;"	d	line:85
+Wrk0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	300;"	l	line:300
+a0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
+a1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
+a2	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
+a3	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
+a4	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
+a5	C:\Projects\MWT-3\SPM3Firmware\spm3.c	96;"	v	line:96
+acknowledge	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	9;"	e	line:9	enum:modbus_exceptions
+alp_buf0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	21;"	v	line:21	file:
+bet_buf0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	22;"	v	line:22	file:
+bet_cur	C:\Projects\MWT-3\SPM3Firmware\spm3.c	305;"	l	line:305
+bytecount	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	374;"	v	line:374
+bytecount	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	510;"	l	line:510
+changed	C:\Projects\MWT-3\SPM3Firmware\spm3.c	310;"	l	line:310
+cnt	C:\Projects\MWT-3\SPM3Firmware\spm3.c	298;"	l	line:298
+course	C:\Projects\MWT-3\SPM3Firmware\spm3.c	254;"	l	line:254
+dacval	C:\Projects\MWT-3\SPM3Firmware\spm3.c	266;"	l	line:266
+dacval	C:\Projects\MWT-3\SPM3Firmware\spm3.c	278;"	l	line:278
+daq_states	C:\Projects\MWT-3\SPM3Firmware\spm3.c	78;"	g	line:78	file:
+data_filt0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	15;"	v	line:15	file:
+data_mean0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	16;"	v	line:16	file:
+delta_gamma	C:\Projects\MWT-3\SPM3Firmware\spm3.c	90;"	v	line:90
+delta_gamma2	C:\Projects\MWT-3\SPM3Firmware\spm3.c	90;"	v	line:90
+difftime0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	103;"	l	line:103
+fgetc::getch	C:\Program Files (x86)\PICC\Devices\18F4520.h	74;"	d	line:74
+fgetc::getch	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	74;"	d	line:74
+fgets::gets	C:\Program Files (x86)\PICC\Devices\18F4520.h	78;"	d	line:78
+fgets::gets	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	78;"	d	line:78
+filterWidth	C:\Projects\MWT-3\SPM3Firmware\spm3.c	306;"	l	line:306
+flcopy	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	127;"	l	line:127
+flcopy	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	377;"	l	line:377
+fputc::putchar	C:\Program Files (x86)\PICC\Devices\18F4520.h	77;"	d	line:77
+fputc::putchar	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	77;"	d	line:77
+fputs::puts	C:\Program Files (x86)\PICC\Devices\18F4520.h	79;"	d	line:79
+fputs::puts	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	79;"	d	line:79
+gam_buf0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	23;"	v	line:23	file:
+getc::getch	C:\Program Files (x86)\PICC\Devices\18F4520.h	73;"	d	line:73
+getc::getch	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	73;"	d	line:73
+getchar::getch	C:\Program Files (x86)\PICC\Devices\18F4520.h	75;"	d	line:75
+getchar::getch	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	75;"	d	line:75
+i	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	109;"	l	line:109
+iGam	C:\Projects\MWT-3\SPM3Firmware\spm3.c	55;"	v	line:55	file:
+iMaxFall0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	20;"	v	line:20	file:
+iMaxRise0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	18;"	v	line:18	file:
+iWin	C:\Projects\MWT-3\SPM3Firmware\spm3.c	69;"	v	line:69	file:
+illegal_data_address	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	6;"	e	line:6	enum:modbus_exceptions
+illegal_data_value	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	7;"	e	line:7	enum:modbus_exceptions
+illegal_function	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	5;"	e	line:5	enum:modbus_exceptions
+index	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	109;"	l	line:109
+j	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	122;"	v	line:122
+k	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	511;"	l	line:511
+k1	C:\Projects\MWT-3\SPM3Firmware\spm3.c	93;"	v	line:93
+kgv	C:\Projects\MWT-3\SPM3Firmware\spm3.c	88;"	v	line:88
+l	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	511;"	l	line:511
+main	C:\Projects\MWT-3\SPM3Firmware\spm3.c	295;"	f	line:295	signature:(void)
+maxCycles	C:\Projects\MWT-3\SPM3Firmware\spm3.c	297;"	l	line:297
+maxFall0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	19;"	v	line:19	file:
+maxRise0	C:\Projects\MWT-3\SPM3Firmware\spm3.c	17;"	v	line:17	file:
+modbus_auchCRCHi	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	20;"	v	line:20
+modbus_auchCRCLo	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	42;"	v	line:42
+modbus_exceptions	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	4;"	g	line:4
+putc::putchar	C:\Program Files (x86)\PICC\Devices\18F4520.h	76;"	d	line:76
+putc::putchar	C:\Projects\MWT-3\SPM3Firmware\18F4520.h	76;"	d	line:76
+sawEndLevel	C:\Projects\MWT-3\SPM3Firmware\spm3.c	61;"	v	line:61	file:
+sawLevel	C:\Projects\MWT-3\SPM3Firmware\spm3.c	307;"	l	line:307
+sawStartLevel	C:\Projects\MWT-3\SPM3Firmware\spm3.c	59;"	v	line:59	file:
+slave_device_busy	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	10;"	e	line:10	enum:modbus_exceptions
+slave_device_failure	C:\Projects\MWT-3\SPM3Firmware\modbus_isr.h	8;"	e	line:8	enum:modbus_exceptions
+temp	C:\Projects\MWT-3\SPM3Firmware\spm3.c	173;"	l	line:173
+temp	C:\Projects\MWT-3\SPM3Firmware\spm3.c	199;"	l	line:199
+temp	C:\Projects\MWT-3\SPM3Firmware\spm3.c	234;"	l	line:234
+tsn	C:\Projects\MWT-3\SPM3Firmware\spm3.c	93;"	v	line:93
+volts2dac	C:\Projects\MWT-3\SPM3Firmware\spm3.c	10;"	v	line:10

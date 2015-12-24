@@ -5,29 +5,24 @@
 //#USE FAST_IO(A)
 //#USE FAST_IO(C)
 //#USE FAST_IO(D)
+
 //const
-float	const	f2int32=209715.2*0.995;
+float	const	volts2dac=4096/2.5*0.995; // use for value from volts to DAC conversion
+
 //variables
 //buffers
 //channel 0
-//static	int8	data_buff0[256];	//reduced data buffer for channel 0
-//static	int8	data_hist0[256];	//redused histogramm for ch0
 static	int16	data_filt0[64];		//filtering buffer for ch0
 static	int16	data_mean0;			//mean value
-//static	int16	redu_mean0;			//reduces mean value
 static	int16	maxRise0;			//max value at rising saw
 static	int16	iMaxRise0;			//index of maximum at rising saw
 static	int16	maxFall0;			//max value at falling saw
 static	int16	iMaxFall0;			//index of maximum at falling saw
 static	int16	alp_buf0[128];		//alpha meaning buffer
-//static	int16	alp_sort[64];		//alpha sorted buffer
 static	int16	bet_buf0[128];		//beta meaning buffer
-//static	int16	bet_sort[64];		//beta sorted buffer
 static	int16	gam_buf0[128];		//gamma meaning buffer
-//static	int16	gam_sort[64];		//gamma sorted buffer
 static	int16	Amplitude0;			//amplitude in B*1000
 static	int16	PulseWdt0;			//pulse width in uS/10
-static	int16	iGamma0;			//gamma in Daq intervals
 static	int16	Gamma0;				//gamma in uS/10
 static	int16	AmpCoef0;			//input amplifier coeff
 static	float	KST0;				//
@@ -61,9 +56,9 @@ static	int8	iGam=0;				//gamma meaning index
 //saw
 static	signed int16	T_GEN;				//generator temperature
 static	int16	SAW_A0;				//level of saw
-static	int32	SawLevel;			//current saw level
+static	int16	sawStartLevel;			//current saw level
 static	int16	SAW_A1;				//saw amplitude
-static	int32	SawStep;			//saw step
+static	int16	sawEndLevel;			//saw step
 static	float	KGT;				//
 static	float	KGU;				//
 static	int16	TG_CAL;				//
@@ -255,22 +250,17 @@ void	Termometer(void){
 }
 //
 //DAC setting
-void	SetSawDac(int32	level){
+void	SetSawDac(int16	level){
 	int16	course;
-	//fine part
-	output_low(DAC0);						//select fine DAC
-	spi_write((make8(level,1)&0x03)|0x10);	//send high part
-	spi_write(make8(level,0));				//send low part
-	output_high(DAC0);						//deselect
 	//course part
-	course=(make16(make8(level,2),make8(level,1)))>>2;
-	output_low(DAC1);						//select course DAC
+	output_low(DAC1);			//select course DAC
 	spi_write((make8(course,1)&0x0f)|0x10);	//send high part
-	spi_write(make8(course,0));				//send low part
-	output_high(DAC1);						//deselect
-	output_low(LDAC);						//send DAC
-	output_high(LDAC);						//strobe
+	spi_write(make8(course,0));		//send low part
+	output_high(DAC1);			//deselect
+	output_low(LDAC);			//send DAC
+	output_high(LDAC);			//strobe
 }
+
 //KU setting
 void	SetKU0(int16 coeff){
 	int16	dacval;
@@ -283,6 +273,7 @@ void	SetKU0(int16 coeff){
 	output_high(KU0);				//deselect
 	setup_wdt(WDT_ON);
 }
+
 void	SetKU1(int16 coeff){
 	int16	dacval;
 	setup_wdt(WDT_OFF);
@@ -303,22 +294,17 @@ void	SetKU1(int16 coeff){
 //
 void main(void){  
 	//addition variables
-	int16	CycleCounter;
-	int16	MaxCycles;
+	int16	maxCycles = 0;
 	int16	cnt;
-	int16	course;
 	int16	ADC0;	//current ADC value
 	int16	Wrk0=0;	//sum mean value
-	int16	FiltFact;	//filtering factor
 	int16	StorAddr;	//storage address
 	int8	OutBufAddr;	//out buffer address
 	int32	Sum;
-	int16	Mx=0x01ff;	//mean value
 	int16	BetTrsh=0x01ff; //beta treshold
 	int16	bet_cur;//current beta value
-	
-	
-	int1	changed;
+	int16	filterWidth = 1;
+	int16	sawLevel;
 	
 	
 	InitMcu();		//mcu init   
@@ -331,7 +317,7 @@ void main(void){
    enable_interrupts(GLOBAL);
    	
    	output_high(TERMO);
-   	//for debug !!!
+
    	DaqState=DaqStart;
 	//main cycle
 	while(TRUE){
@@ -342,19 +328,26 @@ void main(void){
 				Termometer();
 				//wait for state changing
 				break;
+
 			case	DaqStart:
 				//prepare for measuring
 				bet_cur=0;//reset beta value
+
 				//set input amplifiers
 				SetKU0(AmpCoef0);
 				SetKU1(AmpCoef1);
+				
+				//filtering window setup
+				if(FWDT>0 && FWDT<7){
+					filterWidth = (int16)(0x0001<<FWDT); //power 2 for FWDT factor
+				}
+				else filterWidth = 1;
+				
 				//zero buffers & variables
-				for(cnt=0;cnt<FWDT;cnt++){
+				for(cnt=0;cnt<filterWidth;cnt++){
 					data_filt0[cnt]=0;	//clear buffer
 					};
-//				for(cnt=0;cnt<0x100;cnt++){
-//					data_hist0[cnt]=0;	//clear buffer
-//					};
+
 				StorAddr=0;
 				OutBufAddr=0;
 				iWin=0;
@@ -363,240 +356,104 @@ void main(void){
 				maxFall0=0;
 				maxRise0=0;
 				data_mean0=0;
-				//DAC step estim
-				SawLevel=(int32)(((float)SAW_A0/1000)*f2int32);
-				SawStep=(int32)(((float)SAW_A1/1000)*f2int32/(TAQ/2));
+
+				//DAC parameters initialization
+				sawStartLevel=(int16)(((float)SAW_A0/1000)*volts2dac); //convert to ADC discretes
+
+				sawEndLevel=sawStartLevel + (int16)(((float)SAW_A1/1000)*volts2dac);
+
 				//next state
 				DaqState=DaqMeasure;	//set measuring state
 				break;
+
 			case	DaqMeasure:
-				//preset initial saw level
-				//fine part
-//				output_low(DAC0);						//select fine DAC
-//				spi_write((make8(SawLevel,1)&0x03)|0x10);	//send high part
-//				spi_write(make8(SawLevel,0));				//send low part
-//				output_high(DAC0);						//deselect
-				//course part
-				course=(make16(make8(SawLevel,2),make8(SawLevel,1)))>>2;
-				output_low(DAC1);						//select course DAC
-				spi_write((make8(course,1)&0x0f)|0x10);	//send high part
-				spi_write(make8(course,0));				//send low part
-				output_high(DAC1);						//deselect
-				output_low(LDAC);						//send DAC
-				output_high(LDAC);						//strobe				
+
+				//set initial DAC level
+				SetSawDac(sawStartLevel);
+				
+				//read data from ADC
 				//select ADC channel
 				set_adc_channel(0);	//select ch0
-				//cycle variables
-				MaxCycles=TAQ>>1;// /2
-				FiltFact=(FWDT>>1)+1;// /2
+
 				Sum=0;
-//				redFact=(int8)(TAQ>>8)-1;	//estim reduse factor /128
-//				redCount=0;
-//============================================================================================
-				//rising saw part
-				//initial filtering
-				for(CycleCounter=0; CycleCounter<FiltFact; CycleCounter++){					
-					restart_wdt();
-					//start ADC conv
-					read_adc(ADC_START_ONLY);	//start conversion
-					//estim next level
-					SawLevel+=SawStep;
-					//transfer new DAC value
-					//fine part
-//					output_low(DAC0);						//select fine DAC
-//					spi_write((make8(SawLevel,1)&0x03)|0x10);	//send high part
-//					spi_write(make8(SawLevel,0));				//send low part
-//					output_high(DAC0);						//deselect
-					//course part
-					course=(make16(make8(SawLevel,2),make8(SawLevel,1)))>>2;
-					output_low(DAC1);						//select course DAC
-					spi_write((make8(course,1)&0x0f)|0x10);	//send high part
-					spi_write(make8(course,0));				//send low part
-					output_high(DAC1);						//deselect
-					//wait for sync
-					//not imlem yet!!!
-					//read ADC
-					ADC0=read_adc(ADC_READ_ONLY);
-					//trigg LDAC
-					output_low(LDAC);						//send DAC
-					output_high(LDAC);						//strobe
-					//meaning
+
+				// Rising saw part
+				for(sawLevel = sawStartLevel; sawLevel < sawEndLevel; sawLevel++){
+					
+					read_adc(ADC_START_ONLY); //start conversion
+					
+					SetSawDac(sawLevel);	//set next saw level
+					
+					ADC0 = read_adc(ADC_READ_ONLY); //read measured value
+					
+					//filtering
 					Wrk0-=data_filt0[iWin];	//calc new sum mean val
 					Wrk0+=ADC0;
 					data_filt0[iWin]=ADC0;
+					
 					//next filter value
 					if(iWin==0){
-						iWin=FWDT;
+						iWin=filterWidth;
 						iWin--;
 						}else	iWin--;
+					
 					//calc mean value
-					data_mean0=Wrk0>>6;
-					};
-				//============================================================================	
-				//part after intial filtering
-				for(CycleCounter=FiltFact; CycleCounter<MaxCycles; CycleCounter++){
-					restart_wdt();
-					//start ADC conv
-					read_adc(ADC_START_ONLY);	//start conversion
-					//estim next level
-					SawLevel+=SawStep;
-					//transfer new DAC value
-					//fine part
-//					output_low(DAC0);						//select fine DAC
-//					spi_write((make8(SawLevel,1)&0x03)|0x10);	//send high part
-//					spi_write(make8(SawLevel,0));				//send low part
-//					output_high(DAC0);						//deselect
-					//course part
-					course=(make16(make8(SawLevel,2),make8(SawLevel,1)))>>2;
-					output_low(DAC1);						//select course DAC
-					spi_write((make8(course,1)&0x0f)|0x10);	//send high part
-					spi_write(make8(course,0));				//send low part
-					output_high(DAC1);						//deselect
-					//wait for sync
-					//not imlem yet!!!
-					//read ADC
-					ADC0=read_adc(ADC_READ_ONLY);
-					//trigg LDAC
-					output_low(LDAC);						//send DAC
-					output_high(LDAC);						//strobe
-					//meaning
-					Wrk0-=data_filt0[iWin];	//calc new sum mean val
-					Wrk0+=ADC0;
-					data_filt0[iWin]=ADC0;
-					//next filter value
-					if(iWin==0){
-						iWin=FWDT;
-						iWin--;
-						}else	iWin--;
-					//calc mean value
-					data_mean0=Wrk0>>6;
+					data_mean0=Wrk0>>FWDT; //divide by filterWidth = 2^FWDT
 					Sum+=data_mean0;
+					
 					//extremum
 					//estim max val
 					if(data_mean0>maxRise0){
 						iMaxRise0=StorAddr;
 						maxRise0=data_mean0;
 						};
+						
 					StorAddr++;
-					//beta measuring
-					if (data_mean0>BetTrsh)	bet_cur++;
-					};	
 					
-//=======================================================================================================														
-				//falling saw part
-				output_low(STAT);
-				MaxCycles=TAQ>>1;
-				for(CycleCounter=0; CycleCounter<MaxCycles; CycleCounter++){
-					restart_wdt();
-					//start ADC conv
-					read_adc(ADC_START_ONLY);	//start conversion
-					//estim next level
-					SawLevel-=SawStep;
-					//transfer new DAC value
-					//fine part
-//					output_low(DAC0);						//select fine DAC
-//					spi_write((make8(SawLevel,1)&0x03)|0x10);	//send high part
-//					spi_write(make8(SawLevel,0));				//send low part
-//					output_high(DAC0);						//deselect
-					//course part
-					course=(make16(make8(SawLevel,2),make8(SawLevel,1)))>>2;
-					output_low(DAC1);						//select course DAC
-					spi_write((make8(course,1)&0x0f)|0x10);	//send high part
-					spi_write(make8(course,0));				//send low part
-					output_high(DAC1);						//deselect
-					//wait for sync
-					//not imlem yet!!!
-					//read ADC
-					ADC0=read_adc(ADC_READ_ONLY);
-					//trigg LDAC
-					output_low(LDAC);						//send DAC
-					output_high(LDAC);						//strobe
-					//meaning
-					Wrk0-=data_filt0[iWin];	//calc new sum mean val
-					Wrk0+=ADC0;
-					data_filt0[iWin]=ADC0;
-					//next filter value
-					if(iWin==0){
-						iWin=FWDT;
-						iWin--;
- 						}else	iWin--;
-					//calc mean value
-					data_mean0=Wrk0>>6;
-					Sum+=data_mean0;
-					//extremum
-					//estim max val
-					if(data_mean0>maxFall0){
-						iMaxFall0=StorAddr;
-						maxFall0=data_mean0;
-						};
-					StorAddr++;
 					//beta measuring
 					if (data_mean0>BetTrsh)	bet_cur++;
-					};
-//==========================================
-					//final part					
-				for(CycleCounter=0; CycleCounter<FiltFact; CycleCounter++){
-					restart_wdt();
-					ADC0=0;
-					//meaning
-					Wrk0-=data_filt0[iWin];	//calc new sum mean val
-					Wrk0+=ADC0;
-					data_filt0[iWin]=ADC0;
-					//next filter value
-					if(iWin==0){
-						iWin=FWDT;
-						iWin--;
-						}else	iWin--;
-					//calc mean value
-					data_mean0=Wrk0>>6;
-					Sum+=data_mean0;
-					//extremum
-					//estim max val
-					if(data_mean0>maxFall0){
-						iMaxFall0=StorAddr;
-						maxFall0=data_mean0;
-						};
-					StorAddr++;
-					//beta measuring
-					if (data_mean0>BetTrsh)	bet_cur++;
-					};
+					
+					maxCycles++; //add cycle count
+					
+				};
+
 				DaqState=DaqScale;
 				break;
-//========================================================================================
+
 			case	DaqScale:
 				//scaling & result storing
+
 				//temperature
 				Termometer();
 				restart_wdt();
+
 				//regulator
 				if(T_GEN>(TG_CAL+Hst)){	//if temperature above rated & histeresis
 					output_low(TERMO);				//off heater
 				};
+				
 				if(T_GEN<(TG_CAL-Hst)){	//if temperature below rated & histeresis
 					output_high(TERMO);				//on heater
 				};
 				
-				//Mx estimation
-				Mx=(int16)(Sum>>11);
 				//amplitude - alpha
-				alp_buf0[iGam]=(MaxFall0+MaxRise0)>>1;
+				alp_buf0[iGam] = maxRise0;
+
 				//treshold estimation
-				BetTrsh=(int16)((Mx+alp_buf0[iGam])>>1);
+				BetTrsh=(int16)(alp_buf0[iGam]>>1);
+
 				//pulse width
 				bet_buf0[iGam]=bet_cur;
-				//gamma
-				iGamma0=iMaxFall0-iMaxRise0;
+
 				//gamma meaning
-				gam_buf0[iGam]=iGamma0; //meaning buffer
+				gam_buf0[iGam]=iMaxRise0; //meaning buffer
+
 				//next index
 				if(iGam==0){
 					iGam=PCOUNT-1;
-					}else iGam--;
-				//median
-				//copy arrays				
-//				memcpy(alp_sort,alp_buf0,sizeof(alp_sort));
-//				memcpy(bet_sort,bet_buf0,sizeof(bet_sort));
-//				memcpy(gam_sort,gam_buf0,sizeof(gam_sort));
+					}
+					else iGam--;
+
 				
 				AlpSum=0;
 				BetSum=0;
@@ -607,58 +464,22 @@ void main(void){
 					BetSum+=bet_buf0[cnt];
 					GamSum+=gam_buf0[cnt];
 				};
-				//sorting
-				//do{
-				//	changed=0;	//reset flag
-				//	for(cnt=1; cnt<PCOUNT; cnt++){
-						//alpha
-				//		if(alp_sort[cnt-1]>alp_sort[cnt]){
-				//			restart_wdt();
-				//			changed=1;	//change exist
-				//			Wrk0=alp_sort[cnt];
-				//			alp_sort[cnt]=alp_sort[cnt-1];
-				//			alp_sort[cnt-1]=Wrk0;
-				//			};
-						//beta
-				//		if(bet_sort[cnt-1]>bet_sort[cnt]){
-				//			restart_wdt();
-				//			changed=1;	//change exist
-				//			Wrk0=bet_sort[cnt];
-				//			bet_sort[cnt]=bet_sort[cnt-1];
-				//			bet_sort[cnt-1]=Wrk0;
-				//			};
-						//gamma
-				//		if(gam_sort[cnt-1]>gam_sort[cnt]){
-				//			restart_wdt();
-				//			changed=1;	//change exist
-				//			Wrk0=gam_sort[cnt];
-				//			gam_sort[cnt]=gam_sort[cnt-1];
-				//			gam_sort[cnt-1]=Wrk0;
-				//			};
-				//		};
-				//	}while(changed);
-				//median estimation
-				//Wrk0=PCOUNT>>1;	//div 2
+
 				//alpha
-				//Amplitude0=((int16)(alp_sort[Wrk0]*2.4414))>>(AmpCoef0);
-				Wrk0=(int16)(AlpSum>>7); //divide by 128
-				Amplitude0=((int16)((Wrk0*2.4414)-0))>>(AmpCoef0);
+				Amplitude0=((int16)(((AlpSum>>7)*2.4414)-0))>>(AmpCoef0); //divide sum by 128 and conver to volts with amplify coeff
+
 				//beta
-				//PulseWdt0=bet_sort[Wrk0]+bet_sort[Wrk0]>>2;
-				Wrk0=(int16)(BetSum>>7); //divide by 128
-				PulseWdt0=(Wrk0<<0)+(Wrk0>>2); //mult by 1.25
+				PulseWdt0=(int16)(((BetSum>>7)*10000)/maxCycles); //divide sum by 128 and norming
+
 				//gamma
-				//Gamma0=gam_sort[Wrk0];
-				Gamma0=(int16)(GamSum>>7); //divide by 128
-				Gamma0=(Gamma0<<1)+(Gamma0>>1);//multiplying by 2.5
+				Gamma0=(int16)(((GamSum>>7)*10000)/maxCycles); //divide sum by 128 and norming
+
 				//repeat testing
 				if(OneCycle){
 					DaqState=DaqIdle;	//if one cycle  - next-idle
 					}else DaqState=DaqStart;//else normal measuring
 				output_high(STAT);
-//				Calc();// addition calculations
 				break;			
 	};
-	//		
 	};
 }
