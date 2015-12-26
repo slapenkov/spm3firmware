@@ -20,13 +20,13 @@
 #define	EE_KST1		0x24	//termo coeff of cn1
 
 //EEPROM data definition
-#ROM	0xf00000={2300,	//EE_SAW_A0
-				  0x03E8,	//EE_SAW_A1
+#ROM	0xf00000={0000,	//EE_SAW_A0
+				  20000,	//EE_SAW_A1
 				  0x0001,	//EE_KU0				  
 				  0x0001,	//EE_KU1
 				  0x0800,	//EE_TAQ
 				  0x0080,	//EE_PCOUNT
-				  0x0040,	//EE_FWDT
+				  0x0004,	//EE_FWDT
 				  0x4B00,	//EE_Speed
 				  0x0001,	//EE_Host				  
 				  0x09C4,	//EE_TO_CAL
