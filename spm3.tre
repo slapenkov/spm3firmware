@@ -1,10 +1,10 @@
 ÀÄspm3
-   ÃÄMAIN  0/4710  Ram=28
+   ÃÄMAIN  0/4730  Ram=30
    ³  ÃÄ??0??
    ³  ÃÄInitMcu  0/158  Ram=0
    ³  ÃÄBURead  0/1238  Ram=12
    ³  ÃÄRsInit  0/324  Ram=0
-   ³  ÃÄ@goto10671  0/34  Ram=0
+   ³  ÃÄ@goto10669  0/34  Ram=0
    ³  ÃÄTermometer  0/374  Ram=4
    ³  ³  ÃÄ@SITOF  0/80  Ram=2
    ³  ³  ÃÄ@MULFF  0/246  Ram=11

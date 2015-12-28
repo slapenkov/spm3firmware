@@ -341,7 +341,7 @@ void main(void)
 	int16 maxCycles = 0;
 	int16 cnt;
 	int16 ADC0;	//current ADC value
-	int16 Wrk0 = 0;	//sum mean value
+	int32 Wrk0 = 0;	//sum mean value
 	int16 StorAddr;	//storage address
 	int8 OutBufAddr;	//out buffer address
 	int32 Sum;
@@ -432,6 +432,7 @@ void main(void)
 			set_adc_channel(0);	//select ch0
 
 			Sum = 0;
+			Wrk0 = 0;
 
 			// Rising saw part
 			for (sawLevel = sawStartLevel; sawLevel <= sawEndLevel; sawLevel++)
@@ -439,29 +440,25 @@ void main(void)
 
 				restart_wdt();
 
-				read_adc(ADC_START_ONLY); //start conversion
+				ADC0 = read_adc(); //read measured value
 
 				SetSawDac(sawLevel);	//set next saw level
 
-				ADC0 = read_adc(ADC_READ_ONLY); //read measured value
-
 				//filtering
 				Wrk0 -= data_filt0[iWin];	//calc new sum mean val
-				if (Wrk0<0)
-				{
-					Wrk0 = 0;
-				}
 				
 				Wrk0 += ADC0;
+
 				data_filt0[iWin] = ADC0;
 
 				//next filter value
-				if (iWin == (filterWidth - 1))
+				if (iWin == 0)
 				{
-					iWin = 0;
+					iWin = filterWidth;
+					iWin--;
 				}
 				else
-					iWin++;
+					iWin--;
 					
 				//cycle meaning
 				/*Wrk0=0;
@@ -473,7 +470,7 @@ void main(void)
 					
 
 				//calc mean value
-				data_mean0 = Wrk0 >> FWDT; //divide by filterWidth = 2^FWDT
+				data_mean0 = (int16)(Wrk0 >> FWDT); //divide by filterWidth = 2^FWDT
 				Sum += data_mean0;
 
 				//extremum
@@ -541,6 +538,7 @@ void main(void)
 
 			for (cnt = 0; cnt < PCOUNT; cnt++)
 			{
+				restart_wdt();
 				AlpSum += alp_buf0[cnt];
 				BetSum += bet_buf0[cnt];
 				GamSum += gam_buf0[cnt];

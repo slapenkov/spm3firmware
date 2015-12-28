@@ -1,4 +1,2 @@
->>> Warning 205 "spm3.c" Line 450(1,1): Unsigned variable is never less than zero
->>> Warning 204 "spm3.c" Line 451(1,1): Condition always FALSE
       Memory usage:   ROM=52%      RAM=86% - 88%
-      0 Errors,  2 Warnings.
+      0 Errors,  0 Warnings.
