@@ -1,2 +1,3 @@
+>>> Warning 216 "spm3.c" Line 577(0,1): Interrupts disabled during call to prevent re-entrancy:  (@DIV3232)
       Memory usage:   ROM=52%      RAM=86% - 88%
-      0 Errors,  0 Warnings.
+      0 Errors,  1 Warnings.

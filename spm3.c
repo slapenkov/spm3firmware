@@ -433,6 +433,7 @@ void main(void)
 
 			Sum = 0;
 			Wrk0 = 0;
+			maxCycles = 0;
 
 			// Rising saw part
 			for (sawLevel = sawStartLevel; sawLevel <= sawEndLevel; sawLevel++)
@@ -440,10 +441,12 @@ void main(void)
 
 				restart_wdt();
 
-				ADC0 = read_adc(); //read measured value
+				read_adc(ADC_START_ONLY); //read measured value
 
 				SetSawDac(sawLevel);	//set next saw level
 
+				ADC0 = read_adc(ADC_READ_ONLY); //read measured value
+				
 				//filtering
 				Wrk0 -= data_filt0[iWin];	//calc new sum mean val
 				
@@ -545,13 +548,18 @@ void main(void)
 			}
 
 			//alpha
-			Amplitude0 = ((int16)(((float)(AlpSum >> 7) * 2.4414) - 0)) >> (AmpCoef0); //divide sum by 128 and conver to volts with amplify coeff
+			restart_wdt();
+			Amplitude0 = ((int16)(((AlpSum >> 7) * 2.4414) - 0)) >> (AmpCoef0); //divide sum by 128 and conver to volts with amplify coeff
 
 			//beta
-			PulseWdt0 = (int16)((float)(BetSum >> 7) * 10000.0 / maxCycles); //divide sum by 128 and norming
+			restart_wdt();
+			PulseWdt0 = (int16)((BetSum>>7) * 10000 / maxCycles); //divide sum by 128 and norming
+			//PulseWdt0 = (int16)(BetSum>>7);
 
 			//gamma
-			Gamma0 = (int16)((float)(GamSum >> 7) * 10000.0 / maxCycles); //divide sum by 128 and norming
+			restart_wdt();
+			Gamma0 = (int16)((GamSum>>7) * 10000 / maxCycles); //divide sum by 128 and norming
+			//Gamma0 = (int16)(GamSum>>7);
 
 			//repeat testing
 			if (OneCycle)
