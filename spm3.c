@@ -51,6 +51,13 @@ static float KGT;				//
 static float KGU;				//
 static int16 TG_CAL;				//
 
+static int16 ADC0;	//current ADC value
+
+
+static int16 currentAlpha;
+static int16 currentBeta;
+static int16 currentGamma;
+
 //communication
 static int16 Speed;				//USART speed
 static int16 Addr;				//own USART host adress
@@ -340,7 +347,6 @@ void main(void)
 	//addition variables
 	int16 maxCycles = 0;
 	int16 cnt;
-	int16 ADC0;	//current ADC value
 	int32 Wrk0 = 0;	//sum mean value
 	int16 StorAddr;	//storage address
 	int8 OutBufAddr;	//out buffer address
@@ -517,15 +523,18 @@ void main(void)
 
 			//amplitude - alpha
 			alp_buf0[iGam] = maxRise0;
+			currentAlpha = maxRise0;
 
-			//treshold estimation
-			BetTrsh = (int16)(alp_buf0[iGam] >> 1);
+			//treshold estimation by /2
+			BetTrsh = alp_buf0[iGam] >> 1;
 
 			//pulse width
 			bet_buf0[iGam] = bet_cur;
+			currentBeta = bet_cur;
 
 			//gamma meaning
 			gam_buf0[iGam] = iMaxRise0; //meaning buffer
+			currentGamma = iMaxRise0;
 
 			//next index
 			if (iGam == 0)
@@ -549,17 +558,18 @@ void main(void)
 
 			//alpha
 			restart_wdt();
-			Amplitude0 = ((int16)(((AlpSum >> 7) * 2.4414) - 0)) >> (AmpCoef0); //divide sum by 128 and conver to volts with amplify coeff
+			Amplitude0 = (int16)(((AlpSum >> 7) >> (AmpCoef0)) * 2.4414); //divide sum by 128 and conver to volts with amplify coeff
+			currentAlpha = (int16)(((int32)(currentAlpha >> (AmpCoef0)) * 2.4414) - 0);
 
 			//beta
 			restart_wdt();
 			PulseWdt0 = (int16)((BetSum>>7) * 10000 / maxCycles); //divide sum by 128 and norming
-			//PulseWdt0 = (int16)(BetSum>>7);
+			currentBeta = (int16)((int32)currentBeta * 10000 / maxCycles);
 
 			//gamma
 			restart_wdt();
 			Gamma0 = (int16)((GamSum>>7) * 10000 / maxCycles); //divide sum by 128 and norming
-			//Gamma0 = (int16)(GamSum>>7);
+			currentGamma = (int16)((int32)currentGamma * 10000 / maxCycles);
 
 			//repeat testing
 			if (OneCycle)

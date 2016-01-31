@@ -191,9 +191,9 @@ void	AddRegData(int8 regist){
 					MB_Length+=2;
 					break;
 				case 0x09:	//dummy command					
-					MB_Buffer[j]=0x00;	//high part
+					MB_Buffer[j]=make8(ADC0,1);	//high part
 					j++;
-					MB_Buffer[j]=0x00;	//low part
+					MB_Buffer[j]=make8(ADC0,0);	//low part
 					j++;
 					MB_Length+=2;
 					break;
@@ -359,6 +359,27 @@ void	AddRegData(int8 regist){
 					MB_Buffer[j]=make8(TG_CAL,1);	//high part
 					j++;
 					MB_Buffer[j]=make8(TG_CAL,0);	//low part
+					j++;								
+					MB_Length+=2;
+					break;
+				case 0x20:	//currentAlpha
+					MB_Buffer[j]=make8(currentAlpha,1);	//high part
+					j++;
+					MB_Buffer[j]=make8(currentAlpha,0);	//low part
+					j++;								
+					MB_Length+=2;
+					break;
+				case 0x21:	//currentBeta
+					MB_Buffer[j]=make8(currentBeta,1);	//high part
+					j++;
+					MB_Buffer[j]=make8(currentBeta,0);	//low part
+					j++;								
+					MB_Length+=2;
+					break;
+				case 0x22:	//currentGamma
+					MB_Buffer[j]=make8(currentGamma,1);	//high part
+					j++;
+					MB_Buffer[j]=make8(currentGamma,0);	//low part
 					j++;								
 					MB_Length+=2;
 					break;
